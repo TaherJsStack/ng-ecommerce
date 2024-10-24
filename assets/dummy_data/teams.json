@@ -1,0 +1,430 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":[
+    {
+      "team_id": "TEAM001",
+      "name": "Development Team",
+      "description": "Responsible for software development projects.",
+      "team_lead_id": "U001",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP001",
+          "role": "Developer"
+        },
+        {
+          "employee_id": "EMP002",
+          "role": "QA Engineer"
+        }
+      ],
+      "created_by": "U001",
+      "created_at": "2023-09-01",
+      "updated_at": "2023-09-01",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM002",
+      "name": "Marketing Team",
+      "description": "Handles marketing strategies and campaigns.",
+      "team_lead_id": "U002",
+      "branch_id": "BR002",
+      "members": [
+        {
+          "employee_id": "EMP003",
+          "role": "Marketing Manager"
+        },
+        {
+          "employee_id": "EMP004",
+          "role": "Content Writer"
+        }
+      ],
+      "created_by": "U002",
+      "created_at": "2023-09-02",
+      "updated_at": "2023-09-02",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM003",
+      "name": "Sales Team",
+      "description": "Responsible for sales and customer acquisition.",
+      "team_lead_id": "U003",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP005",
+          "role": "Sales Executive"
+        },
+        {
+          "employee_id": "EMP006",
+          "role": "Sales Associate"
+        }
+      ],
+      "created_by": "U003",
+      "created_at": "2023-09-03",
+      "updated_at": "2023-09-03",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM004",
+      "name": "Customer Support Team",
+      "description": "Provides support and assistance to customers.",
+      "team_lead_id": "U004",
+      "branch_id": "BR003",
+      "members": [
+        {
+          "employee_id": "EMP007",
+          "role": "Support Specialist"
+        },
+        {
+          "employee_id": "EMP008",
+          "role": "Customer Service Representative"
+        }
+      ],
+      "created_by": "U004",
+      "created_at": "2023-09-04",
+      "updated_at": "2023-09-04",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM005",
+      "name": "HR Team",
+      "description": "Handles human resources and recruitment.",
+      "team_lead_id": "U005",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP009",
+          "role": "HR Manager"
+        },
+        {
+          "employee_id": "EMP010",
+          "role": "Recruiter"
+        }
+      ],
+      "created_by": "U005",
+      "created_at": "2023-09-05",
+      "updated_at": "2023-09-05",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM006",
+      "name": "Product Team",
+      "description": "Responsible for product management and development.",
+      "team_lead_id": "U006",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP011",
+          "role": "Product Manager"
+        },
+        {
+          "employee_id": "EMP012",
+          "role": "Product Designer"
+        }
+      ],
+      "created_by": "U006",
+      "created_at": "2023-09-06",
+      "updated_at": "2023-09-06",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM007",
+      "name": "Finance Team",
+      "description": "Handles financial operations and accounting.",
+      "team_lead_id": "U007",
+      "branch_id": "BR002",
+      "members": [
+        {
+          "employee_id": "EMP013",
+          "role": "Finance Manager"
+        },
+        {
+          "employee_id": "EMP014",
+          "role": "Accountant"
+        }
+      ],
+      "created_by": "U007",
+      "created_at": "2023-09-07",
+      "updated_at": "2023-09-07",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM008",
+      "name": "IT Support Team",
+      "description": "Provides IT support to the organization.",
+      "team_lead_id": "U008",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP015",
+          "role": "IT Support Specialist"
+        },
+        {
+          "employee_id": "EMP016",
+          "role": "Network Administrator"
+        }
+      ],
+      "created_by": "U008",
+      "created_at": "2023-09-08",
+      "updated_at": "2023-09-08",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM009",
+      "name": "Research Team",
+      "description": "Conducts research and analysis.",
+      "team_lead_id": "U009",
+      "branch_id": "BR003",
+      "members": [
+        {
+          "employee_id": "EMP017",
+          "role": "Research Analyst"
+        },
+        {
+          "employee_id": "EMP018",
+          "role": "Data Scientist"
+        }
+      ],
+      "created_by": "U009",
+      "created_at": "2023-09-09",
+      "updated_at": "2023-09-09",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM010",
+      "name": "Quality Assurance Team",
+      "description": "Ensures product quality through testing.",
+      "team_lead_id": "U010",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP019",
+          "role": "QA Engineer"
+        },
+        {
+          "employee_id": "EMP020",
+          "role": "Tester"
+        }
+      ],
+      "created_by": "U010",
+      "created_at": "2023-09-10",
+      "updated_at": "2023-09-10",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM011",
+      "name": "Legal Team",
+      "description": "Handles legal matters and compliance.",
+      "team_lead_id": "U011",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP021",
+          "role": "Legal Advisor"
+        },
+        {
+          "employee_id": "EMP022",
+          "role": "Compliance Officer"
+        }
+      ],
+      "created_by": "U011",
+      "created_at": "2023-09-11",
+      "updated_at": "2023-09-11",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM012",
+      "name": "Operations Team",
+      "description": "Manages day-to-day operations.",
+      "team_lead_id": "U012",
+      "branch_id": "BR002",
+      "members": [
+        {
+          "employee_id": "EMP023",
+          "role": "Operations Manager"
+        },
+        {
+          "employee_id": "EMP024",
+          "role": "Operations Associate"
+        }
+      ],
+      "created_by": "U012",
+      "created_at": "2023-09-12",
+      "updated_at": "2023-09-12",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM013",
+      "name": "Events Team",
+      "description": "Organizes company events and activities.",
+      "team_lead_id": "U013",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP025",
+          "role": "Event Coordinator"
+        },
+        {
+          "employee_id": "EMP026",
+          "role": "Event Planner"
+        }
+      ],
+      "created_by": "U013",
+      "created_at": "2023-09-13",
+      "updated_at": "2023-09-13",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM014",
+      "name": "Training Team",
+      "description": "Handles employee training and development.",
+      "team_lead_id": "U014",
+      "branch_id": "BR003",
+      "members": [
+        {
+          "employee_id": "EMP027",
+          "role": "Trainer"
+        },
+        {
+          "employee_id": "EMP028",
+          "role": "Training Coordinator"
+        }
+      ],
+      "created_by": "U014",
+      "created_at": "2023-09-14",
+      "updated_at": "2023-09-14",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM015",
+      "name": "Social Media Team",
+      "description": "Manages social media presence and campaigns.",
+      "team_lead_id": "U015",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP029",
+          "role": "Social Media Manager"
+        },
+        {
+          "employee_id": "EMP030",
+          "role": "Content Creator"
+        }
+      ],
+      "created_by": "U015",
+      "created_at": "2023-09-15",
+      "updated_at": "2023-09-15",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM016",
+      "name": "Graphic Design Team",
+      "description": "Handles graphic design and branding.",
+      "team_lead_id": "U016",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP031",
+          "role": "Graphic Designer"
+        },
+        {
+          "employee_id": "EMP032",
+          "role": "Art Director"
+        }
+      ],
+      "created_by": "U016",
+      "created_at": "2023-09-16",
+      "updated_at": "2023-09-16",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM017",
+      "name": "Data Analysis Team",
+      "description": "Analyzes data to derive business insights.",
+      "team_lead_id": "U017",
+      "branch_id": "BR002",
+      "members": [
+        {
+          "employee_id": "EMP033",
+          "role": "Data Analyst"
+        },
+        {
+          "employee_id": "EMP034",
+          "role": "Business Analyst"
+        }
+      ],
+      "created_by": "U017",
+      "created_at": "2023-09-17",
+      "updated_at": "2023-09-17",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM018",
+      "name": "Web Development Team",
+      "description": "Handles the development of web applications.",
+      "team_lead_id": "U018",
+      "branch_id": "BR001",
+      "members": [
+        {
+          "employee_id": "EMP035",
+          "role": "Web Developer"
+        },
+        {
+          "employee_id": "EMP036",
+          "role": "UI/UX Designer"
+        }
+      ],
+      "created_by": "U018",
+      "created_at": "2023-09-18",
+      "updated_at": "2023-09-18",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM019",
+      "name": "Cloud Services Team",
+      "description": "Manages cloud services and infrastructure.",
+      "team_lead_id": "U019",
+      "branch_id": null,
+      "members": [
+        {
+          "employee_id": "EMP037",
+          "role": "Cloud Engineer"
+        },
+        {
+          "employee_id": "EMP038",
+          "role": "DevOps Engineer"
+        }
+      ],
+      "created_by": "U019",
+      "created_at": "2023-09-19",
+      "updated_at": "2023-09-19",
+      "status": "active"
+    },
+    {
+      "team_id": "TEAM020",
+      "name": "User Experience Team",
+      "description": "Focuses on enhancing user experience across platforms.",
+      "team_lead_id": "U020",
+      "branch_id": "BR003",
+      "members": [
+        {
+          "employee_id": "EMP039",
+          "role": "UX Researcher"
+        },
+        {
+          "employee_id": "EMP040",
+          "role": "UI Designer"
+        }
+      ],
+      "created_by": "U020",
+      "created_at": "2023-09-20",
+      "updated_at": "2023-09-20",
+      "status": "active"
+    }
+  ]
+}

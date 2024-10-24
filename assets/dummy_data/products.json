@@ -1,0 +1,651 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":
+[
+    {
+      "product_id": "P001",
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "price": 99.99,
+      "discount_price": 79.99,
+      "category_id": "C001",
+      "branch_id": "B001",
+      "brand": "AudioBrand",
+      "weight": 0.25,
+      "dimensions": {
+        "length": 18,
+        "width": 15,
+        "height": 5
+      },
+      "stock_quantity": 150,
+      "sku": "AB-WHP-001",
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones2.jpg"
+      ],
+      "tags": ["T001", "T002"],
+      "attributes": {
+        "color": "Black",
+        "size": "Medium",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U001",
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01"
+    },
+    {
+      "product_id": "P002",
+      "name": "Smartphone XYZ",
+      "description": "Latest smartphone with advanced features.",
+      "price": 699.99,
+      "discount_price": 649.99,
+      "category_id": "C002",
+      "branch_id": "B001",
+      "brand": "SmartBrand",
+      "weight": 0.18,
+      "dimensions": {
+        "length": 15,
+        "width": 7,
+        "height": 0.8
+      },
+      "stock_quantity": 200,
+      "sku": "SB-SMRT-002",
+      "images": [
+        "https://example.com/images/smartphone1.jpg",
+        "https://example.com/images/smartphone2.jpg"
+      ],
+      "tags": ["T003", "T004"],
+      "attributes": {
+        "color": "Silver",
+        "size": "6.5 inches",
+        "material": "Glass",
+        "warranty": "2 years"
+      },
+      "created_by": "U002",
+      "created_at": "2024-01-02",
+      "updated_at": "2024-01-02"
+    },
+    {
+      "product_id": "P003",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with great sound quality.",
+      "price": 49.99,
+      "discount_price": null,
+      "category_id": "C003",
+      "branch_id": "B001",
+      "brand": "SpeakerBrand",
+      "weight": 0.5,
+      "dimensions": {
+        "length": 20,
+        "width": 10,
+        "height": 10
+      },
+      "stock_quantity": 300,
+      "sku": "SB-SPKR-003",
+      "images": [
+        "https://example.com/images/speaker1.jpg",
+        "https://example.com/images/speaker2.jpg"
+      ],
+      "tags": ["T005", "T006"],
+      "attributes": {
+        "color": "Blue",
+        "size": "Compact",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U003",
+      "created_at": "2024-01-03",
+      "updated_at": "2024-01-03"
+    },
+    {
+      "product_id": "P004",
+      "name": "4K Ultra HD TV",
+      "description": "55-inch 4K Ultra HD Smart TV with HDR.",
+      "price": 799.99,
+      "discount_price": 749.99,
+      "category_id": "C004",
+      "branch_id": "B001",
+      "brand": "TVBrand",
+      "weight": 15.0,
+      "dimensions": {
+        "length": 123,
+        "width": 80,
+        "height": 5
+      },
+      "stock_quantity": 100,
+      "sku": "TV-4K-004",
+      "images": [
+        "https://example.com/images/tv1.jpg",
+        "https://example.com/images/tv2.jpg"
+      ],
+      "tags": ["T007", "T008"],
+      "attributes": {
+        "color": "Black",
+        "size": "55 inches",
+        "material": "Plastic",
+        "warranty": "2 years"
+      },
+      "created_by": "U004",
+      "created_at": "2024-01-04",
+      "updated_at": "2024-01-04"
+    },
+    {
+      "product_id": "P005",
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console with exclusive games.",
+      "price": 499.99,
+      "discount_price": 449.99,
+      "category_id": "C005",
+      "branch_id": "B001",
+      "brand": "GameBrand",
+      "weight": 3.0,
+      "dimensions": {
+        "length": 30,
+        "width": 10,
+        "height": 30
+      },
+      "stock_quantity": 80,
+      "sku": "GB-GC-005",
+      "images": [
+        "https://example.com/images/console1.jpg",
+        "https://example.com/images/console2.jpg"
+      ],
+      "tags": ["T009", "T010"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U005",
+      "created_at": "2024-01-05",
+      "updated_at": "2024-01-05"
+    },
+    {
+      "product_id": "P006",
+      "name": "Laptop Pro",
+      "description": "High-performance laptop for professionals.",
+      "price": 1299.99,
+      "discount_price": 1199.99,
+      "category_id": "C007",
+      "branch_id": "B001",
+      "brand": "LaptopBrand",
+      "weight": 1.5,
+      "dimensions": {
+        "length": 35,
+        "width": 24,
+        "height": 2
+      },
+      "stock_quantity": 50,
+      "sku": "LB-LP-006",
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg"
+      ],
+      "tags": ["T011", "T012"],
+      "attributes": {
+        "color": "Silver",
+        "size": "15.6 inches",
+        "material": "Aluminum",
+        "warranty": "1 year"
+      },
+      "created_by": "U006",
+      "created_at": "2024-01-06",
+      "updated_at": "2024-01-06"
+    },
+    {
+      "product_id": "P007",
+      "name": "Vacuum Cleaner",
+      "description": "Robotic vacuum cleaner with smart features.",
+      "price": 299.99,
+      "discount_price": 249.99,
+      "category_id": "C008",
+      "branch_id": "B001",
+      "brand": "CleanBrand",
+      "weight": 2.5,
+      "dimensions": {
+        "length": 35,
+        "width": 35,
+        "height": 10
+      },
+      "stock_quantity": 75,
+      "sku": "CB-VC-007",
+      "images": [
+        "https://example.com/images/vacuum1.jpg",
+        "https://example.com/images/vacuum2.jpg"
+      ],
+      "tags": ["T013", "T014"],
+      "attributes": {
+        "color": "White",
+        "size": "Compact",
+        "material": "Plastic",
+        "warranty": "2 years"
+      },
+      "created_by": "U007",
+      "created_at": "2024-01-07",
+      "updated_at": "2024-01-07"
+    },
+    {
+      "product_id": "P008",
+      "name": "Fitness Tracker",
+      "description": "Smart fitness tracker with heart rate monitor.",
+      "price": 99.99,
+      "discount_price": null,
+      "category_id": "C009",
+      "branch_id": "B001",
+      "brand": "FitBrand",
+      "weight": 0.1,
+      "dimensions": {
+        "length": 10,
+        "width": 2,
+        "height": 1
+      },
+      "stock_quantity": 200,
+      "sku": "FB-FT-008",
+      "images": [
+        "https://example.com/images/tracker1.jpg",
+        "https://example.com/images/tracker2.jpg"
+      ],
+      "tags": ["T015", "T016"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Silicone",
+        "warranty": "1 year"
+      },
+      "created_by": "U008",
+      "created_at": "2024-01-08",
+      "updated_at": "2024-01-08"
+    },
+    {
+      "product_id": "P009",
+      "name": "Camera DSLR",
+      "description": "Professional DSLR camera with interchangeable lenses.",
+      "price": 899.99,
+      "discount_price": null,
+      "category_id": "C010",
+      "branch_id": "B001",
+      "brand": "CameraBrand",
+      "weight": 1.2,
+      "dimensions": {
+        "length": 14,
+        "width": 12,
+        "height": 8
+      },
+      "stock_quantity": 60,
+      "sku": "CB-DSLR-009",
+      "images": [
+        "https://example.com/images/camera1.jpg",
+        "https://example.com/images/camera2.jpg"
+      ],
+      "tags": ["T017", "T018"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "2 years"
+      },
+      "created_by": "U009",
+      "created_at": "2024-01-09",
+      "updated_at": "2024-01-09"
+    },
+    {
+      "product_id": "P010",
+      "name": "Smart Home Device",
+      "description": "Smart device for controlling home appliances.",
+      "price": 129.99,
+      "discount_price": null,
+      "category_id": "C011",
+      "branch_id": "B001",
+      "brand": "HomeBrand",
+      "weight": 0.5,
+      "dimensions": {
+        "length": 10,
+        "width": 10,
+        "height": 5
+      },
+      "stock_quantity": 150,
+      "sku": "HB-SHD-010",
+      "images": [
+        "https://example.com/images/smarthome1.jpg",
+        "https://example.com/images/smarthome2.jpg"
+      ],
+      "tags": ["T019", "T020"],
+      "attributes": {
+        "color": "White",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U010",
+      "created_at": "2024-01-10",
+      "updated_at": "2024-01-10"
+    },
+    {
+      "product_id": "P011",
+      "name": "Printer",
+      "description": "All-in-one wireless printer.",
+      "price": 199.99,
+      "discount_price": 179.99,
+      "category_id": "C012",
+      "branch_id": "B001",
+      "brand": "PrintBrand",
+      "weight": 5.0,
+      "dimensions": {
+        "length": 45,
+        "width": 35,
+        "height": 15
+      },
+      "stock_quantity": 30,
+      "sku": "PB-PRT-011",
+      "images": [
+        "https://example.com/images/printer1.jpg",
+        "https://example.com/images/printer2.jpg"
+      ],
+      "tags": ["T021", "T022"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U001",
+      "created_at": "2024-01-11",
+      "updated_at": "2024-01-11"
+    },
+    {
+      "product_id": "P012",
+      "name": "Gaming Chair",
+      "description": "Ergonomic gaming chair for long hours.",
+      "price": 249.99,
+      "discount_price": 199.99,
+      "category_id": "C005",
+      "branch_id": "B001",
+      "brand": "ChairBrand",
+      "weight": 20.0,
+      "dimensions": {
+        "length": 70,
+        "width": 70,
+        "height": 120
+      },
+      "stock_quantity": 40,
+      "sku": "CB-GC-012",
+      "images": [
+        "https://example.com/images/chair1.jpg",
+        "https://example.com/images/chair2.jpg"
+      ],
+      "tags": ["T023", "T024"],
+      "attributes": {
+        "color": "Red",
+        "size": "Large",
+        "material": "Leather",
+        "warranty": "2 years"
+      },
+      "created_by": "U002",
+      "created_at": "2024-01-12",
+      "updated_at": "2024-01-12"
+    },
+    {
+      "product_id": "P013",
+      "name": "Coffee Maker",
+      "description": "Automatic coffee maker with programmable settings.",
+      "price": 89.99,
+      "discount_price": 79.99,
+      "category_id": "C008",
+      "branch_id": "B001",
+      "brand": "CoffeeBrand",
+      "weight": 2.0,
+      "dimensions": {
+        "length": 30,
+        "width": 20,
+        "height": 30
+      },
+      "stock_quantity": 90,
+      "sku": "CB-CM-013",
+      "images": [
+        "https://example.com/images/coffeemaker1.jpg",
+        "https://example.com/images/coffeemaker2.jpg"
+      ],
+      "tags": ["T025", "T026"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U003",
+      "created_at": "2024-01-13",
+      "updated_at": "2024-01-13"
+    },
+    {
+      "product_id": "P014",
+      "name": "Air Fryer",
+      "description": "Healthy cooking with this air fryer.",
+      "price": 129.99,
+      "discount_price": 109.99,
+      "category_id": "C008",
+      "branch_id": "B001",
+      "brand": "FryerBrand",
+      "weight": 3.0,
+      "dimensions": {
+        "length": 30,
+        "width": 30,
+        "height": 30
+      },
+      "stock_quantity": 60,
+      "sku": "FB-AF-014",
+      "images": [
+        "https://example.com/images/airfryer1.jpg",
+        "https://example.com/images/airfryer2.jpg"
+      ],
+      "tags": ["T027", "T028"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U004",
+      "created_at": "2024-01-14",
+      "updated_at": "2024-01-14"
+    },
+    {
+      "product_id": "P015",
+      "name": "Electric Kettle",
+      "description": "Fast boiling electric kettle.",
+      "price": 49.99,
+      "discount_price": null,
+      "category_id": "C008",
+      "branch_id": "B001",
+      "brand": "KettleBrand",
+      "weight": 1.0,
+      "dimensions": {
+        "length": 20,
+        "width": 20,
+        "height": 25
+      },
+      "stock_quantity": 100,
+      "sku": "KB-EK-015",
+      "images": [
+        "https://example.com/images/kettle1.jpg",
+        "https://example.com/images/kettle2.jpg"
+      ],
+      "tags": ["T029", "T030"],
+      "attributes": {
+        "color": "Stainless Steel",
+        "size": "Standard",
+        "material": "Stainless Steel",
+        "warranty": "1 year"
+      },
+      "created_by": "U005",
+      "created_at": "2024-01-15",
+      "updated_at": "2024-01-15"
+    },
+    {
+      "product_id": "P016",
+      "name": "Yoga Mat",
+      "description": "Non-slip yoga mat for comfort and stability.",
+      "price": 29.99,
+      "discount_price": null,
+      "category_id": "C009",
+      "branch_id": "B001",
+      "brand": "YogaBrand",
+      "weight": 0.5,
+      "dimensions": {
+        "length": 180,
+        "width": 60,
+        "height": 1
+      },
+      "stock_quantity": 150,
+      "sku": "YB-YM-016",
+      "images": [
+        "https://example.com/images/yogamat1.jpg",
+        "https://example.com/images/yogamat2.jpg"
+      ],
+      "tags": ["T031", "T032"],
+      "attributes": {
+        "color": "Purple",
+        "size": "Standard",
+        "material": "Foam",
+        "warranty": null
+      },
+      "created_by": "U006",
+      "created_at": "2024-01-16",
+      "updated_at": "2024-01-16"
+    },
+    {
+      "product_id": "P017",
+      "name": "Kids' Toy Set",
+      "description": "Educational toy set for kids aged 3-6.",
+      "price": 39.99,
+      "discount_price": null,
+      "category_id": "C010",
+      "branch_id": "B001",
+      "brand": "ToyBrand",
+      "weight": 1.0,
+      "dimensions": {
+        "length": 30,
+        "width": 20,
+        "height": 10
+      },
+      "stock_quantity": 120,
+      "sku": "TB-KTS-017",
+      "images": [
+        "https://example.com/images/toyset1.jpg",
+        "https://example.com/images/toyset2.jpg"
+      ],
+      "tags": ["T033", "T034"],
+      "attributes": {
+        "color": "Multi-color",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "6 months"
+      },
+      "created_by": "U007",
+      "created_at": "2024-01-17",
+      "updated_at": "2024-01-17"
+    },
+    {
+      "product_id": "P018",
+      "name": "Bluetooth Mouse",
+      "description": "Wireless Bluetooth mouse with ergonomic design.",
+      "price": 24.99,
+      "discount_price": null,
+      "category_id": "C012",
+      "branch_id": "B001",
+      "brand": "MouseBrand",
+      "weight": 0.1,
+      "dimensions": {
+        "length": 11,
+        "width": 7,
+        "height": 4
+      },
+      "stock_quantity": 200,
+      "sku": "MB-BM-018",
+      "images": [
+        "https://example.com/images/mouse1.jpg",
+        "https://example.com/images/mouse2.jpg"
+      ],
+      "tags": ["T035", "T036"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U008",
+      "created_at": "2024-01-18",
+      "updated_at": "2024-01-18"
+    },
+    {
+      "product_id": "P019",
+      "name": "Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness.",
+      "price": 39.99,
+      "discount_price": null,
+      "category_id": "C012",
+      "branch_id": "B001",
+      "brand": "LampBrand",
+      "weight": 1.2,
+      "dimensions": {
+        "length": 15,
+        "width": 15,
+        "height": 45
+      },
+      "stock_quantity": 80,
+      "sku": "LB-DL-019",
+      "images": [
+        "https://example.com/images/lamp1.jpg",
+        "https://example.com/images/lamp2.jpg"
+      ],
+      "tags": ["T037", "T038"],
+      "attributes": {
+        "color": "White",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U009",
+      "created_at": "2024-01-19",
+      "updated_at": "2024-01-19"
+    },
+    {
+      "product_id": "P020",
+      "name": "Portable Charger",
+      "description": "High-capacity portable charger for mobile devices.",
+      "price": 49.99,
+      "discount_price": null,
+      "category_id": "C011",
+      "branch_id": "B001",
+      "brand": "ChargeBrand",
+      "weight": 0.3,
+      "dimensions": {
+        "length": 12,
+        "width": 7,
+        "height": 2
+      },
+      "stock_quantity": 100,
+      "sku": "CB-PC-020",
+      "images": [
+        "https://example.com/images/charger1.jpg",
+        "https://example.com/images/charger2.jpg"
+      ],
+      "tags": ["T039", "T040"],
+      "attributes": {
+        "color": "Black",
+        "size": "Standard",
+        "material": "Plastic",
+        "warranty": "1 year"
+      },
+      "created_by": "U010",
+      "created_at": "2024-01-20",
+      "updated_at": "2024-01-20"
+    }
+  ]
+}

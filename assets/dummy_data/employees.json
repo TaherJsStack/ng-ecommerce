@@ -1,0 +1,311 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":
+[
+    {
+      "employee_id": "E001",
+      "branch_id": "B001",
+      "user_id": "U001",
+      "position": "Manager",
+      "hire_date": "2023-05-01",
+      "salary": 75000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678901",
+      "email": "manager1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E002",
+      "branch_id": "B001",
+      "user_id": "U002",
+      "position": "Sales Associate",
+      "hire_date": "2023-06-15",
+      "salary": 35000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678902",
+      "email": "sales1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E003",
+      "branch_id": "B001",
+      "user_id": "U003",
+      "position": "Cashier",
+      "hire_date": "2023-07-10",
+      "salary": 30000,
+      "shift_schedule": {
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      "contact_number": "+12345678903",
+      "email": "cashier1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E004",
+      "branch_id": "B002",
+      "user_id": "U004",
+      "position": "Customer Service Rep",
+      "hire_date": "2023-08-01",
+      "salary": 32000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678904",
+      "email": "cs1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E005",
+      "branch_id": "B002",
+      "user_id": "U005",
+      "position": "Inventory Specialist",
+      "hire_date": "2023-05-20",
+      "salary": 40000,
+      "shift_schedule": {
+        "start_time": "08:30",
+        "end_time": "17:30"
+      },
+      "contact_number": "+12345678905",
+      "email": "inventory1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E006",
+      "branch_id": "B002",
+      "user_id": "U006",
+      "position": "Assistant Manager",
+      "hire_date": "2023-05-10",
+      "salary": 55000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678906",
+      "email": "assistant.manager@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E007",
+      "branch_id": "B003",
+      "user_id": "U007",
+      "position": "Marketing Specialist",
+      "hire_date": "2023-09-01",
+      "salary": 45000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678907",
+      "email": "marketing1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E008",
+      "branch_id": "B003",
+      "user_id": "U008",
+      "position": "Web Developer",
+      "hire_date": "2023-04-15",
+      "salary": 60000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678908",
+      "email": "developer1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E009",
+      "branch_id": "B003",
+      "user_id": "U009",
+      "position": "HR Specialist",
+      "hire_date": "2023-02-25",
+      "salary": 50000,
+      "shift_schedule": {
+        "start_time": "08:30",
+        "end_time": "17:30"
+      },
+      "contact_number": "+12345678909",
+      "email": "hr1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E010",
+      "branch_id": "B001",
+      "user_id": "U010",
+      "position": "Graphic Designer",
+      "hire_date": "2023-03-01",
+      "salary": 48000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678910",
+      "email": "designer1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E011",
+      "branch_id": "B001",
+      "user_id": "U011",
+      "position": "IT Support",
+      "hire_date": "2023-05-05",
+      "salary": 52000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678911",
+      "email": "itsupport1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E012",
+      "branch_id": "B002",
+      "user_id": "U012",
+      "position": "Sales Associate",
+      "hire_date": "2023-06-20",
+      "salary": 35000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678912",
+      "email": "sales2@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E013",
+      "branch_id": "B003",
+      "user_id": "U013",
+      "position": "Content Writer",
+      "hire_date": "2023-07-15",
+      "salary": 40000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678913",
+      "email": "writer1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E014",
+      "branch_id": "B003",
+      "user_id": "U014",
+      "position": "Operations Manager",
+      "hire_date": "2023-08-05",
+      "salary": 75000,
+      "shift_schedule": {
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      "contact_number": "+12345678914",
+      "email": "operations.manager@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E015",
+      "branch_id": "B001",
+      "user_id": "U015",
+      "position": "Financial Analyst",
+      "hire_date": "2023-09-10",
+      "salary": 65000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678915",
+      "email": "analyst1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E016",
+      "branch_id": "B002",
+      "user_id": "U016",
+      "position": "Data Analyst",
+      "hire_date": "2023-07-20",
+      "salary": 55000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678916",
+      "email": "data.analyst1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E017",
+      "branch_id": "B001",
+      "user_id": "U017",
+      "position": "Research Assistant",
+      "hire_date": "2023-06-25",
+      "salary": 40000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678917",
+      "email": "research1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E018",
+      "branch_id": "B003",
+      "user_id": "U018",
+      "position": "Network Administrator",
+      "hire_date": "2023-05-30",
+      "salary": 72000,
+      "shift_schedule": {
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      "contact_number": "+12345678918",
+      "email": "network.admin@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E019",
+      "branch_id": "B002",
+      "user_id": "U019",
+      "position": "Quality Assurance",
+      "hire_date": "2023-08-20",
+      "salary": 48000,
+      "shift_schedule": {
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      "contact_number": "+12345678919",
+      "email": "qa1@example.com",
+      "status": "active"
+    },
+    {
+      "employee_id": "E020",
+      "branch_id": "B001",
+      "user_id": "U020",
+      "position": "Accountant",
+      "hire_date": "2023-04-05",
+      "salary": 62000,
+      "shift_schedule": {
+        "start_time": "10:00",
+        "end_time": "18:00"
+      },
+      "contact_number": "+12345678920",
+      "email": "accountant1@example.com",
+      "status": "active"
+    }
+  ]
+}

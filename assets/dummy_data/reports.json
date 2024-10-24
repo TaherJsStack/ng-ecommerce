@@ -1,0 +1,290 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":[
+    {
+      "report_id": "RPT001",
+      "report_type": "sales",
+      "generated_by": "U001",
+      "generated_at": "2023-10-01",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 150000,
+        "total_orders": 1200,
+        "total_customers": 800
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT002",
+      "report_type": "inventory",
+      "generated_by": "U002",
+      "generated_at": "2023-10-02",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 80000,
+        "total_orders": 600,
+        "total_customers": 450
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT003",
+      "report_type": "customer",
+      "generated_by": "U003",
+      "generated_at": "2023-10-03",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 90000,
+        "total_orders": 800,
+        "total_customers": 700
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT004",
+      "report_type": "sales",
+      "generated_by": "U004",
+      "generated_at": "2023-10-04",
+      "start_date": "2023-02-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 200000,
+        "total_orders": 1500,
+        "total_customers": 1000
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT005",
+      "report_type": "inventory",
+      "generated_by": "U005",
+      "generated_at": "2023-10-05",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 30000,
+        "total_orders": 400,
+        "total_customers": 300
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT006",
+      "report_type": "customer",
+      "generated_by": "U006",
+      "generated_at": "2023-10-06",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 120000,
+        "total_orders": 900,
+        "total_customers": 600
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT007",
+      "report_type": "sales",
+      "generated_by": "U007",
+      "generated_at": "2023-10-07",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 170000,
+        "total_orders": 1300,
+        "total_customers": 850
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT008",
+      "report_type": "inventory",
+      "generated_by": "U008",
+      "generated_at": "2023-10-08",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 40000,
+        "total_orders": 500,
+        "total_customers": 350
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT009",
+      "report_type": "customer",
+      "generated_by": "U009",
+      "generated_at": "2023-10-09",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 110000,
+        "total_orders": 700,
+        "total_customers": 500
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT010",
+      "report_type": "sales",
+      "generated_by": "U010",
+      "generated_at": "2023-10-10",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 190000,
+        "total_orders": 1600,
+        "total_customers": 950
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT011",
+      "report_type": "inventory",
+      "generated_by": "U011",
+      "generated_at": "2023-10-11",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 50000,
+        "total_orders": 300,
+        "total_customers": 250
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT012",
+      "report_type": "customer",
+      "generated_by": "U012",
+      "generated_at": "2023-10-12",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 130000,
+        "total_orders": 1000,
+        "total_customers": 750
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT013",
+      "report_type": "sales",
+      "generated_by": "U013",
+      "generated_at": "2023-10-13",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 220000,
+        "total_orders": 1800,
+        "total_customers": 1200
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT014",
+      "report_type": "inventory",
+      "generated_by": "U014",
+      "generated_at": "2023-10-14",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 60000,
+        "total_orders": 700,
+        "total_customers": 400
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT015",
+      "report_type": "customer",
+      "generated_by": "U015",
+      "generated_at": "2023-10-15",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 140000,
+        "total_orders": 900,
+        "total_customers": 650
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT016",
+      "report_type": "sales",
+      "generated_by": "U016",
+      "generated_at": "2023-10-16",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 250000,
+        "total_orders": 2000,
+        "total_customers": 1500
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT017",
+      "report_type": "inventory",
+      "generated_by": "U017",
+      "generated_at": "2023-10-17",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 70000,
+        "total_orders": 600,
+        "total_customers": 400
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT018",
+      "report_type": "customer",
+      "generated_by": "U018",
+      "generated_at": "2023-10-18",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 160000,
+        "total_orders": 1100,
+        "total_customers": 800
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT019",
+      "report_type": "sales",
+      "generated_by": "U019",
+      "generated_at": "2023-10-19",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 180000,
+        "total_orders": 1700,
+        "total_customers": 1100
+      },
+      "status": "completed"
+    },
+    {
+      "report_id": "RPT020",
+      "report_type": "inventory",
+      "generated_by": "U020",
+      "generated_at": "2023-10-20",
+      "start_date": "2023-01-01",
+      "end_date": "2023-09-30",
+      "data": {
+        "total_sales": 90000,
+        "total_orders": 800,
+        "total_customers": 600
+      },
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":
+[
+    {
+      "category_id": "C001",
+      "name": "Headphones",
+      "description": "All types of headphones.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/headphones.jpg",
+      "created_by": "U001",
+      "status": "active",
+      "created_at": "2024-01-01",
+      "updated_at": "2024-01-01"
+    },
+    {
+      "category_id": "C002",
+      "name": "Smart Devices",
+      "description": "Smartphones, smartwatches, and more.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/smart_devices.jpg",
+      "created_by": "U002",
+      "status": "active",
+      "created_at": "2024-01-02",
+      "updated_at": "2024-01-02"
+    },
+    {
+      "category_id": "C003",
+      "name": "Speakers",
+      "description": "Bluetooth and wired speakers.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/speakers.jpg",
+      "created_by": "U003",
+      "status": "active",
+      "created_at": "2024-01-03",
+      "updated_at": "2024-01-03"
+    },
+    {
+      "category_id": "C004",
+      "name": "Televisions",
+      "description": "LED, OLED, and smart TVs.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/televisions.jpg",
+      "created_by": "U004",
+      "status": "active",
+      "created_at": "2024-01-04",
+      "updated_at": "2024-01-04"
+    },
+    {
+      "category_id": "C005",
+      "name": "Gaming",
+      "description": "Gaming consoles and accessories.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/gaming.jpg",
+      "created_by": "U005",
+      "status": "active",
+      "created_at": "2024-01-05",
+      "updated_at": "2024-01-05"
+    },
+    {
+      "category_id": "C006",
+      "name": "Cables & Accessories",
+      "description": "Cables, chargers, and other accessories.",
+      "parent_category_id": "C005",
+      "image_url": "https://example.com/images/cables_accessories.jpg",
+      "created_by": "U006",
+      "status": "active",
+      "created_at": "2024-01-06",
+      "updated_at": "2024-01-06"
+    },
+    {
+      "category_id": "C007",
+      "name": "Computers & Laptops",
+      "description": "Desktops and laptops.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/computers_laptops.jpg",
+      "created_by": "U007",
+      "status": "active",
+      "created_at": "2024-01-07",
+      "updated_at": "2024-01-07"
+    },
+    {
+      "category_id": "C008",
+      "name": "Home Appliances",
+      "description": "Various home appliances.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/home_appliances.jpg",
+      "created_by": "U008",
+      "status": "active",
+      "created_at": "2024-01-08",
+      "updated_at": "2024-01-08"
+    },
+    {
+      "category_id": "C009",
+      "name": "Fitness",
+      "description": "Fitness devices and wearables.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/fitness.jpg",
+      "created_by": "U009",
+      "status": "active",
+      "created_at": "2024-01-09",
+      "updated_at": "2024-01-09"
+    },
+    {
+      "category_id": "C010",
+      "name": "Photography",
+      "description": "Cameras and photography equipment.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/photography.jpg",
+      "created_by": "U010",
+      "status": "active",
+      "created_at": "2024-01-10",
+      "updated_at": "2024-01-10"
+    },
+    {
+      "category_id": "C011",
+      "name": "Smart Home",
+      "description": "Smart home devices.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/smart_home.jpg",
+      "created_by": "U001",
+      "status": "active",
+      "created_at": "2024-01-11",
+      "updated_at": "2024-01-11"
+    },
+    {
+      "category_id": "C012",
+      "name": "Office Supplies",
+      "description": "Office equipment and supplies.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/office_supplies.jpg",
+      "created_by": "U002",
+      "status": "active",
+      "created_at": "2024-01-12",
+      "updated_at": "2024-01-12"
+    },
+    {
+      "category_id": "C013",
+      "name": "Wearables",
+      "description": "Smartwatches and fitness trackers.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/wearables.jpg",
+      "created_by": "U003",
+      "status": "active",
+      "created_at": "2024-01-13",
+      "updated_at": "2024-01-13"
+    },
+    {
+      "category_id": "C014",
+      "name": "Furniture",
+      "description": "Office and home furniture.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/furniture.jpg",
+      "created_by": "U004",
+      "status": "active",
+      "created_at": "2024-01-14",
+      "updated_at": "2024-01-14"
+    },
+    {
+      "category_id": "C015",
+      "name": "Kitchen Appliances",
+      "description": "Appliances for kitchen use.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/kitchen_appliances.jpg",
+      "created_by": "U005",
+      "status": "active",
+      "created_at": "2024-01-15",
+      "updated_at": "2024-01-15"
+    },
+    {
+      "category_id": "C016",
+      "name": "Gaming Accessories",
+      "description": "Accessories for gaming consoles.",
+      "parent_category_id": "C005",
+      "image_url": "https://example.com/images/gaming_accessories.jpg",
+      "created_by": "U006",
+      "status": "active",
+      "created_at": "2024-01-16",
+      "updated_at": "2024-01-16"
+    },
+    {
+      "category_id": "C017",
+      "name": "Audio & Video",
+      "description": "Audio and video equipment.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/audio_video.jpg",
+      "created_by": "U007",
+      "status": "active",
+      "created_at": "2024-01-17",
+      "updated_at": "2024-01-17"
+    },
+    {
+      "category_id": "C018",
+      "name": "Toys & Games",
+      "description": "Toys and games for children.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/toys_games.jpg",
+      "created_by": "U008",
+      "status": "active",
+      "created_at": "2024-01-18",
+      "updated_at": "2024-01-18"
+    },
+    {
+      "category_id": "C019",
+      "name": "Health & Beauty",
+      "description": "Health and beauty products.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/health_beauty.jpg",
+      "created_by": "U009",
+      "status": "active",
+      "created_at": "2024-01-19",
+      "updated_at": "2024-01-19"
+    },
+    {
+      "category_id": "C020",
+      "name": "Sports & Outdoors",
+      "description": "Sports equipment and outdoor gear.",
+      "parent_category_id": null,
+      "image_url": "https://example.com/images/sports_outdoors.jpg",
+      "created_by": "U010",
+      "status": "active",
+      "created_at": "2024-01-20",
+      "updated_at": "2024-01-20"
+    }
+  ]
+}

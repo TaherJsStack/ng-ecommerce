@@ -1,0 +1,592 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":
+
+[
+    {
+      "user_id": "U001",
+      "name": {
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "email": "john.doe@example.com",
+      "phone": "+11234567890",
+      "password": "$2b$10$E1F7bYQ1jF/9wBwaI5Z1UuKm2L09nPqCtObP1/sR1pE6d1t7e1O3W",  
+      "role": "admin",
+      "shipping_address": {
+        "street": "123 Elm St",
+        "city": "Metropolis",
+        "state": "NY",
+        "zip_code": "10001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "123 Elm St",
+        "city": "Metropolis",
+        "state": "NY",
+        "zip_code": "10001",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/john_doe.jpg",
+      "date_joined": "2023-01-01",
+      "last_login": "2023-10-01",
+      "status": "active"
+    },
+    {
+      "user_id": "U002",
+      "name": {
+        "first_name": "Jane",
+        "last_name": "Smith"
+      },
+      "email": "jane.smith@example.com",
+      "phone": "+11234567891",
+      "password": "$2b$10$D2Y5y9Bgtj5ZCycC51UjGehdR5bG4tQ8G7ku9G.0oGzOZ.S0T5XlS",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "456 Oak St",
+        "city": "Gotham",
+        "state": "NY",
+        "zip_code": "10002",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "456 Oak St",
+        "city": "Gotham",
+        "state": "NY",
+        "zip_code": "10002",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-01-05",
+      "last_login": "2023-10-01",
+      "status": "active"
+    },
+    {
+      "user_id": "U003",
+      "name": {
+        "first_name": "Alice",
+        "last_name": "Johnson"
+      },
+      "email": "alice.johnson@example.com",
+      "phone": "+11234567892",
+      "password": "$2b$10$M3QZ1f8BPGh9fVgP0GikbO6JgXkF0x8kQ4nFk.s9dqv9Z3SMyKiZi",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "789 Pine St",
+        "city": "Star City",
+        "state": "CA",
+        "zip_code": "90001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "789 Pine St",
+        "city": "Star City",
+        "state": "CA",
+        "zip_code": "90001",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/alice_johnson.jpg",
+      "date_joined": "2023-02-01",
+      "last_login": "2023-09-30",
+      "status": "active"
+    },
+    {
+      "user_id": "U004",
+      "name": {
+        "first_name": "Bob",
+        "last_name": "Williams"
+      },
+      "email": "bob.williams@example.com",
+      "phone": "+11234567893",
+      "password": "$2b$10$T4Qy7T7AT4TkObskT8cSUuFNTdNUc6.nE8Ct2/yl/Au9/j0T3O.GK",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "321 Birch St",
+        "city": "Central City",
+        "state": "IL",
+        "zip_code": "60001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "321 Birch St",
+        "city": "Central City",
+        "state": "IL",
+        "zip_code": "60001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-02-15",
+      "last_login": "2023-09-29",
+      "status": "inactive"
+    },
+    {
+      "user_id": "U005",
+      "name": {
+        "first_name": "Charlie",
+        "last_name": "Brown"
+      },
+      "email": "charlie.brown@example.com",
+      "phone": "+11234567894",
+      "password": "$2b$10$B5H9l9O4/VZ9v1Ehzs6peu4GXLkP3EZoAAo3fR56.mzBlKN/d60Xy",  
+      "role": "admin",
+      "shipping_address": {
+        "street": "654 Maple St",
+        "city": "Metropolis",
+        "state": "NY",
+        "zip_code": "10003",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "654 Maple St",
+        "city": "Metropolis",
+        "state": "NY",
+        "zip_code": "10003",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/charlie_brown.jpg",
+      "date_joined": "2023-03-01",
+      "last_login": "2023-10-02",
+      "status": "active"
+    },
+    {
+      "user_id": "U006",
+      "name": {
+        "first_name": "David",
+        "last_name": "Miller"
+      },
+      "email": "david.miller@example.com",
+      "phone": "+11234567895",
+      "password": "$2b$10$C7Q6eABr.CeF1HqOx8Xyhuq4dCp9jxY.qF4V3oafF58VzHnKMBv3G",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "258 Walnut St",
+        "city": "Gotham",
+        "state": "NY",
+        "zip_code": "10004",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "258 Walnut St",
+        "city": "Gotham",
+        "state": "NY",
+        "zip_code": "10004",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-03-10",
+      "last_login": "2023-09-28",
+      "status": "active"
+    },
+    {
+      "user_id": "U007",
+      "name": {
+        "first_name": "Eve",
+        "last_name": "Davis"
+      },
+      "email": "eve.davis@example.com",
+      "phone": "+11234567896",
+      "password": "$2b$10$H7G8N5jD7jR5ANW.P1uX4OZ3a3Il8A1ejRGvU3gIgHnG1eyBuJPBi",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "789 Cedar St",
+        "city": "Smallville",
+        "state": "TX",
+        "zip_code": "75001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "789 Cedar St",
+        "city": "Smallville",
+        "state": "TX",
+        "zip_code": "75001",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/eve_davis.jpg",
+      "date_joined": "2023-04-01",
+      "last_login": "2023-10-01",
+      "status": "banned"
+    },
+    {
+      "user_id": "U008",
+      "name": {
+        "first_name": "Frank",
+        "last_name": "Wilson"
+      },
+      "email": "frank.wilson@example.com",
+      "phone": "+11234567897",
+      "password": "$2b$10$J9YI8q0G4WGG6gqOKJ6rFOb4y54ktA9zOwL1zHs2DL9v1kPp5Ro7a",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "159 Fir St",
+        "city": "Bay City",
+        "state": "FL",
+        "zip_code": "32004",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "159 Fir St",
+        "city": "Bay City",
+        "state": "FL",
+        "zip_code": "32004",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-04-15",
+      "last_login": "2023-09-25",
+      "status": "active"
+    },
+    {
+      "user_id": "U009",
+      "name": {
+        "first_name": "Grace",
+        "last_name": "Taylor"
+      },
+      "email": "grace.taylor@example.com",
+      "phone": "+11234567898",
+      "password": "$2b$10$Q0Z4Z3Q0Cf3fW/Jh9Z4C1O4gS7mR3LZ87.y1yCwMAB9F4m96g.A2i",  
+      "role": "admin",
+      "shipping_address": {
+        "street": "852 Spruce St",
+        "city": "Big City",
+        "state": "TX",
+        "zip_code": "75002",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "852 Spruce St",
+        "city": "Big City",
+        "state": "TX",
+        "zip_code": "75002",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/grace_taylor.jpg",
+      "date_joined": "2023-05-01",
+      "last_login": "2023-10-01",
+      "status": "active"
+    },
+    {
+      "user_id": "U010",
+      "name": {
+        "first_name": "Henry",
+        "last_name": "Moore"
+      },
+      "email": "henry.moore@example.com",
+      "phone": "+11234567899",
+      "password": "$2b$10$Z0F5A6vZ0l8g3hLkQ6j9K9u2x1x65M9r0G5kAQv2X95ujmMX8F0Ma",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "963 Ash St",
+        "city": "Green City",
+        "state": "OH",
+        "zip_code": "43001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "963 Ash St",
+        "city": "Green City",
+        "state": "OH",
+        "zip_code": "43001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-05-10",
+      "last_login": "2023-09-20",
+      "status": "inactive"
+    },
+    {
+      "user_id": "U011",
+      "name": {
+        "first_name": "Irene",
+        "last_name": "Lee"
+      },
+      "email": "irene.lee@example.com",
+      "phone": "+11234567900",
+      "password": "$2b$10$Y1QX3/.C4T0eUeGHtS4QwOsHImX9LMiU2O8rX6g6sQpL9Wvs49hP6",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "654 Cherry St",
+        "city": "Silver City",
+        "state": "NM",
+        "zip_code": "88001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "654 Cherry St",
+        "city": "Silver City",
+        "state": "NM",
+        "zip_code": "88001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-06-01",
+      "last_login": "2023-09-19",
+      "status": "active"
+    },
+    {
+      "user_id": "U012",
+      "name": {
+        "first_name": "Jack",
+        "last_name": "Walker"
+      },
+      "email": "jack.walker@example.com",
+      "phone": "+11234567901",
+      "password": "$2b$10$V5D1tWQf8NG4fgIgO7aZqevBjaA/lF/d7U4drCj3YgDb1y.OHnVPC",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "258 Oak St",
+        "city": "Copper City",
+        "state": "NV",
+        "zip_code": "89001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "258 Oak St",
+        "city": "Copper City",
+        "state": "NV",
+        "zip_code": "89001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-06-15",
+      "last_login": "2023-09-18",
+      "status": "active"
+    },
+    {
+      "user_id": "U013",
+      "name": {
+        "first_name": "Karen",
+        "last_name": "Hall"
+      },
+      "email": "karen.hall@example.com",
+      "phone": "+11234567902",
+      "password": "$2b$10$R2D9z9w.sXHzIvEzzY5f9eRbbG9uDF9E/tK2FjM4gQKkhhZy9iDdu",  
+      "role": "admin",
+      "shipping_address": {
+        "street": "852 Palm St",
+        "city": "Golden City",
+        "state": "CO",
+        "zip_code": "80201",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "852 Palm St",
+        "city": "Golden City",
+        "state": "CO",
+        "zip_code": "80201",
+        "country": "USA"
+      },
+      "profile_picture_url": "http://example.com/images/karen_hall.jpg",
+      "date_joined": "2023-07-01",
+      "last_login": "2023-10-01",
+      "status": "active"
+    },
+    {
+      "user_id": "U014",
+      "name": {
+        "first_name": "Leo",
+        "last_name": "Martin"
+      },
+      "email": "leo.martin@example.com",
+      "phone": "+11234567903",
+      "password": "$2b$10$A8J1zqg/XiZ5f8IRZoSw6O5OT.PUo1HlTFYbcmyK3TPpTfD5T1Jhy",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "951 Elm St",
+        "city": "Blossom City",
+        "state": "TX",
+        "zip_code": "75003",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "951 Elm St",
+        "city": "Blossom City",
+        "state": "TX",
+        "zip_code": "75003",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-07-15",
+      "last_login": "2023-09-16",
+      "status": "inactive"
+    },
+    {
+      "user_id": "U015",
+      "name": {
+        "first_name": "Mia",
+        "last_name": "Young"
+      },
+      "email": "mia.young@example.com",
+      "phone": "+11234567904",
+      "password": "$2b$10$L5G7xN9du/jjM6qz/ZQbkeF7JmQdzw.CDq0h5BLz7h4a6Ot6U7/Oe",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "951 Willow St",
+        "city": "Sunnydale",
+        "state": "CA",
+        "zip_code": "90001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "951 Willow St",
+        "city": "Sunnydale",
+        "state": "CA",
+        "zip_code": "90001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-08-01",
+      "last_login": "2023-09-10",
+      "status": "active"
+    },
+    {
+      "user_id": "U016",
+      "name": {
+        "first_name": "Nina",
+        "last_name": "Green"
+      },
+      "email": "nina.green@example.com",
+      "phone": "+11234567905",
+      "password": "$2b$10$F8A6c4J9H3/4A4T08A6Mhu9tu/LPQdR8Hz/9.6q6l/4I0H4f5J0rW",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "123 Rose St",
+        "city": "Meadow City",
+        "state": "VA",
+        "zip_code": "20001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "123 Rose St",
+        "city": "Meadow City",
+        "state": "VA",
+        "zip_code": "20001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-08-15",
+      "last_login": "2023-09-05",
+      "status": "inactive"
+    },
+    {
+      "user_id": "U017",
+      "name": {
+        "first_name": "Oscar",
+        "last_name": "Wright"
+      },
+      "email": "oscar.wright@example.com",
+      "phone": "+11234567906",
+      "password": "$2b$10$T9B5c9pDRMj6Jt0xfP8U1e4f8vE4vDZ2NHm1OrCFS3KiZLx9P3ePC",  
+      "role": "admin",
+      "shipping_address": {
+        "street": "456 Leaf St",
+        "city": "Coral City",
+        "state": "FL",
+        "zip_code": "32002",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "456 Leaf St",
+        "city": "Coral City",
+        "state": "FL",
+        "zip_code": "32002",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-09-01",
+      "last_login": "2023-09-30",
+      "status": "active"
+    },
+    {
+      "user_id": "U018",
+      "name": {
+        "first_name": "Paul",
+        "last_name": "King"
+      },
+      "email": "paul.king@example.com",
+      "phone": "+11234567907",
+      "password": "$2b$10$G7R4a7qYphK/4Mf2oD4n5O.bKZZ7sGSoPzGdcZ19Dgf8S3Yf87oaK",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "258 Stone St",
+        "city": "Shadow City",
+        "state": "KY",
+        "zip_code": "42001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "258 Stone St",
+        "city": "Shadow City",
+        "state": "KY",
+        "zip_code": "42001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-09-15",
+      "last_login": "2023-09-12",
+      "status": "active"
+    },
+    {
+      "user_id": "U019",
+      "name": {
+        "first_name": "Quinn",
+        "last_name": "Scott"
+      },
+      "email": "quinn.scott@example.com",
+      "phone": "+11234567908",
+      "password": "$2b$10$H4V7A5Jk/RFzYxiXipPjaeuvfF0M1h5lkFKqPp2l9RkO8u0ocElGS",  
+      "role": "employee",
+      "shipping_address": {
+        "street": "159 River St",
+        "city": "Lake City",
+        "state": "AZ",
+        "zip_code": "85001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "159 River St",
+        "city": "Lake City",
+        "state": "AZ",
+        "zip_code": "85001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-09-20",
+      "last_login": "2023-09-25",
+      "status": "active"
+    },
+    {
+      "user_id": "U020",
+      "name": {
+        "first_name": "Rita",
+        "last_name": "Adams"
+      },
+      "email": "rita.adams@example.com",
+      "phone": "+11234567909",
+      "password": "$2b$10$K8L5T9GRYI8cGRNQ/D99PuQ8ZBFe6A30vC4b4qhhngn9jQjZcOnYq",  
+      "role": "customer",
+      "shipping_address": {
+        "street": "951 Coral St",
+        "city": "Ocean City",
+        "state": "WA",
+        "zip_code": "98001",
+        "country": "USA"
+      },
+      "billing_address": {
+        "street": "951 Coral St",
+        "city": "Ocean City",
+        "state": "WA",
+        "zip_code": "98001",
+        "country": "USA"
+      },
+      "profile_picture_url": null,
+      "date_joined": "2023-09-25",
+      "last_login": "2023-09-10",
+      "status": "active"
+    }
+  ]
+}

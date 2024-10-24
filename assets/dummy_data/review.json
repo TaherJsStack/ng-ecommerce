@@ -1,0 +1,230 @@
+
+{
+  "success": true,
+  "errors":    [],
+  "message":   "string",
+  "status":    20,
+  "totalData": 20,
+  "data":[
+    {
+      "review_id": "R001",
+      "product_id": "P001",
+      "user_id": "U001",
+      "rating": 5,
+      "comment": "Excellent product! Highly recommend.",
+      "created_at": "2023-05-15",
+      "updated_at": "2023-05-15",
+      "helpful_count": 10,
+      "report_count": 0
+    },
+    {
+      "review_id": "R002",
+      "product_id": "P002",
+      "user_id": "U002",
+      "rating": 4,
+      "comment": "Very good, but could use some improvements.",
+      "created_at": "2023-06-01",
+      "updated_at": "2023-06-02",
+      "helpful_count": 5,
+      "report_count": 1
+    },
+    {
+      "review_id": "R003",
+      "product_id": "P001",
+      "user_id": "U003",
+      "rating": 3,
+      "comment": "It's okay, nothing special.",
+      "created_at": "2023-06-15",
+      "updated_at": "2023-06-15",
+      "helpful_count": 2,
+      "report_count": 0
+    },
+    {
+      "review_id": "R004",
+      "product_id": "P003",
+      "user_id": "U004",
+      "rating": 2,
+      "comment": "Did not meet my expectations.",
+      "created_at": "2023-07-01",
+      "updated_at": "2023-07-01",
+      "helpful_count": 0,
+      "report_count": 2
+    },
+    {
+      "review_id": "R005",
+      "product_id": "P002",
+      "user_id": "U005",
+      "rating": 5,
+      "comment": "Amazing! Would buy again.",
+      "created_at": "2023-07-10",
+      "updated_at": "2023-07-10",
+      "helpful_count": 8,
+      "report_count": 0
+    },
+    {
+      "review_id": "R006",
+      "product_id": "P004",
+      "user_id": "U006",
+      "rating": 1,
+      "comment": "Terrible quality, do not recommend.",
+      "created_at": "2023-07-20",
+      "updated_at": "2023-07-20",
+      "helpful_count": 1,
+      "report_count": 5
+    },
+    {
+      "review_id": "R007",
+      "product_id": "P001",
+      "user_id": "U007",
+      "rating": 4,
+      "comment": "Good value for the price.",
+      "created_at": "2023-08-01",
+      "updated_at": "2023-08-02",
+      "helpful_count": 3,
+      "report_count": 0
+    },
+    {
+      "review_id": "R008",
+      "product_id": "P003",
+      "user_id": "U008",
+      "rating": 5,
+      "comment": "Works perfectly! Very satisfied.",
+      "created_at": "2023-08-10",
+      "updated_at": "2023-08-10",
+      "helpful_count": 9,
+      "report_count": 0
+    },
+    {
+      "review_id": "R009",
+      "product_id": "P005",
+      "user_id": "U009",
+      "rating": 3,
+      "comment": "Average product, nothing outstanding.",
+      "created_at": "2023-08-15",
+      "updated_at": "2023-08-15",
+      "helpful_count": 2,
+      "report_count": 1
+    },
+    {
+      "review_id": "R010",
+      "product_id": "P006",
+      "user_id": "U010",
+      "rating": 5,
+      "comment": "Best purchase I've made this year!",
+      "created_at": "2023-09-01",
+      "updated_at": "2023-09-01",
+      "helpful_count": 15,
+      "report_count": 0
+    },
+    {
+      "review_id": "R011",
+      "product_id": "P007",
+      "user_id": "U011",
+      "rating": 4,
+      "comment": "Very good, but delivery was delayed.",
+      "created_at": "2023-09-10",
+      "updated_at": "2023-09-10",
+      "helpful_count": 7,
+      "report_count": 0
+    },
+    {
+      "review_id": "R012",
+      "product_id": "P008",
+      "user_id": "U012",
+      "rating": 2,
+      "comment": "Not what I expected. Disappointed.",
+      "created_at": "2023-09-15",
+      "updated_at": "2023-09-15",
+      "helpful_count": 1,
+      "report_count": 3
+    },
+    {
+      "review_id": "R013",
+      "product_id": "P009",
+      "user_id": "U013",
+      "rating": 5,
+      "comment": "Fantastic quality, will buy more!",
+      "created_at": "2023-09-20",
+      "updated_at": "2023-09-20",
+      "helpful_count": 10,
+      "report_count": 0
+    },
+    {
+      "review_id": "R014",
+      "product_id": "P010",
+      "user_id": "U014",
+      "rating": 3,
+      "comment": "Okay product, could be better.",
+      "created_at": "2023-09-25",
+      "updated_at": "2023-09-25",
+      "helpful_count": 2,
+      "report_count": 1
+    },
+    {
+      "review_id": "R015",
+      "product_id": "P002",
+      "user_id": "U015",
+      "rating": 4,
+      "comment": "Good quality, but a bit pricey.",
+      "created_at": "2023-09-30",
+      "updated_at": "2023-09-30",
+      "helpful_count": 6,
+      "report_count": 0
+    },
+    {
+      "review_id": "R016",
+      "product_id": "P011",
+      "user_id": "U016",
+      "rating": 5,
+      "comment": "Highly recommend! Exceeded expectations.",
+      "created_at": "2023-10-01",
+      "updated_at": "2023-10-01",
+      "helpful_count": 8,
+      "report_count": 0
+    },
+    {
+      "review_id": "R017",
+      "product_id": "P012",
+      "user_id": "U017",
+      "rating": 1,
+      "comment": "Waste of money. Not worth it.",
+      "created_at": "2023-10-02",
+      "updated_at": "2023-10-02",
+      "helpful_count": 0,
+      "report_count": 6
+    },
+    {
+      "review_id": "R018",
+      "product_id": "P013",
+      "user_id": "U018",
+      "rating": 4,
+      "comment": "Very good product, met my needs.",
+      "created_at": "2023-10-03",
+      "updated_at": "2023-10-03",
+      "helpful_count": 4,
+      "report_count": 0
+    },
+    {
+      "review_id": "R019",
+      "product_id": "P014",
+      "user_id": "U019",
+      "rating": 2,
+      "comment": "Not as described. Disappointing experience.",
+      "created_at": "2023-10-04",
+      "updated_at": "2023-10-04",
+      "helpful_count": 1,
+      "report_count": 2
+    },
+    {
+      "review_id": "R020",
+      "product_id": "P015",
+      "user_id": "U020",
+      "rating": 3,
+      "comment": "It's fine, but I expected more.",
+      "created_at": "2023-10-05",
+      "updated_at": "2023-10-05",
+      "helpful_count": 3,
+      "report_count": 1
+    }
+  ]}
+  
