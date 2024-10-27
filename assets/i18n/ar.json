@@ -153,7 +153,9 @@
         "team_lead_id": "مدير الفريق",
         "team_id": "الفريق",
         "members": "الاعضاء",
-        "phone":"رقم الهاتف"
+        "phone":"رقم الهاتف",
+        "combinations": "التركيبات",
+        "category_ids": "التصنيفات"
 
     },
     "dimensions":{

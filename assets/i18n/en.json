@@ -153,7 +153,9 @@
         "team_lead_id": "team lead",
         "team_id": "team",
         "members": "members",
-        "phone":" phone"
+        "phone":" phone",
+        "combinations": "combinations",
+        "category_ids": "categories"
 
     },
     "dimensions":{
