@@ -16,8 +16,9 @@
       "tags": ["T001", "T002"],
       "brand": "AudioBrand",
       "images": [
-        "https://example.com/images/headphones1.jpg",
-        "https://example.com/images/headphones2.jpg"
+        "https://i.postimg.cc/X799Yjd4/product-1.jpg",
+        "https://d2s30hray1l0uq.cloudfront.net/frontend/Sending-brand-message.jpg",
+        "https://i.postimg.cc/X799Yjd4/product-1.jpg"
       ],
       "created_by": "U001",
       "created_at": "2024-01-01T12:00:00Z",
