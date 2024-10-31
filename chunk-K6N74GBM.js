@@ -1,0 +1,1 @@
+import{Fb as n,Gb as i,Zb as a,fc as r,pa as o}from"./chunk-GCV2IDJ5.js";import"./chunk-MON7YFGF.js";var m=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=o({type:e,selectors:[["app-blog"]],standalone:!0,features:[r],decls:2,vars:0,template:function(t,l){t&1&&(n(0,"p"),a(1,"blog works!"),i())}})}}return e})();export{m as BlogComponent};
