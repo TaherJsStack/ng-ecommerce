@@ -488,5 +488,7 @@
   "Chat": "الدردشة",
   "LockScreen": "شاشة القفل",
   "GoodMorning": "صباح الخير",
-  "AppVersion": "رقم الاصدار"
+  "AppVersion": "رقم الاصدار",
+  "DataList": "قائمة البيانات",
+  "Form": "نموذج"
 }

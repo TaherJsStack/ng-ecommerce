@@ -480,5 +480,7 @@
   "Chat": "Chat",
   "LockScreen": "Lock Screen",
   "GoodMorning": "Good Morning",
-  "AppVersion": "App Version"
+  "AppVersion": "App Version",
+  "DataList": "Data List",
+  "Form": "Form"
 }
