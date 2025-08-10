@@ -1,0 +1,104 @@
+// // App Theme Colors Only
+// // ---------------------
+// // This file contains only color variables and theme color schemas for light and dark modes.
+
+// // Base color variables (used as fallbacks or for SCSS logic)
+// $color-primary: #2d3e4e;
+// $color-secondary: #586d7e;
+// $color-success: #8097a7;
+// $color-info: #bcd3e1;
+// $color-white: #ffffff;
+// $color-black: #000000;
+// $color-extra: rgb(165, 86, 86);
+
+// // Recommended color schema using CSS custom properties for theming
+// [data-theme="light"] {
+//   --color-primary: #2d3e4e;
+//   --color-secondary: #586d7e;
+//   --color-success: #8097a7;
+//   --color-info: #bcd3e1;
+//   --color-white: #ffffff;
+//   --color-black: #000000;
+//   --color-extra: rgb(165, 86, 86);
+//   // Add more semantic color roles as needed
+//   --color-background: #fcfeff;
+//   --color-surface: #fff;
+//   --color-on-primary: #fff;
+//   --color-on-secondary: #fff;
+//   --color-on-background: #2d3e4e;
+//   --color-on-surface: #2d3e4e;
+// }
+
+// [data-theme="dark"] {
+//   --color-primary: #bcd3e1;
+//   --color-secondary: #8097a7;
+//   --color-success: #586d7e;
+//   --color-info: #2d3e4e;
+//   --color-white: #ffffff;
+//   --color-black: #000000;
+//   --color-extra: rgb(165, 86, 86);
+//   // Add more semantic color roles as needed
+//   --color-background: #2d3e4e;
+//   --color-surface: #586d7e;
+//   --color-on-primary: #2d3e4e;
+//   --color-on-secondary: #2d3e4e;
+//   --color-on-background: #fff;
+//   --color-on-surface: #fff;
+// } 
+
+
+
+:root {
+  // Brand Colors
+  --color-primary  : #2d3e4e;
+  --color-secondary: #586d7e;
+  --color-tertiary : #8097a7;
+  --color-accent   : rgb(165, 86, 86);
+
+  // Backgrounds
+  --bg-default: #ffffff;
+  --bg-surface: #bcd3e1;
+  --bg-muted  : #f4f7f9;
+
+  // Text
+  --text-primary  : #000000;
+  --text-secondary: #2d3e4e;
+  --text-muted    : #586d7e;
+  --text-inverse  : #ffffff;
+  --text-accent   : rgb(165, 86, 86);
+
+  // Borders
+  --border-light  : #e0e6ea;
+  --border-default: #8097a7;
+  --border-dark   : #2d3e4e;
+
+  // Shadows
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] {
+  --color-primary  : #bcd3e1;
+  --color-secondary: #8097a7;
+  --color-tertiary : #586d7e;
+  --color-accent   : rgb(255, 115, 115);
+
+  --bg-default: #000000;
+  --bg-surface: #2d3e4e;
+  --bg-muted  : #1a1a1a;
+
+  --text-primary  : #ffffff;
+  --text-secondary: #bcd3e1;
+  --text-muted    : #8097a7;
+  --text-inverse  : #000000;
+  --text-accent   : rgb(255, 115, 115);
+
+  --border-light  : #2d3e4e;
+  --border-default: #586d7e;
+  --border-dark   : #8097a7;
+
+  --shadow-sm: 0 1px 2px rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.08);
+  --shadow-lg: 0 10px 15px rgba(255, 255, 255, 0.1);
+}

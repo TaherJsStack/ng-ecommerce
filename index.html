@@ -1,13 +1,111 @@
 <!doctype html>
 <html lang="en" data-beasties-container>
-<head>
-  <meta charset="utf-8">
-  <title>NgEcommerce</title>
-  <base href="/ng-ecommerce/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
-<body>
-  <app-root></app-root>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-Q3RJGVVI.js" type="module"></script></body>
+  <head>
+    <meta charset="utf-8">
+    <title>Ng ECommerce Manager</title>
+    <base href="/ng-ecommerce/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="Buy the best men's running shoes. Lightweight, comfortable, and perfect for all terrains. Free shipping available!">
+    <meta name="keywords" content="men's running shoes, lightweight running shoes, comfortable shoes">
+    <meta name="author" content="YourStoreName">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+
+    <!-- 1. General Meta Tags -->
+    <meta charset="UTF-8">
+    <!-- Specifies character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mobile responsiveness -->
+    <meta name="author" content="ng-E-commerce">
+    <!-- Author of the content -->
+    <meta name="description" content="
+    Discover ng-E-commerce, the ultimate e-commerce platform featuring a seamless shopping system.
+    Easily browse, compare, and purchase top-quality [products/services]. Enjoy fast delivery,
+    secure payment options, and 24/7 customer support. Upgrade your shopping experience today!">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <!-- Keywords for SEO (less used nowadays) -->
+    <meta name="generator" content="Tool or CMS used to create the page">
+    <meta name="robots" content="index, follow">
+    <!-- Search engine behavior -->
+
+    <!-- 2. SEO-Specific Meta Tags -->
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Prevent indexing and link-following -->
+    <meta name="googlebot" content="index, follow">
+    <!-- Behavior for Google's crawler -->
+    <meta name="bingbot" content="index, follow">
+    <!-- Behavior for Bing's crawler -->
+    <meta name="geo.region" content="US-CA">
+    <!-- Geographical region -->
+    <meta name="geo.placename" content="San Francisco">
+    <!-- Specific location -->
+    <meta name="geo.position" content="37.7749;-122.4194">
+    <!-- Latitude and longitude -->
+    <meta name="ICBM" content="37.7749, -122.4194">
+    <!-- Deprecated geo-tag equivalent -->
+
+    <!-- 3. Social Media Meta Tags -->
+    <meta property="og:title" content="Page Title">
+    <meta property="og:description" content="Brief description of the page">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/page">
+    <meta property="og:type" content="website">
+    <!-- Options: article, website, product, etc. -->
+    <meta property="og:site_name" content="YourSiteName">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Cards: -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Options: summary, app, player -->
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="Brief description of the page">
+    <meta name="twitter:image" content="https://example.com/image.jpg">
+
+    <!-- 4. Mobile-Specific Meta Tags   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Enable full-screen mode for iOS -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Status bar style -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- Disable auto-linking of phone numbers -->
+
+    <!-- 5. Performance and Browser Configuration Meta Tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Compatibility with Internet Explorer -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <!-- Prevent caching -->
+    <meta http-equiv="Expires" content="0">
+    <!-- Expiration date for the document -->
+
+    <!-- 6. E-Commerce and Product-Specific Meta Tags -->
+    <meta itemprop="name" content="Product Name">
+    <meta itemprop="description" content="Description of the product">
+    <meta itemprop="image" content="https://example.com/product-image.jpg">
+    <meta itemprop="price" content="19.99">
+    <meta itemprop="priceCurrency" content="USD">
+    <meta itemprop="availability" content="InStock">
+    <!-- Options: InStock, OutOfStock -->
+
+    <!-- 7. Security and Privacy Meta Tags -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com;"> -->
+    <!-- <meta name="referrer" content="no-referrer"> Control referrer information -->
+    <!-- <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains"> HTTPS enforcement -->
+
+    <!-- 8. Miscellaneous Meta Tags -->
+    <meta name="theme-color" content="#ffffff">
+    <!-- Mobile browser toolbar color -->
+    <meta name="color-scheme" content="light dark">
+    <!-- Indicates theme support -->
+    <meta name="application-name" content="YourApp">
+    <!-- For web applications -->
+    <meta name="rating" content="General">
+    <!-- Page content rating -->
+    <!-- <meta http-equiv="refresh" content="30"> Refresh the page every 30 seconds -->
+  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}:root{--font-size-extra-tertiary:8px;--font-size-tertiary:9px;--font-size-extra-small:10px;--font-size-small:11px;--font-size-medium:12px;--font-size-extra-medium:13px;--font-size-large:14px;--font-size-extra-large:15px}@media only screen and (max-width: 1552px){:root{--font-size-extra-tertiary:8px;--font-size-tertiary:9px;--font-size-extra-small:10px;--font-size-small:11px;--font-size-medium:12px;--font-size-extra-medium:13px;--font-size-large:14px;--font-size-extra-large:15px}}@media (max-width: 575.98px){:root{--font-size-extra-tertiary:6px;--font-size-tertiary:7px;--font-size-extra-small:8px;--font-size-small:9px;--font-size-medium:10px;--font-size-extra-medium:11px;--font-size-large:12px;--font-size-extra-large:13px}}html,body{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}:root{--header-height:56px;--asid-height:100vh;--main-height:100vh;--footer-height:40px;--header-width:100%;--asid-width:10vw;--main-width:100%;--footer-width:100%;--app-bg-primary:#fff;--app-bg-secondary:#f5f5f5;--font-size-12:12px;--font-size-14:14px}</style><link rel="stylesheet" href="styles-LWSMPEI6.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-LWSMPEI6.css"></noscript></head>
+  <body>
+    <app-root></app-root>
+  <link rel="modulepreload" href="chunk-RQFVTNEF.js"><link rel="modulepreload" href="chunk-CNZ73IAQ.js"><link rel="modulepreload" href="chunk-O6BMIJPJ.js"><link rel="modulepreload" href="chunk-3DVAJMMN.js"><link rel="modulepreload" href="chunk-CEOH35SK.js"><link rel="modulepreload" href="chunk-TDSJLCFR.js"><link rel="modulepreload" href="chunk-BZGDIO6L.js"><link rel="modulepreload" href="chunk-TTNNK73Q.js"><link rel="modulepreload" href="chunk-4TRRSWYM.js"><link rel="modulepreload" href="chunk-Y5XVXPSG.js"><script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-MBXQK2HU.js" type="module"></script></body>
 </html>

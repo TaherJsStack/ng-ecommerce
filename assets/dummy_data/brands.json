@@ -1,0 +1,122 @@
+[
+  {
+    "id": "B001",
+    "name": "TechBrand",
+    "description": "Leading brand in consumer electronics and gadgets.",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-01-01T12:00:00Z",
+    "updated_at": "2024-01-01T12:00:00Z"
+  },
+  {
+    "id": "B002",
+    "name": "Fashionista",
+    "description": "Trendy and affordable fashion for all ages.",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-02-10T09:30:00Z",
+    "updated_at": "2024-02-10T09:30:00Z"
+  },
+  {
+    "id": "B003",
+    "name": "HomeEssentials",
+    "description": "Quality home and kitchen products.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-03-15T15:45:00Z",
+    "updated_at": "2024-03-15T15:45:00Z"
+  },
+  {
+    "id": "B004",
+    "name": "Sportify",
+    "description": "Everything you need for an active lifestyle.",
+    "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-04-20T11:20:00Z",
+    "updated_at": "2024-04-20T11:20:00Z"
+  },
+  {
+    "id": "B005",
+    "name": "BeautyPlus",
+    "description": "Premium beauty and skincare products.",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-05-05T08:10:00Z",
+    "updated_at": "2024-05-05T08:10:00Z"
+  },
+  {
+    "id": "B006",
+    "name": "EcoLiving",
+    "description": "Sustainable and eco-friendly home solutions.",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-06-01T10:00:00Z",
+    "updated_at": "2024-06-01T10:00:00Z"
+  },
+  {
+    "id": "B007",
+    "name": "GourmetChef",
+    "description": "High-end kitchenware and gourmet tools.",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-06-10T14:30:00Z",
+    "updated_at": "2024-06-10T14:30:00Z"
+  },
+  {
+    "id": "B008",
+    "name": "PetPal",
+    "description": "Everything for your furry friends.",
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-06-15T09:15:00Z",
+    "updated_at": "2024-06-15T09:15:00Z"
+  },
+  {
+    "id": "B009",
+    "name": "TravelLite",
+    "description": "Travel gear and accessories for adventurers.",
+    "image": "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-06-20T16:45:00Z",
+    "updated_at": "2024-06-20T16:45:00Z"
+  },
+  {
+    "id": "B010",
+    "name": "BookNest",
+    "description": "A world of books for every reader.",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-07-01T12:00:00Z",
+    "updated_at": "2024-07-01T12:00:00Z"
+  },
+  {
+    "id": "B011",
+    "name": "AutoPro",
+    "description": "Automotive parts and accessories.",
+    "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-07-10T11:30:00Z",
+    "updated_at": "2024-07-10T11:30:00Z"
+  },
+  {
+    "id": "B012",
+    "name": "GreenThumb",
+    "description": "Gardening tools and plant care essentials.",
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-07-15T08:20:00Z",
+    "updated_at": "2024-07-15T08:20:00Z"
+  },
+  {
+    "id": "B013",
+    "name": "BabyJoy",
+    "description": "Safe and fun products for babies and toddlers.",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-07-20T13:10:00Z",
+    "updated_at": "2024-07-20T13:10:00Z"
+  },
+  {
+    "id": "B014",
+    "name": "ArtisanCrafts",
+    "description": "Handmade crafts and unique gifts.",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-07-25T17:00:00Z",
+    "updated_at": "2024-07-25T17:00:00Z"
+  },
+  {
+    "id": "B015",
+    "name": "WellnessWay",
+    "description": "Health and wellness products for a better you.",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2024-08-01T10:40:00Z",
+    "updated_at": "2024-08-01T10:40:00Z"
+  }
+]
