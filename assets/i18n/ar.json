@@ -55,7 +55,6 @@
   "Orders-Section": "قسم الطلبات",
   "Products-Section": "قسم المنتجات",
   "Human-Section": "قسم الموارد البشرية",
-
   "Save": "حفظ",
   "Edit": "تعديل",
   "Delete": "حذف",
@@ -90,7 +89,6 @@
     "LastMonth": " الشهر السابق ",
     "LastYear": " السنة السابقة "
   },
-
   "DataKayWords": {
     "id": "رقم",
     "title": "العنوان",
@@ -102,7 +100,6 @@
     "category_id": "التصنيف",
     "created_at": "تاريخ الانشاء",
     "updated_at": "تاريخ التعديل",
-
     "branch_id": "الفرع",
     "name": "الاسم",
     "contact_number": "رقم الاتصال",
@@ -125,7 +122,6 @@
     "working_hours.open": "مفتوح",
     "close": "مغلق",
     "working_hours.close": "مغلق",
-
     "order_id": "الطلب",
     "user_id": "المستخدم",
     "total_amount": "المبلغ الكلي",
@@ -146,10 +142,10 @@
     "dimensions": "الابعاد",
     "weight": "الوزن",
     "stock_quantity": "كمية المخزون",
+    "stock": "المخزون",
     "sku": "الرمز البريدي",
     "discount_price": "سعر الخصم",
     "brand": "العلامة التجارية",
-
     "applied_to_categories": " التصنيفات التي تم تطبيقها",
     "applied_to_products": " المنتجات التي تم تطبيقها",
     "discount_percentage": "نسبة الخصم",
@@ -157,7 +153,6 @@
     "minimum_order_value": "اقل قيمة الطلب",
     "valid_from": "متاح من",
     "valid_until": "متاح حتى",
-
     "comment": "التعليق",
     "rating": "التقييم",
     "helpful_count": "عدد الشيء الساعي",
@@ -170,12 +165,10 @@
     "billing_address": "عنوان الفاتورة",
     "profile_picture_url": "صورة الملف الشخصي",
     "shipping_address": "عنوان الشحن",
-
     "salary": "الراتب",
     "position": "المنصب",
     "hire_date": "تاريخ التعيين",
     "shift_schedule": "مواعيد العمل",
-
     "team_lead_id": "مدير الفريق",
     "team_id": "الفريق",
     "members": "الاعضاء",
@@ -187,13 +180,15 @@
   "dimensions": {
     "length": " الطول",
     "width": " العرض",
-    "height": "الارتفاع"
+    "height": "الارتفاع",
+    "size": "الحجم"
   },
   "attributes": {
     "color": "اللون",
     "size": "الحجم",
     "material": "المواد",
-    "warranty": "الضمان"
+    "warranty": "الضمان",
+    "fit": "التناسق"
   },
   "name": {
     "name": "الاسم",
@@ -271,7 +266,6 @@
       "image_url": "الصورة",
       "status": "الحالة",
       "title": "العنوان",
-
       "applied_to_categories": " التصنيفات التي تم تطبيقها",
       "applied_to_products": " المنتجات التي تم تطبيقها",
       "profile_picture_url": "صورة الملف الشخصي",
@@ -279,7 +273,6 @@
       "user_id": "المستخدم"
     }
   },
-
   "FindUs": "ابحث عننا",
   "CallUs": "اتصل بنا",
   "MailUs": "اتصل بنا",

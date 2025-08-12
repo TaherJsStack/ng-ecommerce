@@ -9,9 +9,16 @@
       "product_id": "P001",
       "name": "Wireless Headphones",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "category_ids": ["C001"],
-      "branch_ids": ["B001"],
-      "tags": ["T001", "T002"],
+      "category_ids": [
+        "C001"
+      ],
+      "branch_ids": [
+        "B001"
+      ],
+      "tags": [
+        "T001",
+        "T002"
+      ],
       "brand": "AudioBrand",
       "images": [
         "assets/web-site-app/images/products/1.jpg",
@@ -61,9 +68,16 @@
       "product_id": "P002",
       "name": "Smartphone",
       "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "category_ids": ["C002"],
-      "branch_ids": ["B002"],
-      "tags": ["T003", "T004"],
+      "category_ids": [
+        "C002"
+      ],
+      "branch_ids": [
+        "B002"
+      ],
+      "tags": [
+        "T003",
+        "T004"
+      ],
       "brand": "TechBrand",
       "images": [
         "https://example.com/images/smartphone1.jpg",
@@ -112,9 +126,16 @@
       "product_id": "P003",
       "name": "Laptop",
       "description": "Powerful laptop with long battery life and high-speed performance.",
-      "category_ids": ["C003"],
-      "branch_ids": ["B003"],
-      "tags": ["T005", "T006"],
+      "category_ids": [
+        "C003"
+      ],
+      "branch_ids": [
+        "B003"
+      ],
+      "tags": [
+        "T005",
+        "T006"
+      ],
       "brand": "LaptopBrand",
       "images": [
         "https://example.com/images/laptop1.jpg",
@@ -163,9 +184,16 @@
       "product_id": "P004",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking features.",
-      "category_ids": ["C004"],
-      "branch_ids": ["B004"],
-      "tags": ["T007", "T008"],
+      "category_ids": [
+        "C004"
+      ],
+      "branch_ids": [
+        "B004"
+      ],
+      "tags": [
+        "T007",
+        "T008"
+      ],
       "brand": "WatchBrand",
       "images": [
         "https://example.com/images/smartwatch1.jpg",
@@ -214,9 +242,16 @@
       "product_id": "P005",
       "name": "Bluetooth Speaker",
       "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "category_ids": ["C005"],
-      "branch_ids": ["B005"],
-      "tags": ["T009", "T010"],
+      "category_ids": [
+        "C005"
+      ],
+      "branch_ids": [
+        "B005"
+      ],
+      "tags": [
+        "T009",
+        "T010"
+      ],
       "brand": "SoundBrand",
       "images": [
         "https://example.com/images/speaker1.jpg",
@@ -265,9 +300,16 @@
       "product_id": "P006",
       "name": "Tablet",
       "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "category_ids": ["C006"],
-      "branch_ids": ["B006"],
-      "tags": ["T011", "T012"],
+      "category_ids": [
+        "C006"
+      ],
+      "branch_ids": [
+        "B006"
+      ],
+      "tags": [
+        "T011",
+        "T012"
+      ],
       "brand": "TabBrand",
       "images": [
         "https://example.com/images/tablet1.jpg",
@@ -316,9 +358,16 @@
       "product_id": "P007",
       "name": "Gaming Console",
       "description": "Next-generation gaming console with ultra-fast graphics.",
-      "category_ids": ["C007"],
-      "branch_ids": ["B007"],
-      "tags": ["T013", "T014"],
+      "category_ids": [
+        "C007"
+      ],
+      "branch_ids": [
+        "B007"
+      ],
+      "tags": [
+        "T013",
+        "T014"
+      ],
       "brand": "ConsoleBrand",
       "images": [
         "https://example.com/images/console1.jpg",
@@ -367,9 +416,16 @@
       "product_id": "P008",
       "name": "Wireless Headphones",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "category_ids": ["C001"],
-      "branch_ids": ["B001"],
-      "tags": ["T001", "T002"],
+      "category_ids": [
+        "C001"
+      ],
+      "branch_ids": [
+        "B001"
+      ],
+      "tags": [
+        "T001",
+        "T002"
+      ],
       "brand": "AudioBrand",
       "images": [
         "https://example.com/images/headphones1.jpg",
@@ -402,9 +458,16 @@
       "product_id": "P009",
       "name": "Smartphone",
       "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "category_ids": ["C002"],
-      "branch_ids": ["B002"],
-      "tags": ["T003", "T004"],
+      "category_ids": [
+        "C002"
+      ],
+      "branch_ids": [
+        "B002"
+      ],
+      "tags": [
+        "T003",
+        "T004"
+      ],
       "brand": "TechBrand",
       "images": [
         "https://example.com/images/smartphone1.jpg",
@@ -437,9 +500,16 @@
       "product_id": "P010",
       "name": "Laptop",
       "description": "Powerful laptop with long battery life and high-speed performance.",
-      "category_ids": ["C003"],
-      "branch_ids": ["B003"],
-      "tags": ["T005", "T006"],
+      "category_ids": [
+        "C003"
+      ],
+      "branch_ids": [
+        "B003"
+      ],
+      "tags": [
+        "T005",
+        "T006"
+      ],
       "brand": "LaptopBrand",
       "images": [
         "https://example.com/images/laptop1.jpg",
@@ -472,9 +542,16 @@
       "product_id": "P011",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking features.",
-      "category_ids": ["C004"],
-      "branch_ids": ["B004"],
-      "tags": ["T007", "T008"],
+      "category_ids": [
+        "C004"
+      ],
+      "branch_ids": [
+        "B004"
+      ],
+      "tags": [
+        "T007",
+        "T008"
+      ],
       "brand": "WatchBrand",
       "images": [
         "https://example.com/images/smartwatch1.jpg",
@@ -499,6 +576,22 @@
           },
           "combinationStock": 300,
           "combinationPrice": 199.99
+        },
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 3,
+            "length": 9,
+            "width": 5
+          },
+          "attributes": {
+            "fit": "Regular",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 year"
+          },
+          "combinationStock": 20,
+          "combinationPrice": 394.92
         }
       ],
       "brand_id": null
@@ -507,9 +600,16 @@
       "product_id": "P012",
       "name": "Bluetooth Speaker",
       "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "category_ids": ["C005"],
-      "branch_ids": ["B005"],
-      "tags": ["T009", "T010"],
+      "category_ids": [
+        "C005"
+      ],
+      "branch_ids": [
+        "B005"
+      ],
+      "tags": [
+        "T009",
+        "T010"
+      ],
       "brand": "SoundBrand",
       "images": [
         "https://example.com/images/speaker1.jpg",
@@ -542,9 +642,16 @@
       "product_id": "P013",
       "name": "Tablet",
       "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "category_ids": ["C006"],
-      "branch_ids": ["B006"],
-      "tags": ["T011", "T012"],
+      "category_ids": [
+        "C006"
+      ],
+      "branch_ids": [
+        "B006"
+      ],
+      "tags": [
+        "T011",
+        "T012"
+      ],
       "brand": "TabBrand",
       "images": [
         "https://example.com/images/tablet1.jpg",
@@ -577,9 +684,16 @@
       "product_id": "P014",
       "name": "Gaming Console",
       "description": "Next-generation gaming console with ultra-fast graphics.",
-      "category_ids": ["C007"],
-      "branch_ids": ["B007"],
-      "tags": ["T013", "T014"],
+      "category_ids": [
+        "C007"
+      ],
+      "branch_ids": [
+        "B007"
+      ],
+      "tags": [
+        "T013",
+        "T014"
+      ],
       "brand": "ConsoleBrand",
       "images": [
         "https://example.com/images/console1.jpg",
@@ -612,9 +726,16 @@
       "product_id": "P015",
       "name": "Wireless Earbuds",
       "description": "Compact and ergonomic wireless earbuds with high sound quality.",
-      "category_ids": ["C001"],
-      "branch_ids": ["B001"],
-      "tags": ["T015", "T016"],
+      "category_ids": [
+        "C001"
+      ],
+      "branch_ids": [
+        "B001"
+      ],
+      "tags": [
+        "T015",
+        "T016"
+      ],
       "brand": "EarBrand",
       "images": [
         "https://example.com/images/earbuds1.jpg",
@@ -647,9 +768,16 @@
       "product_id": "P016",
       "name": "4K Action Camera",
       "description": "Compact and durable action camera with 4K video recording.",
-      "category_ids": ["C008"],
-      "branch_ids": ["B008"],
-      "tags": ["T017", "T018"],
+      "category_ids": [
+        "C008"
+      ],
+      "branch_ids": [
+        "B008"
+      ],
+      "tags": [
+        "T017",
+        "T018"
+      ],
       "brand": "CamBrand",
       "images": [
         "https://example.com/images/camera1.jpg",
@@ -682,9 +810,16 @@
       "product_id": "P017",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": ["C009"],
-      "branch_ids": ["B009"],
-      "tags": ["T019", "T020"],
+      "category_ids": [
+        "C009"
+      ],
+      "branch_ids": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
       "brand": "PhotoBrand",
       "images": [
         "https://example.com/images/digitalcamera1.jpg",
@@ -717,9 +852,16 @@
       "product_id": "P018",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": ["C009"],
-      "branch_ids": ["B009"],
-      "tags": ["T019", "T020"],
+      "category_ids": [
+        "C009"
+      ],
+      "branch_ids": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
       "brand": "PhotoBrand",
       "images": [
         "https://example.com/images/digitalcamera1.jpg",
@@ -752,9 +894,16 @@
       "product_id": "P019",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": ["C009"],
-      "branch_ids": ["B009"],
-      "tags": ["T019", "T020"],
+      "category_ids": [
+        "C009"
+      ],
+      "branch_ids": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
       "brand": "PhotoBrand",
       "images": [
         "https://example.com/images/digitalcamera1.jpg",
@@ -787,9 +936,16 @@
       "product_id": "P020",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": ["C009"],
-      "branch_ids": ["B009"],
-      "tags": ["T019", "T020"],
+      "category_ids": [
+        "C009"
+      ],
+      "branch_ids": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
       "brand": "PhotoBrand",
       "images": [
         "https://example.com/images/digitalcamera1.jpg",
@@ -822,9 +978,16 @@
       "product_id": "P021",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": ["C009"],
-      "branch_ids": ["B009"],
-      "tags": ["T019", "T020"],
+      "category_ids": [
+        "C009"
+      ],
+      "branch_ids": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
       "brand": "PhotoBrand",
       "images": [
         "https://example.com/images/digitalcamera1.jpg",
@@ -857,9 +1020,16 @@
       "product_id": "P022",
       "name": "Smartphone",
       "description": "High-performance smartphone with advanced features.",
-      "category_ids": ["C010"],
-      "branch_ids": ["B010"],
-      "tags": ["T021", "T022"],
+      "category_ids": [
+        "C010"
+      ],
+      "branch_ids": [
+        "B010"
+      ],
+      "tags": [
+        "T021",
+        "T022"
+      ],
       "brand": "TechGadget",
       "images": [
         "https://example.com/images/smartphone1.jpg",
@@ -892,9 +1062,16 @@
       "product_id": "P023",
       "name": "Wireless Headphones",
       "description": "Premium wireless headphones for immersive sound experience.",
-      "category_ids": ["C011"],
-      "branch_ids": ["B011"],
-      "tags": ["T023", "T024"],
+      "category_ids": [
+        "C011"
+      ],
+      "branch_ids": [
+        "B011"
+      ],
+      "tags": [
+        "T023",
+        "T024"
+      ],
       "brand": "SoundMasters",
       "images": [
         "https://example.com/images/headphones1.jpg",
@@ -923,14 +1100,20 @@
       ],
       "brand_id": null
     },
-
     {
       "product_id": "P024",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking and notifications.",
-      "category_ids": ["C012"],
-      "branch_ids": ["B012"],
-      "tags": ["T025", "T026"],
+      "category_ids": [
+        "C012"
+      ],
+      "branch_ids": [
+        "B012"
+      ],
+      "tags": [
+        "T025",
+        "T026"
+      ],
       "brand": "WristTech",
       "images": [
         "https://example.com/images/smartwatch1.jpg",
@@ -963,9 +1146,16 @@
       "product_id": "P025",
       "name": "Bluetooth Speaker",
       "description": "Portable speaker with deep bass and waterproof design.",
-      "category_ids": ["C013"],
-      "branch_ids": ["B013"],
-      "tags": ["T027", "T028"],
+      "category_ids": [
+        "C013"
+      ],
+      "branch_ids": [
+        "B013"
+      ],
+      "tags": [
+        "T027",
+        "T028"
+      ],
       "brand": "SoundBlaze",
       "images": [
         "https://example.com/images/speaker1.jpg",
@@ -998,9 +1188,16 @@
       "product_id": "P026",
       "name": "Laptop",
       "description": "Lightweight laptop with powerful performance and sleek design.",
-      "category_ids": ["C014"],
-      "branch_ids": ["B014"],
-      "tags": ["T029", "T030"],
+      "category_ids": [
+        "C014"
+      ],
+      "branch_ids": [
+        "B014"
+      ],
+      "tags": [
+        "T029",
+        "T030"
+      ],
       "brand": "CompCore",
       "images": [
         "https://example.com/images/laptop1.jpg",
@@ -1033,9 +1230,16 @@
       "product_id": "P027",
       "name": "Tablet",
       "description": "High-resolution tablet ideal for entertainment and productivity.",
-      "category_ids": ["C015"],
-      "branch_ids": ["B015"],
-      "tags": ["T031", "T032"],
+      "category_ids": [
+        "C015"
+      ],
+      "branch_ids": [
+        "B015"
+      ],
+      "tags": [
+        "T031",
+        "T032"
+      ],
       "brand": "TabPlus",
       "images": [
         "https://example.com/images/tablet1.jpg",
@@ -1068,9 +1272,16 @@
       "product_id": "P028",
       "name": "Gaming Console",
       "description": "Next-gen console with ultra-fast processing and immersive graphics.",
-      "category_ids": ["C016"],
-      "branch_ids": ["B016"],
-      "tags": ["T033", "T034"],
+      "category_ids": [
+        "C016"
+      ],
+      "branch_ids": [
+        "B016"
+      ],
+      "tags": [
+        "T033",
+        "T034"
+      ],
       "brand": "GameZone",
       "images": [
         "https://example.com/images/console1.jpg",
@@ -1099,14 +1310,20 @@
       ],
       "brand_id": null
     },
-
     {
       "product_id": "P029",
       "name": "4K Action Camera",
       "description": "Durable action camera with 4K recording and waterproof casing.",
-      "category_ids": ["C017"],
-      "branch_ids": ["B017"],
-      "tags": ["T035", "T036"],
+      "category_ids": [
+        "C017"
+      ],
+      "branch_ids": [
+        "B017"
+      ],
+      "tags": [
+        "T035",
+        "T036"
+      ],
       "brand": "CamPro",
       "images": [
         "https://example.com/images/actioncamera1.jpg",
@@ -1139,9 +1356,16 @@
       "product_id": "P030",
       "name": "Mechanical Keyboard",
       "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "category_ids": ["C018"],
-      "branch_ids": ["B018"],
-      "tags": ["T037", "T038"],
+      "category_ids": [
+        "C018"
+      ],
+      "branch_ids": [
+        "B018"
+      ],
+      "tags": [
+        "T037",
+        "T038"
+      ],
       "brand": "KeyMaster",
       "images": [
         "https://example.com/images/keyboard1.jpg",
@@ -1174,9 +1398,16 @@
       "product_id": "P031",
       "name": "Drone",
       "description": "Compact drone with HD camera and GPS tracking.",
-      "category_ids": ["C019"],
-      "branch_ids": ["B019"],
-      "tags": ["T039", "T040"],
+      "category_ids": [
+        "C019"
+      ],
+      "branch_ids": [
+        "B019"
+      ],
+      "tags": [
+        "T039",
+        "T040"
+      ],
       "brand": "SkyView",
       "images": [
         "https://example.com/images/drone1.jpg",
@@ -1209,9 +1440,16 @@
       "product_id": "P032",
       "name": "Smart Thermostat",
       "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "category_ids": ["C020"],
-      "branch_ids": ["B020"],
-      "tags": ["T041", "T042"],
+      "category_ids": [
+        "C020"
+      ],
+      "branch_ids": [
+        "B020"
+      ],
+      "tags": [
+        "T041",
+        "T042"
+      ],
       "brand": "HomeSense",
       "images": [
         "https://example.com/images/thermostat1.jpg",
@@ -1244,9 +1482,16 @@
       "product_id": "P033",
       "name": "E-Reader",
       "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "category_ids": ["C021"],
-      "branch_ids": ["B021"],
-      "tags": ["T043", "T044"],
+      "category_ids": [
+        "C021"
+      ],
+      "branch_ids": [
+        "B021"
+      ],
+      "tags": [
+        "T043",
+        "T044"
+      ],
       "brand": "ReadOn",
       "images": [
         "https://example.com/images/ereader1.jpg",
@@ -1279,9 +1524,16 @@
       "product_id": "P029",
       "name": "4K Action Camera",
       "description": "Durable action camera with 4K recording and waterproof casing.",
-      "category_ids": ["C017"],
-      "branch_ids": ["B017"],
-      "tags": ["T035", "T036"],
+      "category_ids": [
+        "C017"
+      ],
+      "branch_ids": [
+        "B017"
+      ],
+      "tags": [
+        "T035",
+        "T036"
+      ],
       "brand": "CamPro",
       "images": [
         "https://example.com/images/actioncamera1.jpg",
@@ -1314,9 +1566,16 @@
       "product_id": "P030",
       "name": "Mechanical Keyboard",
       "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "category_ids": ["C018"],
-      "branch_ids": ["B018"],
-      "tags": ["T037", "T038"],
+      "category_ids": [
+        "C018"
+      ],
+      "branch_ids": [
+        "B018"
+      ],
+      "tags": [
+        "T037",
+        "T038"
+      ],
       "brand": "KeyMaster",
       "images": [
         "https://example.com/images/keyboard1.jpg",
@@ -1349,9 +1608,16 @@
       "product_id": "P031",
       "name": "Drone",
       "description": "Compact drone with HD camera and GPS tracking.",
-      "category_ids": ["C019"],
-      "branch_ids": ["B019"],
-      "tags": ["T039", "T040"],
+      "category_ids": [
+        "C019"
+      ],
+      "branch_ids": [
+        "B019"
+      ],
+      "tags": [
+        "T039",
+        "T040"
+      ],
       "brand": "SkyView",
       "images": [
         "https://example.com/images/drone1.jpg",
@@ -1384,9 +1650,16 @@
       "product_id": "P032",
       "name": "Smart Thermostat",
       "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "category_ids": ["C020"],
-      "branch_ids": ["B020"],
-      "tags": ["T041", "T042"],
+      "category_ids": [
+        "C020"
+      ],
+      "branch_ids": [
+        "B020"
+      ],
+      "tags": [
+        "T041",
+        "T042"
+      ],
       "brand": "HomeSense",
       "images": [
         "https://example.com/images/thermostat1.jpg",
@@ -1419,9 +1692,16 @@
       "product_id": "P033",
       "name": "E-Reader",
       "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "category_ids": ["C021"],
-      "branch_ids": ["B021"],
-      "tags": ["T043", "T044"],
+      "category_ids": [
+        "C021"
+      ],
+      "branch_ids": [
+        "B021"
+      ],
+      "tags": [
+        "T043",
+        "T044"
+      ],
       "brand": "ReadOn",
       "images": [
         "https://example.com/images/ereader1.jpg",
