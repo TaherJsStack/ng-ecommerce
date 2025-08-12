@@ -181,7 +181,8 @@
     "members": "members",
     "phone": " phone",
     "combinations": "combinations",
-    "category_ids": "categories"
+    "category_ids": "categories",
+    "image": " image"
   },
   "dimensions": {
     "length": "length",

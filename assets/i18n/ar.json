@@ -181,7 +181,8 @@
     "members": "الاعضاء",
     "phone": "رقم الهاتف",
     "combinations": "التركيبات",
-    "category_ids": "التصنيفات"
+    "category_ids": "التصنيفات",
+    "image": "الصورة"
   },
   "dimensions": {
     "length": " الطول",
