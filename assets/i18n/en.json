@@ -270,7 +270,10 @@
       "applied_to_products": "applied to products",
       "profile_picture_url": "profile picture url",
       "confirm_password": "confirm password",
-      "user_id": "user"
+      "user_id": "user",
+      "tags": "tags",
+      "category_id": "category",
+      "content": "content"
     }
   },
   "FindUs": "Find Us",

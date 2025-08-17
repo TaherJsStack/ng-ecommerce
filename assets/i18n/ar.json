@@ -270,7 +270,10 @@
       "applied_to_products": " المنتجات التي تم تطبيقها",
       "profile_picture_url": "صورة الملف الشخصي",
       "confirm_password": "تأكيد كلمة المرور",
-      "user_id": "المستخدم"
+      "user_id": "المستخدم",
+      "tags": "الوسوم",
+      "category_id": "التصنيف",
+      "content": "المحتوى"
     }
   },
   "FindUs": "ابحث عننا",
