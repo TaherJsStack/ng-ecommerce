@@ -1,21 +1,29 @@
 {
   "status": 200,
-  "message": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjMxMWE2ZGVkNTFkYzZiYzQ1ZjllNGYiLCJlbWFpbCI6InRlc3QxQHRlc3QxIiwibmFtZSI6Ikxhc3QgRmlyc3QgMiIsInJvbGUiOjMsInBlcm1lYXRpb24iOlszXSwiaWF0IjoxNzI4NzIyNjQxLCJleHAiOjE3Mjg5ODE4NDF9.XswfwHRvjxp52asvTHjaericqFoxUSSlLsgaYLgZQE8",
+  "message": "Login successful",
   "success": true,
   "errors": [],
   "data": {
-    "_id": "66311a6ded51dc6bc45f9e4f",
-    "phone": "01155721425",
-    "image": "",
-    "active_state": true,
-    "role": 3,
-    "permeation": [3],
-    "created_at": "2024-04-30T15:40:40.118Z",
-    "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "firstName": "Taher ",
-    "lastName": "Ahmed",
-    "email": "test1@test1",
-    "updatedAt": "2024-06-23T06:06:34.547Z",
-    "username": "Default"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjMxMWE2ZGVkNTFkYzZiYzQ1ZjllNGYiLCJlbWFpbCI6InRlc3QxQHRlc3QxIiwibmFtZSI6Ikxhc3QgRmlyc3QgMiIsInJvbGUiOjMsInBlcm1lYXRpb24iOlszXSwiaWF0IjoxNzI4NzIyNjQxLCJleHAiOjE3Mjg5ODE4NDF9.XswfwHRvjxp52asvTHjaericqFoxUSSlLsgaYLgZQE8",
+    "expiresIn": 259200,
+    "tokenType": "Bearer",
+    "authId": "66311a6ded51dc6bc45f9e4f",
+    "user": {
+      "id": "66311a6ded51dc6bc45f9e4f",
+      "userProfileId": "66311a6ded51dc6bc45f9e4f",
+      "activeState": true,
+      "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "createdBy": "system",
+      "createdAt": "2024-04-30T15:40:40.118Z",
+      "updatedAt": "2024-06-23T06:06:34.547Z",
+      "firstName": "Taher",
+      "lastName": "Ahmed",
+      "username": "Default",
+      "phone": "01155721425",
+      "email": "test1@test1",
+      "role": 3,
+      "image": "",
+      "brancheId": "default-branch-id"
+    }
   }
 }

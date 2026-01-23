@@ -6,689 +6,733 @@
   "totalData": 20,
   "data": [
     {
-      "order_id": "ORD001",
-      "user_id": "U001",
-      "products": [
+      "id": "ORD001",
+      "orderId": "ORD001",
+      "orderNumber": "ORD-001",
+      "userProfileId": "U001",
+      "items": [
         {
-          "product_id": "P001",
+          "productId": "P001",
           "quantity": 2,
-          "price_at_purchase": 19.99
+          "priceAtPurchase": 19.99,
+          "subtotal": 39.98
         },
         {
-          "product_id": "P002",
+          "productId": "P002",
           "quantity": 1,
-          "price_at_purchase": 49.99
+          "priceAtPurchase": 49.99,
+          "subtotal": 49.99
         }
       ],
-      "total_price": 89.97,
-      "discount_applied": 10.0,
-      "shipping_address": {
+      "totalPrice": 89.97,
+      "discountAmount": 10.0,
+      "shippingAddress": {
         "street": "123 Main St",
         "city": "Springfield",
         "state": "IL",
-        "zip_code": "62704",
+        "zipCode": "62704",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "123 Main St",
         "city": "Springfield",
         "state": "IL",
-        "zip_code": "62704",
+        "zipCode": "62704",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "confirmed",
-      "ordered_at": "2024-09-10",
-      "shipped_at": "2024-09-12",
-      "delivered_at": "2024-09-14",
-      "created_by": "U001",
-      "updated_at": "2024-09-14"
+      "paymentMethod": "credit card",
+      "orderStatus": "completed",
+      "orderedAt": "2024-09-10",
+      "shippedAt": "2024-09-12",
+      "deliveredAt": "2024-09-14",
+      "createdBy": "U001",
+      "updatedAt": "2024-09-14",
+      "activeState": true,
+      "description": "Order record",
+      "createdAt": "2024-09-10",
+      "deletedAt": null
     },
     {
-      "order_id": "ORD002",
-      "user_id": "U002",
-      "products": [
+      "id": "ORD002",
+      "orderId": "ORD002",
+      "orderNumber": "ORD-002",
+      "userProfileId": "U002",
+      "items": [
         {
-          "product_id": "P003",
+          "productId": "P003",
           "quantity": 1,
-          "price_at_purchase": 299.99
+          "priceAtPurchase": 299.99
         }
       ],
-      "total_price": 299.99,
-      "discount_applied": 0,
-      "shipping_address": {
+      "totalPrice": 299.99,
+      "discountAmount": 0,
+      "shippingAddress": {
         "street": "456 Oak St",
         "city": "Chicago",
         "state": "IL",
-        "zip_code": "60616",
+        "zipCode": "60616",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "456 Oak St",
         "city": "Chicago",
         "state": "IL",
-        "zip_code": "60616",
+        "zipCode": "60616",
         "country": "USA"
       },
-      "payment_method": "PayPal",
-      "status": "shipped",
-      "ordered_at": "2024-09-08",
-      "shipped_at": "2024-09-10",
-      "delivered_at": null,
-      "created_by": "U002",
-      "updated_at": "2024-09-10"
+      "paymentMethod": "PayPal",
+      "orderStatus": "shipped",
+      "orderedAt": "2024-09-08",
+      "shippedAt": "2024-09-10",
+      "deliveredAt": null,
+      "createdBy": "U002",
+      "updatedAt": "2024-09-10"
     },
     {
-      "order_id": "ORD003",
-      "user_id": "U003",
-      "products": [
+      "id": "ORD003",
+      "userProfileId": "U003",
+      "items": [
         {
-          "product_id": "P002",
+          "productId": "P002",
           "quantity": 3,
-          "price_at_purchase": 49.99
+          "priceAtPurchase": 49.99,
+          "subtotal": 49.99
         }
       ],
-      "total_price": 149.97,
-      "discount_applied": 20.0,
-      "shipping_address": {
+      "totalPrice": 149.97,
+      "discountAmount": 20.0,
+      "shippingAddress": {
         "street": "789 Pine St",
         "city": "Los Angeles",
         "state": "CA",
-        "zip_code": "90001",
+        "zipCode": "90001",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "789 Pine St",
         "city": "Los Angeles",
         "state": "CA",
-        "zip_code": "90001",
+        "zipCode": "90001",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "pending",
-      "ordered_at": "2024-09-05",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U003",
-      "updated_at": "2024-09-05"
+      "paymentMethod": "credit card",
+      "orderStatus": "pending",
+      "orderedAt": "2024-09-05",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U003",
+      "updatedAt": "2024-09-05"
     },
     {
-      "order_id": "ORD004",
-      "user_id": "U004",
-      "products": [
+      "id": "ORD004",
+      "orderId": "ORD004",
+      "orderNumber": "ORD-004",
+      "userProfileId": "U004",
+      "items": [
         {
-          "product_id": "P004",
+          "productId": "P004",
           "quantity": 1,
-          "price_at_purchase": 99.99
+          "priceAtPurchase": 99.99
         }
       ],
-      "total_price": 99.99,
-      "discount_applied": 5.0,
-      "shipping_address": {
+      "totalPrice": 99.99,
+      "discountAmount": 5.0,
+      "shippingAddress": {
         "street": "101 Maple St",
         "city": "Houston",
         "state": "TX",
-        "zip_code": "77002",
+        "zipCode": "77002",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "101 Maple St",
         "city": "Houston",
         "state": "TX",
-        "zip_code": "77002",
+        "zipCode": "77002",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "delivered",
-      "ordered_at": "2024-09-01",
-      "shipped_at": "2024-09-03",
-      "delivered_at": "2024-09-05",
-      "created_by": "U004",
-      "updated_at": "2024-09-05"
+      "paymentMethod": "credit card",
+      "orderStatus": "delivered",
+      "orderedAt": "2024-09-01",
+      "shippedAt": "2024-09-03",
+      "deliveredAt": "2024-09-05",
+      "createdBy": "U004",
+      "updatedAt": "2024-09-05"
     },
     {
-      "order_id": "ORD005",
-      "user_id": "U005",
-      "products": [
+      "id": "ORD005",
+      "userProfileId": "U005",
+      "items": [
         {
-          "product_id": "P005",
+          "productId": "P005",
           "quantity": 2,
-          "price_at_purchase": 59.99
+          "priceAtPurchase": 59.99
         }
       ],
-      "total_price": 119.98,
-      "discount_applied": 15.0,
-      "shipping_address": {
+      "totalPrice": 119.98,
+      "discountAmount": 15.0,
+      "shippingAddress": {
         "street": "202 Cedar St",
         "city": "Dallas",
         "state": "TX",
-        "zip_code": "75201",
+        "zipCode": "75201",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "202 Cedar St",
         "city": "Dallas",
         "state": "TX",
-        "zip_code": "75201",
+        "zipCode": "75201",
         "country": "USA"
       },
-      "payment_method": "PayPal",
-      "status": "cancelled",
-      "ordered_at": "2024-09-07",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U005",
-      "updated_at": "2024-09-07"
+      "paymentMethod": "PayPal",
+      "orderStatus": "canceled",
+      "orderedAt": "2024-09-07",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U005",
+      "updatedAt": "2024-09-07"
     },
     {
-      "order_id": "ORD006",
-      "user_id": "U006",
-      "products": [
+      "id": "ORD006",
+      "orderId": "ORD006",
+      "orderNumber": "ORD-006",
+      "userProfileId": "U006",
+      "items": [
         {
-          "product_id": "P006",
+          "productId": "P006",
           "quantity": 4,
-          "price_at_purchase": 24.99
+          "priceAtPurchase": 24.99
         }
       ],
-      "total_price": 99.96,
-      "discount_applied": 10.0,
-      "shipping_address": {
+      "totalPrice": 99.96,
+      "discountAmount": 10.0,
+      "shippingAddress": {
         "street": "303 Birch St",
         "city": "Miami",
         "state": "FL",
-        "zip_code": "33101",
+        "zipCode": "33101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "303 Birch St",
         "city": "Miami",
         "state": "FL",
-        "zip_code": "33101",
+        "zipCode": "33101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "confirmed",
-      "ordered_at": "2024-09-09",
-      "shipped_at": "2024-09-10",
-      "delivered_at": null,
-      "created_by": "U006",
-      "updated_at": "2024-09-10"
+      "paymentMethod": "credit card",
+      "orderStatus": "completed",
+      "orderedAt": "2024-09-09",
+      "shippedAt": "2024-09-10",
+      "deliveredAt": null,
+      "createdBy": "U006",
+      "updatedAt": "2024-09-10"
     },
     {
-      "order_id": "ORD007",
-      "user_id": "U007",
-      "products": [
+      "id": "ORD007",
+      "userProfileId": "U007",
+      "items": [
         {
-          "product_id": "P007",
+          "productId": "P007",
           "quantity": 1,
-          "price_at_purchase": 199.99
+          "priceAtPurchase": 199.99
         }
       ],
-      "total_price": 199.99,
-      "discount_applied": 0,
-      "shipping_address": {
+      "totalPrice": 199.99,
+      "discountAmount": 0,
+      "shippingAddress": {
         "street": "404 Elm St",
         "city": "Orlando",
         "state": "FL",
-        "zip_code": "32801",
+        "zipCode": "32801",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "404 Elm St",
         "city": "Orlando",
         "state": "FL",
-        "zip_code": "32801",
+        "zipCode": "32801",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "delivered",
-      "ordered_at": "2024-09-10",
-      "shipped_at": "2024-09-12",
-      "delivered_at": "2024-09-14",
-      "created_by": "U007",
-      "updated_at": "2024-09-14"
+      "paymentMethod": "credit card",
+      "orderStatus": "delivered",
+      "orderedAt": "2024-09-10",
+      "shippedAt": "2024-09-12",
+      "deliveredAt": "2024-09-14",
+      "createdBy": "U007",
+      "updatedAt": "2024-09-14",
+      "activeState": true,
+      "description": "Order record",
+      "createdAt": "2024-09-10",
+      "deletedAt": null
     },
     {
-      "order_id": "ORD008",
-      "user_id": "U008",
-      "products": [
+      "id": "ORD008",
+      "orderId": "ORD008",
+      "orderNumber": "ORD-008",
+      "userProfileId": "U008",
+      "items": [
         {
-          "product_id": "P008",
+          "productId": "P008",
           "quantity": 1,
-          "price_at_purchase": 399.99
+          "priceAtPurchase": 399.99
         }
       ],
-      "total_price": 399.99,
-      "discount_applied": 50.0,
-      "shipping_address": {
+      "totalPrice": 399.99,
+      "discountAmount": 50.0,
+      "shippingAddress": {
         "street": "123 Cherry Ln",
         "city": "Seattle",
         "state": "WA",
-        "zip_code": "98101",
+        "zipCode": "98101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "123 Cherry Ln",
         "city": "Seattle",
         "state": "WA",
-        "zip_code": "98101",
+        "zipCode": "98101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "pending",
-      "ordered_at": "2024-09-15",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U008",
-      "updated_at": "2024-09-15"
+      "paymentMethod": "credit card",
+      "orderStatus": "pending",
+      "orderedAt": "2024-09-15",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U008",
+      "updatedAt": "2024-09-15"
     },
     {
-      "order_id": "ORD009",
-      "user_id": "U009",
-      "products": [
+      "id": "ORD009",
+      "orderId": "ORD009",
+      "orderNumber": "ORD-009",
+      "userProfileId": "U009",
+      "items": [
         {
-          "product_id": "P009",
+          "productId": "P009",
           "quantity": 3,
-          "price_at_purchase": 89.99
+          "priceAtPurchase": 89.99
         }
       ],
-      "total_price": 269.97,
-      "discount_applied": 20.0,
-      "shipping_address": {
+      "totalPrice": 269.97,
+      "discountAmount": 20.0,
+      "shippingAddress": {
         "street": "456 Pineview Dr",
         "city": "Portland",
         "state": "OR",
-        "zip_code": "97201",
+        "zipCode": "97201",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "456 Pineview Dr",
         "city": "Portland",
         "state": "OR",
-        "zip_code": "97201",
+        "zipCode": "97201",
         "country": "USA"
       },
-      "payment_method": "PayPal",
-      "status": "shipped",
-      "ordered_at": "2024-09-08",
-      "shipped_at": "2024-09-10",
-      "delivered_at": "2024-09-12",
-      "created_by": "U009",
-      "updated_at": "2024-09-12"
+      "paymentMethod": "PayPal",
+      "orderStatus": "shipped",
+      "orderedAt": "2024-09-08",
+      "shippedAt": "2024-09-10",
+      "deliveredAt": "2024-09-12",
+      "createdBy": "U009",
+      "updatedAt": "2024-09-12"
     },
     {
-      "order_id": "ORD010",
-      "user_id": "U010",
-      "products": [
+      "id": "ORD010",
+      "orderId": "ORD010",
+      "orderNumber": "ORD-010",
+      "userProfileId": "U010",
+      "items": [
         {
-          "product_id": "P010",
+          "productId": "P010",
           "quantity": 1,
-          "price_at_purchase": 599.99
+          "priceAtPurchase": 599.99
         }
       ],
-      "total_price": 599.99,
-      "discount_applied": 100.0,
-      "shipping_address": {
+      "totalPrice": 599.99,
+      "discountAmount": 100.0,
+      "shippingAddress": {
         "street": "789 Ocean Blvd",
         "city": "San Diego",
         "state": "CA",
-        "zip_code": "92101",
+        "zipCode": "92101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "789 Ocean Blvd",
         "city": "San Diego",
         "state": "CA",
-        "zip_code": "92101",
+        "zipCode": "92101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "confirmed",
-      "ordered_at": "2024-09-06",
-      "shipped_at": "2024-09-08",
-      "delivered_at": "2024-09-10",
-      "created_by": "U010",
-      "updated_at": "2024-09-10"
+      "paymentMethod": "credit card",
+      "orderStatus": "completed",
+      "orderedAt": "2024-09-06",
+      "shippedAt": "2024-09-08",
+      "deliveredAt": "2024-09-10",
+      "createdBy": "U010",
+      "updatedAt": "2024-09-10"
     },
     {
-      "order_id": "ORD011",
-      "user_id": "U011",
-      "products": [
+      "id": "ORD011",
+      "userProfileId": "U011",
+      "items": [
         {
-          "product_id": "P011",
+          "productId": "P011",
           "quantity": 2,
-          "price_at_purchase": 79.99
+          "priceAtPurchase": 79.99
         }
       ],
-      "total_price": 159.98,
-      "discount_applied": 30.0,
-      "shipping_address": {
+      "totalPrice": 159.98,
+      "discountAmount": 30.0,
+      "shippingAddress": {
         "street": "101 River St",
         "city": "Denver",
         "state": "CO",
-        "zip_code": "80201",
+        "zipCode": "80201",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "101 River St",
         "city": "Denver",
         "state": "CO",
-        "zip_code": "80201",
+        "zipCode": "80201",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "delivered",
-      "ordered_at": "2024-09-03",
-      "shipped_at": "2024-09-05",
-      "delivered_at": "2024-09-07",
-      "created_by": "U011",
-      "updated_at": "2024-09-07"
+      "paymentMethod": "credit card",
+      "orderStatus": "delivered",
+      "orderedAt": "2024-09-03",
+      "shippedAt": "2024-09-05",
+      "deliveredAt": "2024-09-07",
+      "createdBy": "U011",
+      "updatedAt": "2024-09-07"
     },
     {
-      "order_id": "ORD012",
-      "user_id": "U012",
-      "products": [
+      "id": "ORD012",
+      "orderId": "ORD012",
+      "orderNumber": "ORD-012",
+      "userProfileId": "U012",
+      "items": [
         {
-          "product_id": "P012",
+          "productId": "P012",
           "quantity": 1,
-          "price_at_purchase": 499.99
+          "priceAtPurchase": 499.99
         }
       ],
-      "total_price": 499.99,
-      "discount_applied": 75.0,
-      "shipping_address": {
+      "totalPrice": 499.99,
+      "discountAmount": 75.0,
+      "shippingAddress": {
         "street": "505 Hillside Ave",
         "city": "Phoenix",
         "state": "AZ",
-        "zip_code": "85001",
+        "zipCode": "85001",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "505 Hillside Ave",
         "city": "Phoenix",
         "state": "AZ",
-        "zip_code": "85001",
+        "zipCode": "85001",
         "country": "USA"
       },
-      "payment_method": "PayPal",
-      "status": "shipped",
-      "ordered_at": "2024-09-04",
-      "shipped_at": "2024-09-06",
-      "delivered_at": null,
-      "created_by": "U012",
-      "updated_at": "2024-09-06"
+      "paymentMethod": "PayPal",
+      "orderStatus": "shipped",
+      "orderedAt": "2024-09-04",
+      "shippedAt": "2024-09-06",
+      "deliveredAt": null,
+      "createdBy": "U012",
+      "updatedAt": "2024-09-06"
     },
     {
-      "order_id": "ORD013",
-      "user_id": "U013",
-      "products": [
+      "id": "ORD013",
+      "userProfileId": "U013",
+      "items": [
         {
-          "product_id": "P013",
+          "productId": "P013",
           "quantity": 1,
-          "price_at_purchase": 149.99
+          "priceAtPurchase": 149.99
         }
       ],
-      "total_price": 149.99,
-      "discount_applied": 0,
-      "shipping_address": {
+      "totalPrice": 149.99,
+      "discountAmount": 0,
+      "shippingAddress": {
         "street": "909 Sunset Rd",
         "city": "Las Vegas",
         "state": "NV",
-        "zip_code": "89101",
+        "zipCode": "89101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "909 Sunset Rd",
         "city": "Las Vegas",
         "state": "NV",
-        "zip_code": "89101",
+        "zipCode": "89101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "pending",
-      "ordered_at": "2024-09-11",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U013",
-      "updated_at": "2024-09-11"
+      "paymentMethod": "credit card",
+      "orderStatus": "pending",
+      "orderedAt": "2024-09-11",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U013",
+      "updatedAt": "2024-09-11"
     },
     {
-      "order_id": "ORD014",
-      "user_id": "U014",
-      "products": [
+      "id": "ORD014",
+      "orderId": "ORD014",
+      "orderNumber": "ORD-014",
+      "userProfileId": "U014",
+      "items": [
         {
-          "product_id": "P014",
+          "productId": "P014",
           "quantity": 3,
-          "price_at_purchase": 199.99
+          "priceAtPurchase": 199.99
         }
       ],
-      "total_price": 599.97,
-      "discount_applied": 50.0,
-      "shipping_address": {
+      "totalPrice": 599.97,
+      "discountAmount": 50.0,
+      "shippingAddress": {
         "street": "112 Redwood Dr",
         "city": "San Francisco",
         "state": "CA",
-        "zip_code": "94101",
+        "zipCode": "94101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "112 Redwood Dr",
         "city": "San Francisco",
         "state": "CA",
-        "zip_code": "94101",
+        "zipCode": "94101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "cancelled",
-      "ordered_at": "2024-09-13",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U014",
-      "updated_at": "2024-09-13"
+      "paymentMethod": "credit card",
+      "orderStatus": "canceled",
+      "orderedAt": "2024-09-13",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U014",
+      "updatedAt": "2024-09-13"
     },
     {
-      "order_id": "ORD015",
-      "user_id": "U015",
-      "products": [
+      "id": "ORD015",
+      "userProfileId": "U015",
+      "items": [
         {
-          "product_id": "P015",
+          "productId": "P015",
           "quantity": 2,
-          "price_at_purchase": 89.99
+          "priceAtPurchase": 89.99
         }
       ],
-      "total_price": 179.98,
-      "discount_applied": 20.0,
-      "shipping_address": {
+      "totalPrice": 179.98,
+      "discountAmount": 20.0,
+      "shippingAddress": {
         "street": "707 Bayview Ln",
         "city": "Tampa",
         "state": "FL",
-        "zip_code": "33601",
+        "zipCode": "33601",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "707 Bayview Ln",
         "city": "Tampa",
         "state": "FL",
-        "zip_code": "33601",
+        "zipCode": "33601",
         "country": "USA"
       },
-      "payment_method": "PayPal",
-      "status": "confirmed",
-      "ordered_at": "2024-09-09",
-      "shipped_at": "2024-09-10",
-      "delivered_at": null,
-      "created_by": "U015",
-      "updated_at": "2024-09-10"
+      "paymentMethod": "PayPal",
+      "orderStatus": "completed",
+      "orderedAt": "2024-09-09",
+      "shippedAt": "2024-09-10",
+      "deliveredAt": null,
+      "createdBy": "U015",
+      "updatedAt": "2024-09-10"
     },
     {
-      "order_id": "ORD016",
-      "user_id": "U016",
-      "products": [
+      "id": "ORD016",
+      "orderId": "ORD016",
+      "orderNumber": "ORD-016",
+      "userProfileId": "U016",
+      "items": [
         {
-          "product_id": "P016",
+          "productId": "P016",
           "quantity": 1,
-          "price_at_purchase": 249.99
+          "priceAtPurchase": 249.99
         }
       ],
-      "total_price": 249.99,
-      "discount_applied": 0,
-      "shipping_address": {
+      "totalPrice": 249.99,
+      "discountAmount": 0,
+      "shippingAddress": {
         "street": "909 Walnut St",
         "city": "New York",
         "state": "NY",
-        "zip_code": "10001",
+        "zipCode": "10001",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "909 Walnut St",
         "city": "New York",
         "state": "NY",
-        "zip_code": "10001",
+        "zipCode": "10001",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "pending",
-      "ordered_at": "2024-09-15",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U016",
-      "updated_at": "2024-09-15"
+      "paymentMethod": "credit card",
+      "orderStatus": "pending",
+      "orderedAt": "2024-09-15",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U016",
+      "updatedAt": "2024-09-15"
     },
     {
-      "order_id": "ORD017",
-      "user_id": "U017",
-      "products": [
+      "id": "ORD017",
+      "userProfileId": "U017",
+      "items": [
         {
-          "product_id": "P017",
+          "productId": "P017",
           "quantity": 2,
-          "price_at_purchase": 49.99
+          "priceAtPurchase": 49.99,
+          "subtotal": 49.99
         }
       ],
-      "total_price": 99.98,
-      "discount_applied": 15.0,
-      "shipping_address": {
+      "totalPrice": 99.98,
+      "discountAmount": 15.0,
+      "shippingAddress": {
         "street": "404 Highland Ave",
         "city": "Boston",
         "state": "MA",
-        "zip_code": "02101",
+        "zipCode": "02101",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "404 Highland Ave",
         "city": "Boston",
         "state": "MA",
-        "zip_code": "02101",
+        "zipCode": "02101",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "delivered",
-      "ordered_at": "2024-09-10",
-      "shipped_at": "2024-09-12",
-      "delivered_at": "2024-09-14",
-      "created_by": "U017",
-      "updated_at": "2024-09-14"
+      "paymentMethod": "credit card",
+      "orderStatus": "delivered",
+      "orderedAt": "2024-09-10",
+      "shippedAt": "2024-09-12",
+      "deliveredAt": "2024-09-14",
+      "createdBy": "U017",
+      "updatedAt": "2024-09-14",
+      "activeState": true,
+      "description": "Order record",
+      "createdAt": "2024-09-10",
+      "deletedAt": null
     },
     {
-      "order_id": "ORD018",
-      "user_id": "U018",
-      "products": [
+      "id": "ORD018",
+      "orderId": "ORD018",
+      "orderNumber": "ORD-018",
+      "userProfileId": "U018",
+      "items": [
         {
-          "product_id": "P018",
+          "productId": "P018",
           "quantity": 1,
-          "price_at_purchase": 199.99
+          "priceAtPurchase": 199.99
         }
       ],
-      "total_price": 199.99,
-      "discount_applied": 25.0,
-      "shipping_address": {
+      "totalPrice": 199.99,
+      "discountAmount": 25.0,
+      "shippingAddress": {
         "street": "202 Lakeview Blvd",
         "city": "Austin",
         "state": "TX",
-        "zip_code": "78701",
+        "zipCode": "78701",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "202 Lakeview Blvd",
         "city": "Austin",
         "state": "TX",
-        "zip_code": "78701",
+        "zipCode": "78701",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "shipped",
-      "ordered_at": "2024-09-14",
-      "shipped_at": "2024-09-16",
-      "delivered_at": null,
-      "created_by": "U018",
-      "updated_at": "2024-09-16"
+      "paymentMethod": "credit card",
+      "orderStatus": "shipped",
+      "orderedAt": "2024-09-14",
+      "shippedAt": "2024-09-16",
+      "deliveredAt": null,
+      "createdBy": "U018",
+      "updatedAt": "2024-09-16"
     },
     {
-      "order_id": "ORD019",
-      "user_id": "U019",
-      "products": [
+      "id": "ORD019",
+      "userProfileId": "U019",
+      "items": [
         {
-          "product_id": "P019",
+          "productId": "P019",
           "quantity": 3,
-          "price_at_purchase": 29.99
+          "priceAtPurchase": 29.99
         }
       ],
-      "total_price": 89.97,
-      "discount_applied": 10.0,
-      "shipping_address": {
+      "totalPrice": 89.97,
+      "discountAmount": 10.0,
+      "shippingAddress": {
         "street": "101 Valley Rd",
         "city": "Atlanta",
         "state": "GA",
-        "zip_code": "30301",
+        "zipCode": "30301",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "101 Valley Rd",
         "city": "Atlanta",
         "state": "GA",
-        "zip_code": "30301",
+        "zipCode": "30301",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "confirmed",
-      "ordered_at": "2024-09-12",
-      "shipped_at": "2024-09-14",
-      "delivered_at": null,
-      "created_by": "U019",
-      "updated_at": "2024-09-14"
+      "paymentMethod": "credit card",
+      "orderStatus": "completed",
+      "orderedAt": "2024-09-12",
+      "shippedAt": "2024-09-14",
+      "deliveredAt": null,
+      "createdBy": "U019",
+      "updatedAt": "2024-09-14",
+      "activeState": true,
+      "description": "Order record",
+      "createdAt": "2024-09-10",
+      "deletedAt": null
     },
     {
-      "order_id": "ORD020",
-      "user_id": "U020",
-      "products": [
+      "id": "ORD020",
+      "orderId": "ORD020",
+      "orderNumber": "ORD-020",
+      "userProfileId": "U020",
+      "items": [
         {
-          "product_id": "P020",
+          "productId": "P020",
           "quantity": 1,
-          "price_at_purchase": 149.99
+          "priceAtPurchase": 149.99
         }
       ],
-      "total_price": 149.99,
-      "discount_applied": 20.0,
-      "shipping_address": {
+      "totalPrice": 149.99,
+      "discountAmount": 20.0,
+      "shippingAddress": {
         "street": "606 Harbor Dr",
         "city": "Baltimore",
         "state": "MD",
-        "zip_code": "21201",
+        "zipCode": "21201",
         "country": "USA"
       },
-      "billing_address": {
+      "billingAddress": {
         "street": "606 Harbor Dr",
         "city": "Baltimore",
         "state": "MD",
-        "zip_code": "21201",
+        "zipCode": "21201",
         "country": "USA"
       },
-      "payment_method": "credit card",
-      "status": "pending",
-      "ordered_at": "2024-09-15",
-      "shipped_at": null,
-      "delivered_at": null,
-      "created_by": "U020",
-      "updated_at": "2024-09-15"
+      "paymentMethod": "credit card",
+      "orderStatus": "pending",
+      "orderedAt": "2024-09-15",
+      "shippedAt": null,
+      "deliveredAt": null,
+      "createdBy": "U020",
+      "updatedAt": "2024-09-15"
     }
   ]
 }

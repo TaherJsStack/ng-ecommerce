@@ -6,424 +6,584 @@
   "totalData": 20,
   "data": [
     {
-      "branch_id": "B001",
+      "id": "B001",
+      "branchId": "B001",
       "name": "Main Branch",
       "location": {
         "street": "123 Main St",
         "city": "Metropolis",
         "state": "NY",
-        "zip_code": "10001",
+        "zipCode": "10001",
         "country": "USA"
       },
-      "contact_number": "+11234567890",
-      "manager_id": "E001",
+      "contactNumber": "+11234567890",
+      "managerId": "E001",
+      "managerName": "Manager One",
       "email": "main.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U001",
-      "created_at": "2023-01-01",
-      "updated_at": "2023-01-01"
+      "capacity": 100,
+      "isActive": true,
+      "openingDate": "2023-01-01",
+      "activeState": true,
+      "description": "Main branch location",
+      "createdBy": "U001",
+      "createdAt": "2023-01-01",
+      "updatedAt": "2023-01-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B002",
+      "id": "B002",
+      "branchId": "B002",
       "name": "East Branch",
       "location": {
         "street": "456 East St",
         "city": "Gotham",
         "state": "NY",
-        "zip_code": "10002",
+        "zipCode": "10002",
         "country": "USA"
       },
-      "contact_number": "+11234567891",
-      "manager_id": "E002",
+      "contactNumber": "+11234567891",
+      "managerId": "E002",
+      "managerName": "Manager Two",
       "email": "east.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "10:00",
         "close": "18:00"
       },
-      "created_by": "U002",
-      "created_at": "2023-02-01",
-      "updated_at": "2023-02-01"
+      "capacity": 80,
+      "isActive": true,
+      "openingDate": "2023-02-01",
+      "activeState": true,
+      "description": "East branch location",
+      "createdBy": "U002",
+      "createdAt": "2023-02-01",
+      "updatedAt": "2023-02-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B003",
+      "id": "B003",
+      "branchId": "B003",
       "name": "West Branch",
       "location": {
         "street": "789 West St",
         "city": "Star City",
         "state": "CA",
-        "zip_code": "90001",
+        "zipCode": "90001",
         "country": "USA"
       },
-      "contact_number": "+11234567892",
-      "manager_id": "E003",
+      "contactNumber": "+11234567892",
+      "managerId": "E003",
+      "managerName": "Manager Three",
       "email": "west.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "08:00",
         "close": "16:00"
       },
-      "created_by": "U003",
-      "created_at": "2023-03-01",
-      "updated_at": "2023-03-01"
+      "capacity": 90,
+      "isActive": true,
+      "openingDate": "2023-03-01",
+      "activeState": true,
+      "description": "West branch location",
+      "createdBy": "U003",
+      "createdAt": "2023-03-01",
+      "updatedAt": "2023-03-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B004",
+      "id": "B004",
+      "branchId": "B004",
       "name": "South Branch",
       "location": {
         "street": "321 South St",
         "city": "Smallville",
         "state": "TX",
-        "zip_code": "75001",
+        "zipCode": "75001",
         "country": "USA"
       },
-      "contact_number": "+11234567893",
-      "manager_id": "E004",
+      "contactNumber": "+11234567893",
+      "managerId": "E004",
+      "managerName": "Manager Four",
       "email": "south.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U004",
-      "created_at": "2023-04-01",
-      "updated_at": "2023-04-01"
+      "capacity": 70,
+      "isActive": true,
+      "openingDate": "2023-04-01",
+      "activeState": true,
+      "description": "South branch location",
+      "createdBy": "U004",
+      "createdAt": "2023-04-01",
+      "updatedAt": "2023-04-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B005",
+      "id": "B005",
+      "branchId": "B005",
       "name": "North Branch",
       "location": {
         "street": "654 North St",
         "city": "Central City",
         "state": "IL",
-        "zip_code": "60001",
+        "zipCode": "60001",
         "country": "USA"
       },
-      "contact_number": "+11234567894",
-      "manager_id": "E005",
+      "contactNumber": "+11234567894",
+      "managerId": "E005",
+      "managerName": "Manager Five",
       "email": "north.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:30",
         "close": "17:30"
       },
-      "created_by": "U005",
-      "created_at": "2023-05-01",
-      "updated_at": "2023-05-01"
+      "capacity": 85,
+      "isActive": true,
+      "openingDate": "2023-05-01",
+      "activeState": true,
+      "description": "North branch location",
+      "createdBy": "U005",
+      "createdAt": "2023-05-01",
+      "updatedAt": "2023-05-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B006",
+      "id": "B006",
+      "branchId": "B006",
       "name": "Downtown Branch",
       "location": {
         "street": "987 Downtown St",
         "city": "Metropolis",
         "state": "NY",
-        "zip_code": "10003",
+        "zipCode": "10003",
         "country": "USA"
       },
-      "contact_number": "+11234567895",
-      "manager_id": "E006",
+      "contactNumber": "+11234567895",
+      "managerId": "E006",
+      "managerName": "Manager Six",
       "email": "downtown.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U006",
-      "created_at": "2023-06-01",
-      "updated_at": "2023-06-01"
+      "capacity": 120,
+      "isActive": true,
+      "openingDate": "2023-06-01",
+      "activeState": true,
+      "description": "Downtown branch location",
+      "createdBy": "U006",
+      "createdAt": "2023-06-01",
+      "updatedAt": "2023-06-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B007",
+      "id": "B007",
+      "branchId": "B007",
       "name": "Mall Branch",
       "location": {
         "street": "135 Mall Ave",
         "city": "Gotham",
         "state": "NY",
-        "zip_code": "10004",
+        "zipCode": "10004",
         "country": "USA"
       },
-      "contact_number": "+11234567896",
-      "manager_id": "E007",
+      "contactNumber": "+11234567896",
+      "managerId": "E007",
+      "managerName": "Manager Seven",
       "email": "mall.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "10:00",
         "close": "20:00"
       },
-      "created_by": "U007",
-      "created_at": "2023-07-01",
-      "updated_at": "2023-07-01"
+      "capacity": 95,
+      "isActive": true,
+      "openingDate": "2023-07-01",
+      "activeState": true,
+      "description": "Mall branch location",
+      "createdBy": "U007",
+      "createdAt": "2023-07-01",
+      "updatedAt": "2023-07-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B008",
+      "id": "B008",
+      "branchId": "B008",
       "name": "Suburban Branch",
       "location": {
         "street": "246 Suburb St",
         "city": "Star City",
         "state": "CA",
-        "zip_code": "90002",
+        "zipCode": "90002",
         "country": "USA"
       },
-      "contact_number": "+11234567897",
-      "manager_id": "E008",
+      "contactNumber": "+11234567897",
+      "managerId": "E008",
+      "managerName": "Manager Eight",
       "email": "suburban.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U008",
-      "created_at": "2023-08-01",
-      "updated_at": "2023-08-01"
+      "capacity": 75,
+      "isActive": true,
+      "openingDate": "2023-08-01",
+      "activeState": true,
+      "description": "Suburban branch location",
+      "createdBy": "U008",
+      "createdAt": "2023-08-01",
+      "updatedAt": "2023-08-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B009",
+      "id": "B009",
+      "branchId": "B009",
       "name": "Regional Branch",
       "location": {
         "street": "852 Regional Blvd",
         "city": "Smallville",
         "state": "TX",
-        "zip_code": "75002",
+        "zipCode": "75002",
         "country": "USA"
       },
-      "contact_number": "+11234567898",
-      "manager_id": "E009",
+      "contactNumber": "+11234567898",
+      "managerId": "E009",
+      "managerName": "Manager Nine",
       "email": "regional.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "08:30",
         "close": "16:30"
       },
-      "created_by": "U009",
-      "created_at": "2023-09-01",
-      "updated_at": "2023-09-01"
+      "capacity": 110,
+      "isActive": true,
+      "openingDate": "2023-09-01",
+      "activeState": true,
+      "description": "Regional branch location",
+      "createdBy": "U009",
+      "createdAt": "2023-09-01",
+      "updatedAt": "2023-09-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B010",
+      "id": "B010",
+      "branchId": "B010",
       "name": "Coastal Branch",
       "location": {
         "street": "369 Coastal St",
         "city": "Pacific City",
         "state": "CA",
-        "zip_code": "90003",
+        "zipCode": "90003",
         "country": "USA"
       },
-      "contact_number": "+11234567899",
-      "manager_id": "E010",
+      "contactNumber": "+11234567899",
+      "managerId": "E010",
+      "managerName": "Manager Ten",
       "email": "coastal.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U010",
-      "created_at": "2023-10-01",
-      "updated_at": "2023-10-01"
+      "capacity": 65,
+      "isActive": true,
+      "openingDate": "2023-10-01",
+      "activeState": true,
+      "description": "Coastal branch location",
+      "createdBy": "U010",
+      "createdAt": "2023-10-01",
+      "updatedAt": "2023-10-01",
+      "deletedAt": null
     },
     {
-      "branch_id": "B011",
+      "id": "B011",
+      "branchId": "B011",
       "name": "Island Branch",
       "location": {
         "street": "741 Island Blvd",
         "city": "Ocean City",
         "state": "FL",
-        "zip_code": "32003",
+        "zipCode": "32003",
         "country": "USA"
       },
-      "contact_number": "+11234567900",
-      "manager_id": "E011",
+      "contactNumber": "+11234567900",
+      "managerId": "E011",
+      "managerName": "Manager Eleven",
       "email": "island.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U011",
-      "created_at": "2023-10-02",
-      "updated_at": "2023-10-02"
+      "capacity": 55,
+      "isActive": true,
+      "openingDate": "2023-10-02",
+      "activeState": true,
+      "description": "Island branch location",
+      "createdBy": "U011",
+      "createdAt": "2023-10-02",
+      "updatedAt": "2023-10-02",
+      "deletedAt": null
     },
     {
-      "branch_id": "B012",
+      "id": "B012",
+      "branchId": "B012",
       "name": "River Branch",
       "location": {
         "street": "159 River Rd",
         "city": "River City",
         "state": "IL",
-        "zip_code": "60002",
+        "zipCode": "60002",
         "country": "USA"
       },
-      "contact_number": "+11234567901",
-      "manager_id": "E012",
+      "contactNumber": "+11234567901",
+      "managerId": "E012",
+      "managerName": "Manager Twelve",
       "email": "river.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U012",
-      "created_at": "2023-10-03",
-      "updated_at": "2023-10-03"
+      "capacity": 60,
+      "isActive": true,
+      "openingDate": "2023-10-03",
+      "activeState": true,
+      "description": "River branch location",
+      "createdBy": "U012",
+      "createdAt": "2023-10-03",
+      "updatedAt": "2023-10-03",
+      "deletedAt": null
     },
     {
-      "branch_id": "B013",
+      "id": "B013",
+      "branchId": "B013",
       "name": "Forest Branch",
       "location": {
         "street": "456 Forest Way",
         "city": "Forest City",
         "state": "TX",
-        "zip_code": "75003",
+        "zipCode": "75003",
         "country": "USA"
       },
-      "contact_number": "+11234567902",
-      "manager_id": "E013",
+      "contactNumber": "+11234567902",
+      "managerId": "E013",
+      "managerName": "Manager Thirteen",
       "email": "forest.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U013",
-      "created_at": "2023-10-04",
-      "updated_at": "2023-10-04"
+      "capacity": 50,
+      "isActive": true,
+      "openingDate": "2023-10-04",
+      "activeState": true,
+      "description": "Forest branch location",
+      "createdBy": "U013",
+      "createdAt": "2023-10-04",
+      "updatedAt": "2023-10-04",
+      "deletedAt": null
     },
     {
-      "branch_id": "B014",
+      "id": "B014",
+      "branchId": "B014",
       "name": "Mountain Branch",
       "location": {
         "street": "753 Mountain Rd",
         "city": "Mountain City",
         "state": "CO",
-        "zip_code": "80003",
+        "zipCode": "80003",
         "country": "USA"
       },
-      "contact_number": "+11234567903",
-      "manager_id": "E014",
+      "contactNumber": "+11234567903",
+      "managerId": "E014",
+      "managerName": "Manager Fourteen",
       "email": "mountain.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U014",
-      "created_at": "2023-10-05",
-      "updated_at": "2023-10-05"
+      "capacity": 45,
+      "isActive": true,
+      "openingDate": "2023-10-05",
+      "activeState": true,
+      "description": "Mountain branch location",
+      "createdBy": "U014",
+      "createdAt": "2023-10-05",
+      "updatedAt": "2023-10-05",
+      "deletedAt": null
     },
     {
-      "branch_id": "B015",
+      "id": "B015",
+      "branchId": "B015",
       "name": "Sky Branch",
       "location": {
         "street": "852 Skyview Ln",
         "city": "Sky City",
         "state": "WA",
-        "zip_code": "98003",
+        "zipCode": "98003",
         "country": "USA"
       },
-      "contact_number": "+11234567904",
-      "manager_id": "E015",
+      "contactNumber": "+11234567904",
+      "managerId": "E015",
+      "managerName": "Manager Fifteen",
       "email": "sky.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U015",
-      "created_at": "2023-10-06",
-      "updated_at": "2023-10-06"
+      "capacity": 40,
+      "isActive": true,
+      "openingDate": "2023-10-06",
+      "activeState": true,
+      "description": "Sky branch location",
+      "createdBy": "U015",
+      "createdAt": "2023-10-06",
+      "updatedAt": "2023-10-06",
+      "deletedAt": null
     },
     {
-      "branch_id": "B016",
+      "id": "B016",
+      "branchId": "B016",
       "name": "Sunshine Branch",
       "location": {
         "street": "963 Sunshine Blvd",
         "city": "Sunny City",
         "state": "CA",
-        "zip_code": "90004",
+        "zipCode": "90004",
         "country": "USA"
       },
-      "contact_number": "+11234567905",
-      "manager_id": "E016",
+      "contactNumber": "+11234567905",
+      "managerId": "E016",
+      "managerName": "Manager Sixteen",
       "email": "sunshine.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U016",
-      "created_at": "2023-10-07",
-      "updated_at": "2023-10-07"
+      "capacity": 105,
+      "isActive": true,
+      "openingDate": "2023-10-07",
+      "activeState": true,
+      "description": "Sunshine branch location",
+      "createdBy": "U016",
+      "createdAt": "2023-10-07",
+      "updatedAt": "2023-10-07",
+      "deletedAt": null
     },
     {
-      "branch_id": "B017",
+      "id": "B017",
+      "branchId": "B017",
       "name": "Desert Branch",
       "location": {
         "street": "258 Desert Rd",
         "city": "Desert City",
         "state": "AZ",
-        "zip_code": "85001",
+        "zipCode": "85001",
         "country": "USA"
       },
-      "contact_number": "+11234567906",
-      "manager_id": "E017",
+      "contactNumber": "+11234567906",
+      "managerId": "E017",
+      "managerName": "Manager Seventeen",
       "email": "desert.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U017",
-      "created_at": "2023-10-08",
-      "updated_at": "2023-10-08"
+      "capacity": 35,
+      "isActive": true,
+      "openingDate": "2023-10-08",
+      "activeState": true,
+      "description": "Desert branch location",
+      "createdBy": "U017",
+      "createdAt": "2023-10-08",
+      "updatedAt": "2023-10-08",
+      "deletedAt": null
     },
     {
-      "branch_id": "B018",
+      "id": "B018",
+      "branchId": "B018",
       "name": "Ocean Branch",
       "location": {
         "street": "456 Ocean Ave",
         "city": "Ocean City",
         "state": "FL",
-        "zip_code": "32101",
+        "zipCode": "32101",
         "country": "USA"
       },
-      "contact_number": "+11234567907",
-      "manager_id": "E018",
+      "contactNumber": "+11234567907",
+      "managerId": "E018",
+      "managerName": "Manager Eighteen",
       "email": "ocean.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U018",
-      "created_at": "2023-10-09",
-      "updated_at": "2023-10-09"
+      "capacity": 115,
+      "isActive": true,
+      "openingDate": "2023-10-09",
+      "activeState": true,
+      "description": "Ocean branch location",
+      "createdBy": "U018",
+      "createdAt": "2023-10-09",
+      "updatedAt": "2023-10-09",
+      "deletedAt": null
     },
     {
-      "branch_id": "B019",
+      "id": "B019",
+      "branchId": "B019",
       "name": "Valley Branch",
       "location": {
         "street": "789 Valley Blvd",
         "city": "Valley City",
         "state": "NY",
-        "zip_code": "10005",
+        "zipCode": "10005",
         "country": "USA"
       },
-      "contact_number": "+11234567908",
-      "manager_id": "E019",
+      "contactNumber": "+11234567908",
+      "managerId": "E019",
+      "managerName": "Manager Nineteen",
       "email": "valley.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U019",
-      "created_at": "2023-10-10",
-      "updated_at": "2023-10-10"
+      "capacity": 88,
+      "isActive": true,
+      "openingDate": "2023-10-10",
+      "activeState": true,
+      "description": "Valley branch location",
+      "createdBy": "U019",
+      "createdAt": "2023-10-10",
+      "updatedAt": "2023-10-10",
+      "deletedAt": null
     },
     {
-      "branch_id": "B020",
+      "id": "B020",
+      "branchId": "B020",
       "name": "City Center Branch",
       "location": {
         "street": "159 City Center St",
         "city": "City Center",
         "state": "TX",
-        "zip_code": "75004",
+        "zipCode": "75004",
         "country": "USA"
       },
-      "contact_number": "+11234567909",
-      "manager_id": "E020",
+      "contactNumber": "+11234567909",
+      "managerId": "E020",
+      "managerName": "Manager Twenty",
       "email": "citycenter.branch@example.com",
-      "working_hours": {
+      "workingHours": {
         "open": "09:00",
         "close": "17:00"
       },
-      "created_by": "U020",
-      "created_at": "2023-10-11",
-      "updated_at": "2023-10-11"
+      "capacity": 130,
+      "isActive": true,
+      "openingDate": "2023-10-11",
+      "activeState": true,
+      "description": "City center branch location",
+      "createdBy": "U020",
+      "createdAt": "2023-10-11",
+      "updatedAt": "2023-10-11",
+      "deletedAt": null
     }
   ]
 }

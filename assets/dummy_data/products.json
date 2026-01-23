@@ -6,13 +6,13 @@
   "totalData": 33,
   "data": [
     {
-      "product_id": "P001",
+      "id": "P001",
       "name": "Wireless Headphones",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "category_ids": [
+      "categoryIds": [
         "C001"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B001"
       ],
       "tags": [
@@ -42,8 +42,8 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 99.99
+          "stock": 150,
+          "price": 99.99
         },
         {
           "dimensions": {
@@ -58,20 +58,20 @@
             "material": "Plastic",
             "warranty": "6 months"
           },
-          "combinationStock": 80,
-          "combinationPrice": 79.99
+          "stock": 80,
+          "price": 79.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P002",
+      "id": "P002",
       "name": "Smartphone",
       "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "category_ids": [
+      "categoryIds": [
         "C002"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B002"
       ],
       "tags": [
@@ -100,8 +100,8 @@
             "material": "Glass",
             "warranty": "1 year"
           },
-          "combinationStock": 200,
-          "combinationPrice": 699.99
+          "stock": 200,
+          "price": 699.99
         },
         {
           "dimensions": {
@@ -116,20 +116,20 @@
             "material": "Glass",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 649.99
+          "stock": 150,
+          "price": 649.99
         }
       ],
-      "brand_id": "B001"
+      "brandId": "B001"
     },
     {
-      "product_id": "P003",
+      "id": "P003",
       "name": "Laptop",
       "description": "Powerful laptop with long battery life and high-speed performance.",
-      "category_ids": [
+      "categoryIds": [
         "C003"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B003"
       ],
       "tags": [
@@ -158,8 +158,8 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 120,
-          "combinationPrice": 1199.99
+          "stock": 120,
+          "price": 1199.99
         },
         {
           "dimensions": {
@@ -174,20 +174,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 80,
-          "combinationPrice": 1099.99
+          "stock": 80,
+          "price": 1099.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P004",
+      "id": "P004",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking features.",
-      "category_ids": [
+      "categoryIds": [
         "C004"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B004"
       ],
       "tags": [
@@ -216,8 +216,8 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 300,
-          "combinationPrice": 199.99
+          "stock": 300,
+          "price": 199.99
         },
         {
           "dimensions": {
@@ -232,20 +232,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 179.99
+          "stock": 150,
+          "price": 179.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P005",
+      "id": "P005",
       "name": "Bluetooth Speaker",
       "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "category_ids": [
+      "categoryIds": [
         "C005"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B005"
       ],
       "tags": [
@@ -274,8 +274,8 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 200,
-          "combinationPrice": 49.99
+          "stock": 200,
+          "price": 49.99
         },
         {
           "dimensions": {
@@ -290,20 +290,20 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 100,
-          "combinationPrice": 59.99
+          "stock": 100,
+          "price": 59.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P006",
+      "id": "P006",
       "name": "Tablet",
       "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "category_ids": [
+      "categoryIds": [
         "C006"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B006"
       ],
       "tags": [
@@ -332,8 +332,8 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 80,
-          "combinationPrice": 399.99
+          "stock": 80,
+          "price": 399.99
         },
         {
           "dimensions": {
@@ -348,20 +348,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 60,
-          "combinationPrice": 499.99
+          "stock": 60,
+          "price": 499.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P007",
+      "id": "P007",
       "name": "Gaming Console",
       "description": "Next-generation gaming console with ultra-fast graphics.",
-      "category_ids": [
+      "categoryIds": [
         "C007"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B007"
       ],
       "tags": [
@@ -390,8 +390,8 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 150,
-          "combinationPrice": 499.99
+          "stock": 150,
+          "price": 499.99
         },
         {
           "dimensions": {
@@ -406,20 +406,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 100,
-          "combinationPrice": 479.99
+          "stock": 100,
+          "price": 479.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P008",
+      "id": "P008",
       "name": "Wireless Headphones",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "category_ids": [
+      "categoryIds": [
         "C001"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B001"
       ],
       "tags": [
@@ -448,20 +448,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 99.99
+          "stock": 150,
+          "price": 99.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P009",
+      "id": "P009",
       "name": "Smartphone",
       "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "category_ids": [
+      "categoryIds": [
         "C002"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B002"
       ],
       "tags": [
@@ -490,20 +490,20 @@
             "material": "Glass",
             "warranty": "1 year"
           },
-          "combinationStock": 200,
-          "combinationPrice": 699.99
+          "stock": 200,
+          "price": 699.99
         }
       ],
-      "brand_id": "B001"
+      "brandId": "B001"
     },
     {
-      "product_id": "P010",
+      "id": "P010",
       "name": "Laptop",
       "description": "Powerful laptop with long battery life and high-speed performance.",
-      "category_ids": [
+      "categoryIds": [
         "C003"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B003"
       ],
       "tags": [
@@ -532,20 +532,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 120,
-          "combinationPrice": 1199.99
+          "stock": 120,
+          "price": 1199.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P011",
+      "id": "P011",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking features.",
-      "category_ids": [
+      "categoryIds": [
         "C004"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B004"
       ],
       "tags": [
@@ -574,8 +574,8 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 300,
-          "combinationPrice": 199.99
+          "stock": 300,
+          "price": 199.99
         },
         {
           "dimensions": {
@@ -590,20 +590,20 @@
             "material": "Plastic",
             "warranty": "2 year"
           },
-          "combinationStock": 20,
-          "combinationPrice": 394.92
+          "stock": 20,
+          "price": 394.92
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P012",
+      "id": "P012",
       "name": "Bluetooth Speaker",
       "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "category_ids": [
+      "categoryIds": [
         "C005"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B005"
       ],
       "tags": [
@@ -632,20 +632,20 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 200,
-          "combinationPrice": 49.99
+          "stock": 200,
+          "price": 49.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P013",
+      "id": "P013",
       "name": "Tablet",
       "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "category_ids": [
+      "categoryIds": [
         "C006"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B006"
       ],
       "tags": [
@@ -674,20 +674,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 80,
-          "combinationPrice": 399.99
+          "stock": 80,
+          "price": 399.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P014",
+      "id": "P014",
       "name": "Gaming Console",
       "description": "Next-generation gaming console with ultra-fast graphics.",
-      "category_ids": [
+      "categoryIds": [
         "C007"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B007"
       ],
       "tags": [
@@ -716,20 +716,20 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 150,
-          "combinationPrice": 499.99
+          "stock": 150,
+          "price": 499.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P015",
+      "id": "P015",
       "name": "Wireless Earbuds",
       "description": "Compact and ergonomic wireless earbuds with high sound quality.",
-      "category_ids": [
+      "categoryIds": [
         "C001"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B001"
       ],
       "tags": [
@@ -758,20 +758,20 @@
             "material": "Plastic",
             "warranty": "6 months"
           },
-          "combinationStock": 300,
-          "combinationPrice": 59.99
+          "stock": 300,
+          "price": 59.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P016",
+      "id": "P016",
       "name": "4K Action Camera",
       "description": "Compact and durable action camera with 4K video recording.",
-      "category_ids": [
+      "categoryIds": [
         "C008"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B008"
       ],
       "tags": [
@@ -800,20 +800,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 200,
-          "combinationPrice": 199.99
+          "stock": 200,
+          "price": 199.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P017",
+      "id": "P017",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": [
+      "categoryIds": [
         "C009"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B009"
       ],
       "tags": [
@@ -842,20 +842,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 899.99
+          "stock": 150,
+          "price": 899.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P018",
+      "id": "P018",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": [
+      "categoryIds": [
         "C009"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B009"
       ],
       "tags": [
@@ -884,20 +884,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 899.99
+          "stock": 150,
+          "price": 899.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P019",
+      "id": "P019",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": [
+      "categoryIds": [
         "C009"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B009"
       ],
       "tags": [
@@ -926,20 +926,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 899.99
+          "stock": 150,
+          "price": 899.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P020",
+      "id": "P020",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": [
+      "categoryIds": [
         "C009"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B009"
       ],
       "tags": [
@@ -968,20 +968,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 899.99
+          "stock": 150,
+          "price": 899.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P021",
+      "id": "P021",
       "name": "Digital Camera",
       "description": "Professional-grade camera for photography enthusiasts.",
-      "category_ids": [
+      "categoryIds": [
         "C009"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B009"
       ],
       "tags": [
@@ -1010,20 +1010,20 @@
             "material": "Metal",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 899.99
+          "stock": 150,
+          "price": 899.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P022",
+      "id": "P022",
       "name": "Smartphone",
       "description": "High-performance smartphone with advanced features.",
-      "category_ids": [
+      "categoryIds": [
         "C010"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B010"
       ],
       "tags": [
@@ -1052,20 +1052,20 @@
             "material": "Glass",
             "warranty": "2 years"
           },
-          "combinationStock": 200,
-          "combinationPrice": 999.99
+          "stock": 200,
+          "price": 999.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P023",
+      "id": "P023",
       "name": "Wireless Headphones",
       "description": "Premium wireless headphones for immersive sound experience.",
-      "category_ids": [
+      "categoryIds": [
         "C011"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B011"
       ],
       "tags": [
@@ -1094,20 +1094,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 100,
-          "combinationPrice": 149.99
+          "stock": 100,
+          "price": 149.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P024",
+      "id": "P024",
       "name": "Smartwatch",
       "description": "Stylish smartwatch with fitness tracking and notifications.",
-      "category_ids": [
+      "categoryIds": [
         "C012"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B012"
       ],
       "tags": [
@@ -1136,20 +1136,20 @@
             "material": "Aluminum",
             "warranty": "1 year"
           },
-          "combinationStock": 150,
-          "combinationPrice": 199.99
+          "stock": 150,
+          "price": 199.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P025",
+      "id": "P025",
       "name": "Bluetooth Speaker",
       "description": "Portable speaker with deep bass and waterproof design.",
-      "category_ids": [
+      "categoryIds": [
         "C013"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B013"
       ],
       "tags": [
@@ -1178,20 +1178,20 @@
             "material": "Rubber",
             "warranty": "2 years"
           },
-          "combinationStock": 180,
-          "combinationPrice": 89.99
+          "stock": 180,
+          "price": 89.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P026",
+      "id": "P026",
       "name": "Laptop",
       "description": "Lightweight laptop with powerful performance and sleek design.",
-      "category_ids": [
+      "categoryIds": [
         "C014"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B014"
       ],
       "tags": [
@@ -1220,20 +1220,20 @@
             "material": "Metal",
             "warranty": "3 years"
           },
-          "combinationStock": 75,
-          "combinationPrice": 1199.99
+          "stock": 75,
+          "price": 1199.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P027",
+      "id": "P027",
       "name": "Tablet",
       "description": "High-resolution tablet ideal for entertainment and productivity.",
-      "category_ids": [
+      "categoryIds": [
         "C015"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B015"
       ],
       "tags": [
@@ -1262,20 +1262,20 @@
             "material": "Glass",
             "warranty": "2 years"
           },
-          "combinationStock": 130,
-          "combinationPrice": 499.99
+          "stock": 130,
+          "price": 499.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P028",
+      "id": "P028",
       "name": "Gaming Console",
       "description": "Next-gen console with ultra-fast processing and immersive graphics.",
-      "category_ids": [
+      "categoryIds": [
         "C016"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B016"
       ],
       "tags": [
@@ -1304,20 +1304,20 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 90,
-          "combinationPrice": 599.99
+          "stock": 90,
+          "price": 599.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P029",
+      "id": "P029",
       "name": "4K Action Camera",
       "description": "Durable action camera with 4K recording and waterproof casing.",
-      "category_ids": [
+      "categoryIds": [
         "C017"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B017"
       ],
       "tags": [
@@ -1346,20 +1346,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 120,
-          "combinationPrice": 249.99
+          "stock": 120,
+          "price": 249.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P030",
+      "id": "P030",
       "name": "Mechanical Keyboard",
       "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "category_ids": [
+      "categoryIds": [
         "C018"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B018"
       ],
       "tags": [
@@ -1388,20 +1388,20 @@
             "material": "Aluminum",
             "warranty": "2 years"
           },
-          "combinationStock": 160,
-          "combinationPrice": 129.99
+          "stock": 160,
+          "price": 129.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P031",
+      "id": "P031",
       "name": "Drone",
       "description": "Compact drone with HD camera and GPS tracking.",
-      "category_ids": [
+      "categoryIds": [
         "C019"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B019"
       ],
       "tags": [
@@ -1430,20 +1430,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 80,
-          "combinationPrice": 399.99
+          "stock": 80,
+          "price": 399.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P032",
+      "id": "P032",
       "name": "Smart Thermostat",
       "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "category_ids": [
+      "categoryIds": [
         "C020"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B020"
       ],
       "tags": [
@@ -1472,20 +1472,20 @@
             "material": "Plastic",
             "warranty": "3 years"
           },
-          "combinationStock": 140,
-          "combinationPrice": 179.99
+          "stock": 140,
+          "price": 179.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P033",
+      "id": "P033",
       "name": "E-Reader",
       "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "category_ids": [
+      "categoryIds": [
         "C021"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B021"
       ],
       "tags": [
@@ -1514,20 +1514,20 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 110,
-          "combinationPrice": 139.99
+          "stock": 110,
+          "price": 139.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P029",
+      "id": "P029",
       "name": "4K Action Camera",
       "description": "Durable action camera with 4K recording and waterproof casing.",
-      "category_ids": [
+      "categoryIds": [
         "C017"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B017"
       ],
       "tags": [
@@ -1556,20 +1556,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 120,
-          "combinationPrice": 249.99
+          "stock": 120,
+          "price": 249.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P030",
+      "id": "P030",
       "name": "Mechanical Keyboard",
       "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "category_ids": [
+      "categoryIds": [
         "C018"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B018"
       ],
       "tags": [
@@ -1598,20 +1598,20 @@
             "material": "Aluminum",
             "warranty": "2 years"
           },
-          "combinationStock": 160,
-          "combinationPrice": 129.99
+          "stock": 160,
+          "price": 129.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P031",
+      "id": "P031",
       "name": "Drone",
       "description": "Compact drone with HD camera and GPS tracking.",
-      "category_ids": [
+      "categoryIds": [
         "C019"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B019"
       ],
       "tags": [
@@ -1640,20 +1640,20 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "combinationStock": 80,
-          "combinationPrice": 399.99
+          "stock": 80,
+          "price": 399.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P032",
+      "id": "P032",
       "name": "Smart Thermostat",
       "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "category_ids": [
+      "categoryIds": [
         "C020"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B020"
       ],
       "tags": [
@@ -1682,20 +1682,20 @@
             "material": "Plastic",
             "warranty": "3 years"
           },
-          "combinationStock": 140,
-          "combinationPrice": 179.99
+          "stock": 140,
+          "price": 179.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     },
     {
-      "product_id": "P033",
+      "id": "P033",
       "name": "E-Reader",
       "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "category_ids": [
+      "categoryIds": [
         "C021"
       ],
-      "branch_ids": [
+      "branchIds": [
         "B021"
       ],
       "tags": [
@@ -1724,11 +1724,11 @@
             "material": "Plastic",
             "warranty": "2 years"
           },
-          "combinationStock": 110,
-          "combinationPrice": 139.99
+          "stock": 110,
+          "price": 139.99
         }
       ],
-      "brand_id": null
+      "brandId": null
     }
   ]
 }
