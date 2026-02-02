@@ -1,1 +1,0 @@
-import{Yb as n,Zb as i,ub as o,wc as p}from"./chunk-AUUYFGFJ.js";import"./chunk-GAL4ENT6.js";var d=(()=>{class t{static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275cmp=o({type:t,selectors:[["app-product"]],decls:2,vars:0,template:function(e,c){e&1&&(n(0,"p"),p(1,"product works!"),i())},encapsulation:2})}}return t})();export{d as ProductComponent};
