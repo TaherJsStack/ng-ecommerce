@@ -274,7 +274,14 @@
     "clients": "العملاء",
     "user": "مستخدم",
     "yes": "نعم",
-    "no": "لا"
+    "no": "لا",
+    "color":"اللون",
+    "usageCount":"عدد الاستخدامات",
+    "countryOfOrigin":"بلد المنشأ",
+    "establishedYear":"سنة التأسيس",
+    "logo":"الشعار",
+    "website":"الموقع الإلكتروني"
+
   },
   "dimensions": {
     "length": " الطول",
@@ -465,8 +472,17 @@
       "department": "القسم",
       "completedTasks": "عدد المهام المكتملة",
       "totalTasks": "عدد المهام الكلية",
-      "averageCompletionTime": "وقت الانتهاء المتوسط"
+      "averageCompletionTime": "وقت الانتهاء المتوسط",
+      "color":"اللون",
+      "size":"الحجم",
+      "material":"المادة",
+      "warranty":"الضمان",
+      "fit":"الملائمة",
       
+      "website":"الموقع الإلكتروني",
+      "countryOfOrigin":"بلد الإصدار",
+      "establishedYear":"سنة الإصدار",
+      "logo":"الشعار"
     },
     "placeholder": {
       "selectData": "اختر البيانات",

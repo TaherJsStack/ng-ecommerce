@@ -1,8 +1,8 @@
 {
   "success": true,
   "errors": [],
-  "message": "string",
-  "status": 20,
+  "message": "fetched successfully",
+  "status": 200,
   "totalData": 20,
   "data": [
     {

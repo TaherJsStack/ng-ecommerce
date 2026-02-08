@@ -274,7 +274,13 @@
     "clients": "clients",
     "user": "user",
     "yes": "yes",
-    "no": "no"
+    "no": "no",
+    "color":"color",
+    "usageCount":"usage count",
+    "countryOfOrigin":"country of origin",
+    "establishedYear":"established year",
+    "logo":"logo",
+    "website":"website"
   },
   "dimensions": {
     "length": "length",
@@ -467,7 +473,16 @@
       "department": "department",
       "completedTasks": "completed tasks",
       "totalTasks": "total tasks",
-      "averageCompletionTime": "average completion time"
+      "averageCompletionTime": "average completion time",
+      "color":"color",
+      "size":"size",
+      "material":"material",
+      "warranty":"warranty",
+      "fit":"fit",
+      "website":"website",
+      "countryOfOrigin":"country of origin",
+      "establishedYear":"established year",
+      "logo":"logo"
     },
     "placeholder": {
       "selectData": "Select data",

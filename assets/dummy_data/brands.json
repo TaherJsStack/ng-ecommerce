@@ -1,9 +1,9 @@
 {
   "success": true,
   "errors": [],
-  "message": "string",
-  "status": 20,
-  "totalData": 20,
+  "message": "fetched successfully",
+  "status": 200,
+  "totalData": 15,
   "data": [
     {
       "id": "B001",
