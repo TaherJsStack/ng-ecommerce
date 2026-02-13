@@ -7,34 +7,69 @@
   "data": [
     {
       "id": "P001",
-      "name": "Wireless Headphones",
+      "activeState": "active",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "categoryIds": [
-        "C001"
-      ],
-      "branchIds": [
-        "B001"
-      ],
-      "tags": [
-        "T001",
-        "T002"
-      ],
-      "brand": "AudioBrand",
-      "images": [
-        "assets/web-site-app/images/products/1.jpg",
-        "assets/web-site-app/images/products/1.jpg",
-        "assets/web-site-app/images/products/1.jpg"
-      ],
       "createdBy": "U001",
       "createdAt": "2024-01-01T12:00:00Z",
       "updatedAt": "2024-01-01T12:00:00Z",
-      "combinations": [
+      "identifiers": {
+        "productId": "P001",
+        "slug": "wireless-headphones"
+      },
+      "name": "Wireless Headphones",
+      "shortDescription": "High-quality wireless headphones with noise cancellation.",
+      "classification": {
+        "categoryIds": [
+          "C001"
+        ],
+        "categoryNames": [
+          "Electronics"
+        ],
+        "tagIds": [
+          "T001",
+          "T002"
+        ],
+        "tags": [
+          {
+            "id": "T001",
+            "name": "Audio"
+          },
+          {
+            "id": "T002",
+            "name": "Wireless"
+          }
+        ],
+        "brandName": "AudioBrand"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001"
+        ],
+        "branchNames": [
+          "Main Store"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/headphones-1.jpg",
+          "assets/web-site-app/images/products/headphones-2.jpg",
+          "assets/web-site-app/images/products/headphones-3.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/headphones-thumb.jpg"
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": false,
+        "isNew": false,
+        "isOnSale": false,
+        "publishedAt": "2024-01-01T12:00:00Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 18,
-            "height": 5,
-            "length": 18,
-            "width": 15
+          "variantId": "V001",
+          "parentProductId": "P001",
+          "identifiers": {
+            "sku": "WH-BLACK-OE"
           },
           "attributes": {
             "fit": "Over-Ear",
@@ -42,15 +77,43 @@
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "stock": 150,
-          "price": 99.99
+          "dimensions": {
+            "size": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 5,
+              "unit": "cm"
+            },
+            "length": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 15,
+              "unit": "cm"
+            }
+          },
+          "pricing": {
+            "basePrice": 99.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 150,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/headphones-black.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 16,
-            "height": 5,
-            "length": 16,
-            "width": 13
+          "variantId": "V002",
+          "parentProductId": "P001",
+          "identifiers": {
+            "sku": "WH-GRAY-ON"
           },
           "attributes": {
             "fit": "On-Ear",
@@ -58,1677 +121,2738 @@
             "material": "Plastic",
             "warranty": "6 months"
           },
-          "stock": 80,
-          "price": 79.99
+          "dimensions": {
+            "size": {
+              "value": 16,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 5,
+              "unit": "cm"
+            },
+            "length": {
+              "value": 16,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 13,
+              "unit": "cm"
+            }
+          },
+          "pricing": {
+            "basePrice": 79.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 80,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/headphones-gray.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P002",
-      "name": "Smartphone",
-      "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "categoryIds": [
-        "C002"
-      ],
-      "branchIds": [
-        "B002"
-      ],
-      "tags": [
-        "T003",
-        "T004"
-      ],
-      "brand": "TechBrand",
-      "images": [
-        "https://example.com/images/smartphone1.jpg",
-        "https://example.com/images/smartphone2.jpg"
-      ],
+      "activeState": "active",
+      "description": "Comfortable cotton t-shirt perfect for everyday wear.",
       "createdBy": "U002",
-      "createdAt": "2024-02-15T12:00:00Z",
-      "updatedAt": "2024-02-15T12:00:00Z",
-      "combinations": [
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:30:00Z",
+      "identifiers": {
+        "productId": "P002",
+        "slug": "classic-cotton-tshirt"
+      },
+      "name": "Classic Cotton T-Shirt",
+      "shortDescription": "Comfortable cotton t-shirt perfect for everyday wear.",
+      "classification": {
+        "categoryIds": [
+          "C002"
+        ],
+        "categoryNames": [
+          "Clothing"
+        ],
+        "tagIds": [
+          "T003",
+          "T004"
+        ],
+        "tags": [
+          {
+            "id": "T003",
+            "name": "Casual"
+          },
+          {
+            "id": "T004",
+            "name": "Cotton"
+          }
+        ],
+        "brandName": "ComfortWear"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B002"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Mall Branch"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/tshirt-1.jpg",
+          "assets/web-site-app/images/products/tshirt-2.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/tshirt-thumb.jpg"
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": true,
+        "publishedAt": "2024-01-15T10:30:00Z"
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-01-15T00:00:00Z",
+        "saleEndDate": "2024-02-15T23:59:59Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 6.5,
-            "height": 0.3,
-            "length": 15,
-            "width": 7
+          "variantId": "V003",
+          "parentProductId": "P002",
+          "identifiers": {
+            "sku": "TS-WHITE-S",
+            "barcode": "1234567890123"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Black",
-            "material": "Glass",
-            "warranty": "1 year"
+            "color": "White",
+            "size": "S",
+            "material": "100% Cotton",
+            "fit": "Regular"
           },
-          "stock": 200,
-          "price": 699.99
+          "dimensions": {
+            "length": {
+              "value": 70,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 50,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 150,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 24.99,
+            "salePrice": 19.99,
+            "originalPrice": 24.99,
+            "discountPercentage": 20,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 200,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/tshirt-white-s.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 6.1,
-            "height": 0.3,
-            "length": 14.5,
-            "width": 7
+          "variantId": "V004",
+          "parentProductId": "P002",
+          "identifiers": {
+            "sku": "TS-WHITE-M",
+            "barcode": "1234567890124"
           },
           "attributes": {
-            "fit": "Slim",
             "color": "White",
-            "material": "Glass",
-            "warranty": "1 year"
+            "size": "M",
+            "material": "100% Cotton",
+            "fit": "Regular"
           },
-          "stock": 150,
-          "price": 649.99
+          "dimensions": {
+            "length": {
+              "value": 72,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 52,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 160,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 24.99,
+            "salePrice": 19.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 180,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/tshirt-white-m.jpg"
+          }
+        },
+        {
+          "variantId": "V005",
+          "parentProductId": "P002",
+          "identifiers": {
+            "sku": "TS-BLACK-L",
+            "barcode": "1234567890125"
+          },
+          "attributes": {
+            "color": "Black",
+            "size": "L",
+            "material": "100% Cotton",
+            "fit": "Regular"
+          },
+          "dimensions": {
+            "length": {
+              "value": 74,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 54,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 170,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 24.99,
+            "salePrice": 19.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 150,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/tshirt-black-l.jpg"
+          }
         }
-      ],
-      "brandId": "B001"
+      ]
     },
     {
       "id": "P003",
-      "name": "Laptop",
-      "description": "Powerful laptop with long battery life and high-speed performance.",
-      "categoryIds": [
-        "C003"
-      ],
-      "branchIds": [
-        "B003"
-      ],
-      "tags": [
-        "T005",
-        "T006"
-      ],
-      "brand": "LaptopBrand",
-      "images": [
-        "https://example.com/images/laptop1.jpg",
-        "https://example.com/images/laptop2.jpg"
-      ],
+      "activeState": "active",
+      "description": "Stainless steel water bottle with double-wall insulation.",
       "createdBy": "U003",
-      "createdAt": "2024-03-01T12:00:00Z",
-      "updatedAt": "2024-03-01T12:00:00Z",
-      "combinations": [
+      "createdAt": "2024-02-01T08:00:00Z",
+      "updatedAt": "2024-02-01T08:00:00Z",
+      "identifiers": {
+        "productId": "P003",
+        "slug": "insulated-water-bottle",
+        "barcode": "9876543210987"
+      },
+      "name": "Insulated Water Bottle",
+      "shortDescription": "Keep drinks cold for 24 hours or hot for 12 hours.",
+      "classification": {
+        "categoryIds": [
+          "C003"
+        ],
+        "categoryNames": [
+          "Home & Kitchen"
+        ],
+        "tagIds": [
+          "T005",
+          "T006"
+        ],
+        "tags": [
+          {
+            "id": "T005",
+            "name": "Drinkware"
+          },
+          {
+            "id": "T006",
+            "name": "Insulated"
+          }
+        ],
+        "brandName": "HydroLife"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B003"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Sports Branch"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/bottle-1.jpg",
+          "assets/web-site-app/images/products/bottle-2.jpg",
+          "assets/web-site-app/images/products/bottle-3.jpg",
+          "assets/web-site-app/images/products/bottle-4.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/bottle-thumb.jpg"
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": true,
+        "isOnSale": false,
+        "publishedAt": "2024-02-01T08:00:00Z"
+      },
+      "metrics": {
+        "rating": 4.7,
+        "reviewCount": 128,
+        "viewCount": 3450,
+        "salesCount": 312
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 15.6,
-            "height": 2,
-            "length": 35,
-            "width": 25
+          "variantId": "V006",
+          "parentProductId": "P003",
+          "identifiers": {
+            "sku": "WB-BLUE-500",
+            "barcode": "9876543210988"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Silver",
-            "material": "Metal",
-            "warranty": "1 year"
+            "color": "Ocean Blue",
+            "size": "500ml",
+            "material": "Stainless Steel",
+            "warranty": "2 years"
           },
-          "stock": 120,
-          "price": 1199.99
+          "dimensions": {
+            "height": {
+              "value": 24,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 7,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 280,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 34.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 95,
+            "lowStockThreshold": 15,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/bottle-blue-500.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 14,
-            "height": 2,
-            "length": 32,
-            "width": 22
+          "variantId": "V007",
+          "parentProductId": "P003",
+          "identifiers": {
+            "sku": "WB-RED-750",
+            "barcode": "9876543210989"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Gray",
-            "material": "Metal",
-            "warranty": "1 year"
+            "color": "Ruby Red",
+            "size": "750ml",
+            "material": "Stainless Steel",
+            "warranty": "2 years"
           },
-          "stock": 80,
-          "price": 1099.99
+          "dimensions": {
+            "height": {
+              "value": 28,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 350,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 39.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 120,
+            "lowStockThreshold": 15,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/bottle-red-750.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P004",
-      "name": "Smartwatch",
-      "description": "Stylish smartwatch with fitness tracking features.",
-      "categoryIds": [
-        "C004"
-      ],
-      "branchIds": [
-        "B004"
-      ],
-      "tags": [
-        "T007",
-        "T008"
-      ],
-      "brand": "WatchBrand",
-      "images": [
-        "https://example.com/images/smartwatch1.jpg",
-        "https://example.com/images/smartwatch2.jpg"
-      ],
-      "createdBy": "U004",
-      "createdAt": "2024-04-01T12:00:00Z",
-      "updatedAt": "2024-04-01T12:00:00Z",
-      "combinations": [
+      "activeState": "active",
+      "description": "Ergonomic wireless mouse with adjustable DPI settings.",
+      "createdBy": "U001",
+      "createdAt": "2024-02-10T14:20:00Z",
+      "updatedAt": "2024-02-10T14:20:00Z",
+      "identifiers": {
+        "productId": "P004",
+        "slug": "ergonomic-wireless-mouse"
+      },
+      "name": "Ergonomic Wireless Mouse",
+      "shortDescription": "Reduce wrist strain with this ergonomic design.",
+      "classification": {
+        "categoryIds": [
+          "C001",
+          "C004"
+        ],
+        "categoryNames": [
+          "Electronics",
+          "Computer Accessories"
+        ],
+        "tagIds": [
+          "T007",
+          "T002"
+        ],
+        "tags": [
+          {
+            "id": "T007",
+            "name": "Ergonomic"
+          },
+          {
+            "id": "T002",
+            "name": "Wireless"
+          }
+        ],
+        "brandName": "TechComfort",
+        "brandId": "BR001"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001"
+        ],
+        "branchNames": [
+          "Main Store"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/mouse-1.jpg",
+          "assets/web-site-app/images/products/mouse-2.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/mouse-thumb.jpg"
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": false,
+        "isNew": true,
+        "isOnSale": false,
+        "publishedAt": "2024-02-10T14:20:00Z"
+      },
+      "metrics": {
+        "rating": 4.5,
+        "reviewCount": 45,
+        "viewCount": 890
+      },
+      "origin": {
+        "countryOfOrigin": "China",
+        "manufacturedBy": "TechComfort Inc.",
+        "soldBy": "TechComfort Official Store"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 1.5,
-            "height": 0.5,
-            "length": 4,
-            "width": 4
+          "variantId": "V008",
+          "parentProductId": "P004",
+          "identifiers": {
+            "sku": "EM-BLACK-2400"
           },
           "attributes": {
-            "fit": "Regular",
             "color": "Black",
-            "material": "Plastic",
-            "warranty": "1 year"
+            "style": "Right-Handed",
+            "pattern": "Matte Finish"
           },
-          "stock": 300,
-          "price": 199.99
+          "dimensions": {
+            "length": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 7,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 4,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 95,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 49.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 65,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/mouse-black.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 1.3,
-            "height": 0.5,
-            "length": 3.8,
-            "width": 3.8
+          "variantId": "V009",
+          "parentProductId": "P004",
+          "identifiers": {
+            "sku": "EM-SILVER-2400"
           },
           "attributes": {
-            "fit": "Slim",
             "color": "Silver",
-            "material": "Metal",
-            "warranty": "1 year"
+            "style": "Right-Handed",
+            "pattern": "Matte Finish"
           },
-          "stock": 150,
-          "price": 179.99
+          "dimensions": {
+            "length": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 7,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 4,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 95,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 49.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 42,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/mouse-silver.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P005",
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "categoryIds": [
-        "C005"
-      ],
-      "branchIds": [
-        "B005"
-      ],
-      "tags": [
-        "T009",
-        "T010"
-      ],
-      "brand": "SoundBrand",
-      "images": [
-        "https://example.com/images/speaker1.jpg",
-        "https://example.com/images/speaker2.jpg"
-      ],
-      "createdBy": "U005",
-      "createdAt": "2024-05-01T12:00:00Z",
-      "updatedAt": "2024-05-01T12:00:00Z",
-      "combinations": [
+      "activeState": "active",
+      "description": "Premium leather wallet with RFID blocking technology.",
+      "createdBy": "U004",
+      "createdAt": "2024-02-12T16:45:00Z",
+      "updatedAt": "2024-02-12T16:45:00Z",
+      "identifiers": {
+        "productId": "P005",
+        "slug": "rfid-leather-wallet",
+        "sku": "LW-RFID-001"
+      },
+      "name": "RFID Leather Wallet",
+      "shortDescription": "Protect your cards while carrying in style.",
+      "classification": {
+        "categoryIds": [
+          "C005"
+        ],
+        "categoryNames": [
+          "Accessories"
+        ],
+        "tagIds": [
+          "T008",
+          "T009"
+        ],
+        "tags": [
+          {
+            "id": "T008",
+            "name": "Leather"
+          },
+          {
+            "id": "T009",
+            "name": "Security"
+          }
+        ],
+        "brandName": "LeatherCraft",
+        "brandId": "BR002"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B002",
+          "B004"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Mall Branch",
+          "Downtown Store"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/wallet-1.jpg",
+          "assets/web-site-app/images/products/wallet-2.jpg",
+          "assets/web-site-app/images/products/wallet-3.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/wallet-thumb.jpg"
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": true,
+        "publishedAt": "2024-02-12T16:45:00Z"
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-02-12T00:00:00Z",
+        "saleEndDate": "2024-03-12T23:59:59Z"
+      },
+      "metrics": {
+        "rating": 4.8,
+        "reviewCount": 256,
+        "viewCount": 5670,
+        "salesCount": 489
+      },
+      "origin": {
+        "countryOfOrigin": "Italy",
+        "manufacturedBy": "LeatherCraft Artisans",
+        "soldBy": "LeatherCraft Official"
+      },
+      "seo": {
+        "metaTitle": "RFID Blocking Leather Wallet - Premium Italian Leather",
+        "metaDescription": "Protect your cards with our premium Italian leather wallet featuring RFID blocking technology. Stylish and secure.",
+        "keywords": [
+          "leather wallet",
+          "RFID blocking",
+          "Italian leather",
+          "men's wallet",
+          "secure wallet"
+        ]
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 7,
-            "height": 8,
-            "length": 10,
-            "width": 10
+          "variantId": "V010",
+          "parentProductId": "P005",
+          "identifiers": {
+            "sku": "LW-BROWN-BF",
+            "barcode": "5551234567890"
           },
           "attributes": {
-            "fit": "Compact",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
+            "color": "Brown",
+            "material": "Genuine Leather",
+            "style": "Bifold",
+            "warranty": "5 years"
           },
-          "stock": 200,
-          "price": 49.99
+          "dimensions": {
+            "length": {
+              "value": 11,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 9,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 2,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 85,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 79.99,
+            "salePrice": 64.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 145,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/wallet-brown.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 9,
-            "height": 9,
-            "length": 12,
-            "width": 12
+          "variantId": "V011",
+          "parentProductId": "P005",
+          "identifiers": {
+            "sku": "LW-BLACK-BF",
+            "barcode": "5551234567891"
           },
           "attributes": {
-            "fit": "Regular",
-            "color": "Blue",
-            "material": "Plastic",
-            "warranty": "2 years"
+            "color": "Black",
+            "material": "Genuine Leather",
+            "style": "Bifold",
+            "warranty": "5 years"
           },
-          "stock": 100,
-          "price": 59.99
+          "dimensions": {
+            "length": {
+              "value": 11,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 9,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 2,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 85,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 79.99,
+            "salePrice": 64.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 178,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/wallet-black.jpg"
+          }
+        },
+        {
+          "variantId": "V012",
+          "parentProductId": "P005",
+          "identifiers": {
+            "sku": "LW-TAN-TF",
+            "barcode": "5551234567892"
+          },
+          "attributes": {
+            "color": "Tan",
+            "material": "Genuine Leather",
+            "style": "Trifold",
+            "warranty": "5 years"
+          },
+          "dimensions": {
+            "length": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 10,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 2.5,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 95,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 84.99,
+            "salePrice": 69.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 92,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/wallet-tan.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P006",
-      "name": "Tablet",
-      "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "categoryIds": [
-        "C006"
-      ],
-      "branchIds": [
-        "B006"
-      ],
-      "tags": [
-        "T011",
-        "T012"
-      ],
-      "brand": "TabBrand",
-      "images": [
-        "https://example.com/images/tablet1.jpg",
-        "https://example.com/images/tablet2.jpg"
-      ],
-      "createdBy": "U006",
-      "createdAt": "2024-06-01T12:00:00Z",
-      "updatedAt": "2024-06-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 10.2,
-            "height": 0.5,
-            "length": 25,
-            "width": 17
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Silver",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 80,
-          "price": 399.99
-        },
-        {
-          "dimensions": {
-            "size": 12,
-            "height": 0.5,
-            "length": 27,
-            "width": 18
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Gray",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 60,
-          "price": 499.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P007",
-      "name": "Gaming Console",
-      "description": "Next-generation gaming console with ultra-fast graphics.",
-      "categoryIds": [
-        "C007"
-      ],
-      "branchIds": [
-        "B007"
-      ],
-      "tags": [
-        "T013",
-        "T014"
-      ],
-      "brand": "ConsoleBrand",
-      "images": [
-        "https://example.com/images/console1.jpg",
-        "https://example.com/images/console2.jpg"
-      ],
-      "createdBy": "U007",
-      "createdAt": "2024-07-01T12:00:00Z",
-      "updatedAt": "2024-07-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 15,
-            "height": 10,
-            "length": 40,
-            "width": 25
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
-          },
-          "stock": 150,
-          "price": 499.99
-        },
-        {
-          "dimensions": {
-            "size": 14,
-            "height": 9,
-            "length": 38,
-            "width": 23
-          },
-          "attributes": {
-            "fit": "Compact",
-            "color": "White",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 100,
-          "price": 479.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P008",
-      "name": "Wireless Headphones",
+      "connectionId": "CONN-P006",
+      "activeState": "Active",
       "description": "High-quality wireless headphones with noise cancellation.",
-      "categoryIds": [
-        "C001"
-      ],
-      "branchIds": [
-        "B001"
-      ],
-      "tags": [
-        "T001",
-        "T002"
-      ],
-      "brand": "AudioBrand",
-      "images": [
-        "https://example.com/images/headphones1.jpg",
-        "https://example.com/images/headphones2.jpg"
-      ],
       "createdBy": "U001",
       "createdAt": "2024-01-01T12:00:00Z",
       "updatedAt": "2024-01-01T12:00:00Z",
-      "combinations": [
+      "deletedAt": null,
+      "identifiers": {
+        "productId": "P006",
+        "sku": "P006-SKU",
+        "barcode": "P006-BARCODE",
+        "slug": "wireless-headphones"
+      },
+      "name": "Wireless Headphones",
+      "shortDescription": "Premium wireless headphones",
+      "classification": {
+        "categoryIds": [
+          "C001"
+        ],
+        "categoryNames": [
+          "Audio"
+        ],
+        "tagIds": [
+          "T001",
+          "T002"
+        ],
+        "tags": [
+          {
+            "id": "T001",
+            "name": "Wireless"
+          },
+          {
+            "id": "T002",
+            "name": "Noise Cancellation"
+          }
+        ],
+        "brandId": "BR001",
+        "brandName": "AudioBrand"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001"
+        ],
+        "branchNames": [
+          "Main Branch"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/images/p006.jpg"
+        ],
+        "thumbnail": "assets/images/p006.jpg",
+        "videos": []
+      },
+      "origin": {
+        "countryOfOrigin": "China",
+        "manufacturedBy": "AudioBrand Factory",
+        "commodity": "Electronics"
+      },
+      "metrics": {
+        "rating": 4.5,
+        "reviewCount": 120,
+        "viewCount": 3000,
+        "salesCount": 400
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": false,
+        "publishedAt": "2024-01-01T12:00:00Z"
+      },
+      "seo": {
+        "seoTitle": "Wireless Headphones",
+        "seoDescription": "Premium noise-cancelling wireless headphones.",
+        "seoKeywords": [
+          "audio",
+          "wireless",
+          "headphones"
+        ],
+        "slug": "wireless-headphones"
+      },
+      "salePeriod": {
+        "saleStartDate": null,
+        "saleEndDate": null
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 18,
-            "height": 5,
-            "length": 18,
-            "width": 15
+          "variantId": "P006-V1",
+          "parentProductId": "P006",
+          "identifiers": {
+            "sku": "P006-BLK",
+            "barcode": "111111"
           },
           "attributes": {
-            "fit": "Over-Ear",
             "color": "Black",
+            "fit": "Over-Ear",
             "material": "Plastic",
             "warranty": "1 year"
           },
-          "stock": 150,
-          "price": 99.99
+          "dimensions": {
+            "length": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 15,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 5,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 0.45,
+              "unit": "kg"
+            }
+          },
+          "pricing": {
+            "basePrice": 99.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 150,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/images/p006.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
+    },
+    {
+      "id": "P007",
+      "connectionId": "CONN-P007",
+      "activeState": "Active",
+      "description": "Smart fitness watch with heart-rate monitoring.",
+      "createdBy": "U002",
+      "createdAt": "2024-02-01T10:00:00Z",
+      "updatedAt": "2024-02-01T10:00:00Z",
+      "deletedAt": null,
+      "identifiers": {
+        "productId": "P007",
+        "sku": "P007-SKU",
+        "barcode": "P007-BARCODE",
+        "slug": "smart-fitness-watch"
+      },
+      "name": "Smart Fitness Watch",
+      "shortDescription": "Track your health and fitness",
+      "classification": {
+        "categoryIds": [
+          "C002"
+        ],
+        "categoryNames": [
+          "Wearables"
+        ],
+        "tagIds": [
+          "T003"
+        ],
+        "tags": [
+          {
+            "id": "T003",
+            "name": "Fitness"
+          }
+        ],
+        "brandId": "BR002",
+        "brandName": "FitTech"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001"
+        ],
+        "branchNames": [
+          "Main Branch"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/images/p007.jpg"
+        ],
+        "thumbnail": "assets/images/p007.jpg",
+        "videos": []
+      },
+      "origin": {
+        "countryOfOrigin": "Germany",
+        "commodity": "Wearable Device"
+      },
+      "metrics": {
+        "rating": 4.7,
+        "reviewCount": 200,
+        "viewCount": 5000,
+        "salesCount": 600
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": false,
+        "isNew": true,
+        "isOnSale": true,
+        "publishedAt": "2024-02-01T10:00:00Z"
+      },
+      "seo": {
+        "seoTitle": "Smart Fitness Watch",
+        "seoDescription": "Track heart rate, steps, and sleep.",
+        "seoKeywords": [
+          "fitness",
+          "watch",
+          "smartwatch"
+        ],
+        "slug": "smart-fitness-watch"
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-02-01T00:00:00Z",
+        "saleEndDate": "2024-03-01T00:00:00Z"
+      },
+      "variants": [
+        {
+          "variantId": "P007-V1",
+          "parentProductId": "P007",
+          "identifiers": {
+            "sku": "P007-BLK",
+            "barcode": "222222"
+          },
+          "attributes": {
+            "color": "Black",
+            "material": "Silicone"
+          },
+          "dimensions": {
+            "length": {
+              "value": 4,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 4,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 0.5,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 0.1,
+              "unit": "kg"
+            }
+          },
+          "pricing": {
+            "basePrice": 149.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 300,
+            "lowStockThreshold": 10,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/images/p007.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "connectionId": "CONN-P008",
+      "activeState": "Active",
+      "description": "Ergonomic office chair for long working hours.",
+      "createdBy": "U003",
+      "createdAt": "2024-03-01T08:00:00Z",
+      "updatedAt": "2024-03-01T08:00:00Z",
+      "deletedAt": null,
+      "identifiers": {
+        "productId": "P008",
+        "sku": "P008-SKU",
+        "barcode": "P008-BARCODE",
+        "slug": "ergonomic-office-chair"
+      },
+      "name": "Ergonomic Office Chair",
+      "shortDescription": "Comfortable chair for office use",
+      "classification": {
+        "categoryIds": [
+          "C003"
+        ],
+        "tagIds": [],
+        "brandId": "BR003",
+        "brandName": "ComfortPro"
+      },
+      "distribution": {
+        "branchIds": [
+          "B002"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/images/p008.jpg"
+        ],
+        "thumbnail": "assets/images/p008.jpg",
+        "videos": []
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": false,
+        "isNew": false,
+        "isOnSale": false,
+        "publishedAt": "2024-03-01T08:00:00Z"
+      },
+      "salePeriod": {
+        "saleStartDate": null,
+        "saleEndDate": null
+      },
+      "variants": [
+        {
+          "variantId": "P008-V1",
+          "parentProductId": "P008",
+          "identifiers": {
+            "sku": "P008-BLK",
+            "barcode": "333333"
+          },
+          "attributes": {
+            "color": "Black",
+            "material": "Mesh"
+          },
+          "dimensions": {
+            "height": {
+              "value": 120,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 15,
+              "unit": "kg"
+            }
+          },
+          "pricing": {
+            "basePrice": 249.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 50,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/images/p008.jpg"
+          }
+        }
+      ]
     },
     {
       "id": "P009",
-      "name": "Smartphone",
-      "description": "Latest smartphone with high-resolution display and powerful processor.",
-      "categoryIds": [
-        "C002"
-      ],
-      "branchIds": [
-        "B002"
-      ],
-      "tags": [
-        "T003",
-        "T004"
-      ],
-      "brand": "TechBrand",
-      "images": [
-        "https://example.com/images/smartphone1.jpg",
-        "https://example.com/images/smartphone2.jpg"
-      ],
-      "createdBy": "U002",
-      "createdAt": "2024-02-15T12:00:00Z",
-      "updatedAt": "2024-02-15T12:00:00Z",
-      "combinations": [
+      "connectionId": "CONN009",
+      "activeState": "active",
+      "description": "Premium yoga mat with superior grip and cushioning for all yoga practices.",
+      "createdBy": "U005",
+      "createdAt": "2024-02-20T09:15:00Z",
+      "updatedAt": "2024-02-20T09:15:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P009",
+        "sku": "YM-ECO-001",
+        "barcode": "7771234567890",
+        "slug": "premium-yoga-mat"
+      },
+      "name": "Premium Yoga Mat",
+      "shortDescription": "Eco-friendly yoga mat with superior grip and cushioning.",
+      "classification": {
+        "categoryIds": [
+          "C006",
+          "C007"
+        ],
+        "categoryNames": [
+          "Sports & Fitness",
+          "Yoga Equipment"
+        ],
+        "tagIds": [
+          "T010",
+          "T011",
+          "T012"
+        ],
+        "tags": [
+          {
+            "id": "T010",
+            "name": "Yoga"
+          },
+          {
+            "id": "T011",
+            "name": "Eco-Friendly"
+          },
+          {
+            "id": "T012",
+            "name": "Non-Slip"
+          }
+        ],
+        "brandId": "BR003",
+        "brandName": "ZenFlow"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B003",
+          "B005"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Sports Branch",
+          "Fitness Center"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/yoga-mat-1.jpg",
+          "assets/web-site-app/images/products/yoga-mat-2.jpg",
+          "assets/web-site-app/images/products/yoga-mat-3.jpg",
+          "assets/web-site-app/images/products/yoga-mat-4.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/yoga-mat-thumb.jpg",
+        "videos": [
+          "assets/web-site-app/videos/yoga-mat-demo.mp4",
+          "assets/web-site-app/videos/yoga-mat-review.mp4"
+        ]
+      },
+      "origin": {
+        "countryOfOrigin": "Taiwan",
+        "manufacturedBy": "ZenFlow Manufacturing Ltd.",
+        "packedBy": "ZenFlow Packaging Co.",
+        "soldBy": "ZenFlow Official Store",
+        "commodity": "Exercise Equipment"
+      },
+      "metrics": {
+        "rating": 4.9,
+        "reviewCount": 342,
+        "viewCount": 8920,
+        "salesCount": 567
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": true,
+        "isOnSale": true,
+        "publishedAt": "2024-02-20T09:15:00Z"
+      },
+      "seo": {
+        "metaTitle": "Premium Eco-Friendly Yoga Mat - Non-Slip & Durable | ZenFlow",
+        "metaDescription": "Experience ultimate comfort with our premium yoga mat. Eco-friendly materials, superior grip, and 6mm cushioning. Perfect for all yoga styles.",
+        "keywords": [
+          "yoga mat",
+          "eco-friendly yoga mat",
+          "non-slip yoga mat",
+          "premium yoga mat",
+          "exercise mat"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-02-20T00:00:00Z",
+        "saleEndDate": "2024-03-20T23:59:59Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 6.5,
-            "height": 0.3,
-            "length": 15,
-            "width": 7
+          "variantId": "V013",
+          "parentProductId": "P009",
+          "identifiers": {
+            "sku": "YM-PURPLE-6MM",
+            "barcode": "7771234567891"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Black",
-            "material": "Glass",
+            "color": "Purple",
+            "size": "183cm x 61cm",
+            "material": "TPE (Thermoplastic Elastomer)",
+            "style": "Standard",
+            "pattern": "Textured",
             "warranty": "1 year"
           },
-          "stock": 200,
-          "price": 699.99
+          "dimensions": {
+            "length": {
+              "value": 183,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 61,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 0.6,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1200,
+              "unit": "g"
+            },
+            "size": {
+              "value": 6,
+              "unit": "mm"
+            }
+          },
+          "pricing": {
+            "basePrice": 89.99,
+            "salePrice": 69.99,
+            "originalPrice": 89.99,
+            "discountPercentage": 22,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 245,
+            "lowStockThreshold": 30,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/yoga-mat-purple.jpg"
+          }
+        },
+        {
+          "variantId": "V014",
+          "parentProductId": "P009",
+          "identifiers": {
+            "sku": "YM-BLUE-6MM",
+            "barcode": "7771234567892"
+          },
+          "attributes": {
+            "color": "Ocean Blue",
+            "size": "183cm x 61cm",
+            "material": "TPE (Thermoplastic Elastomer)",
+            "style": "Standard",
+            "pattern": "Textured",
+            "warranty": "1 year"
+          },
+          "dimensions": {
+            "length": {
+              "value": 183,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 61,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 0.6,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1200,
+              "unit": "g"
+            },
+            "size": {
+              "value": 6,
+              "unit": "mm"
+            }
+          },
+          "pricing": {
+            "basePrice": 89.99,
+            "salePrice": 69.99,
+            "originalPrice": 89.99,
+            "discountPercentage": 22,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 198,
+            "lowStockThreshold": 30,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/yoga-mat-blue.jpg"
+          }
+        },
+        {
+          "variantId": "V015",
+          "parentProductId": "P009",
+          "identifiers": {
+            "sku": "YM-GREEN-8MM",
+            "barcode": "7771234567893"
+          },
+          "attributes": {
+            "color": "Forest Green",
+            "size": "183cm x 61cm",
+            "material": "TPE (Thermoplastic Elastomer)",
+            "style": "Extra Thick",
+            "pattern": "Textured",
+            "warranty": "1 year"
+          },
+          "dimensions": {
+            "length": {
+              "value": 183,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 61,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 0.8,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1500,
+              "unit": "g"
+            },
+            "size": {
+              "value": 8,
+              "unit": "mm"
+            }
+          },
+          "pricing": {
+            "basePrice": 99.99,
+            "salePrice": 79.99,
+            "originalPrice": 99.99,
+            "discountPercentage": 20,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 156,
+            "lowStockThreshold": 30,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/yoga-mat-green.jpg"
+          }
         }
-      ],
-      "brandId": "B001"
+      ]
     },
     {
       "id": "P010",
-      "name": "Laptop",
-      "description": "Powerful laptop with long battery life and high-speed performance.",
-      "categoryIds": [
-        "C003"
-      ],
-      "branchIds": [
-        "B003"
-      ],
-      "tags": [
-        "T005",
-        "T006"
-      ],
-      "brand": "LaptopBrand",
-      "images": [
-        "https://example.com/images/laptop1.jpg",
-        "https://example.com/images/laptop2.jpg"
-      ],
-      "createdBy": "U003",
-      "createdAt": "2024-03-01T12:00:00Z",
-      "updatedAt": "2024-03-01T12:00:00Z",
-      "combinations": [
+      "connectionId": "CONN010",
+      "activeState": "active",
+      "description": "Smart fitness tracker with heart rate monitoring, sleep tracking, and activity insights.",
+      "createdBy": "U006",
+      "createdAt": "2024-02-22T11:30:00Z",
+      "updatedAt": "2024-02-22T11:30:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P010",
+        "sku": "FT-SMART-001",
+        "barcode": "8881234567890",
+        "slug": "smart-fitness-tracker"
+      },
+      "name": "Smart Fitness Tracker",
+      "shortDescription": "Track your fitness goals with precision and style.",
+      "classification": {
+        "categoryIds": [
+          "C001",
+          "C008"
+        ],
+        "categoryNames": [
+          "Electronics",
+          "Wearables"
+        ],
+        "tagIds": [
+          "T013",
+          "T014",
+          "T015"
+        ],
+        "tags": [
+          {
+            "id": "T013",
+            "name": "Fitness"
+          },
+          {
+            "id": "T014",
+            "name": "Smart Device"
+          },
+          {
+            "id": "T015",
+            "name": "Health"
+          }
+        ],
+        "brandId": "BR004",
+        "brandName": "FitPulse"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B002",
+          "B003"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Mall Branch",
+          "Sports Branch"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/fitness-tracker-1.jpg",
+          "assets/web-site-app/images/products/fitness-tracker-2.jpg",
+          "assets/web-site-app/images/products/fitness-tracker-3.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/fitness-tracker-thumb.jpg",
+        "videos": [
+          "assets/web-site-app/videos/fitness-tracker-features.mp4"
+        ]
+      },
+      "origin": {
+        "countryOfOrigin": "South Korea",
+        "manufacturedBy": "FitPulse Technologies Inc.",
+        "packedBy": "FitPulse Logistics",
+        "soldBy": "FitPulse Official",
+        "commodity": "Electronic Wearable Device"
+      },
+      "metrics": {
+        "rating": 4.6,
+        "reviewCount": 523,
+        "viewCount": 12450,
+        "salesCount": 892
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": true,
+        "isOnSale": false,
+        "publishedAt": "2024-02-22T11:30:00Z"
+      },
+      "seo": {
+        "metaTitle": "Smart Fitness Tracker - Heart Rate & Sleep Monitor | FitPulse",
+        "metaDescription": "Advanced fitness tracking with heart rate monitoring, sleep analysis, and comprehensive activity insights. Waterproof and long battery life.",
+        "keywords": [
+          "fitness tracker",
+          "heart rate monitor",
+          "sleep tracker",
+          "activity tracker",
+          "smart band"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "",
+        "saleEndDate": ""
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 15.6,
-            "height": 2,
-            "length": 35,
-            "width": 25
+          "variantId": "V016",
+          "parentProductId": "P010",
+          "identifiers": {
+            "sku": "FT-BLACK-S",
+            "barcode": "8881234567891"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Silver",
-            "material": "Metal",
+            "color": "Black",
+            "size": "Small",
+            "material": "Silicone Band",
+            "fit": "Adjustable",
+            "style": "Sport",
             "warranty": "1 year"
           },
-          "stock": 120,
-          "price": 1199.99
+          "dimensions": {
+            "length": {
+              "value": 22,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 2.5,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 1.2,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 28,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 129.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 186,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/fitness-tracker-black-s.jpg"
+          }
+        },
+        {
+          "variantId": "V017",
+          "parentProductId": "P010",
+          "identifiers": {
+            "sku": "FT-BLACK-M",
+            "barcode": "8881234567892"
+          },
+          "attributes": {
+            "color": "Black",
+            "size": "Medium",
+            "material": "Silicone Band",
+            "fit": "Adjustable",
+            "style": "Sport",
+            "warranty": "1 year"
+          },
+          "dimensions": {
+            "length": {
+              "value": 24,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 2.5,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 1.2,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 30,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 129.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 234,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/fitness-tracker-black-m.jpg"
+          }
+        },
+        {
+          "variantId": "V018",
+          "parentProductId": "P010",
+          "identifiers": {
+            "sku": "FT-BLUE-L",
+            "barcode": "8881234567893"
+          },
+          "attributes": {
+            "color": "Navy Blue",
+            "size": "Large",
+            "material": "Silicone Band",
+            "fit": "Adjustable",
+            "style": "Sport",
+            "warranty": "1 year"
+          },
+          "dimensions": {
+            "length": {
+              "value": 26,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 2.5,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 1.2,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 32,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 129.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 167,
+            "lowStockThreshold": 25,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/fitness-tracker-blue-l.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P011",
-      "name": "Smartwatch",
-      "description": "Stylish smartwatch with fitness tracking features.",
-      "categoryIds": [
-        "C004"
-      ],
-      "branchIds": [
-        "B004"
-      ],
-      "tags": [
-        "T007",
-        "T008"
-      ],
-      "brand": "WatchBrand",
-      "images": [
-        "https://example.com/images/smartwatch1.jpg",
-        "https://example.com/images/smartwatch2.jpg"
-      ],
-      "createdBy": "U004",
-      "createdAt": "2024-04-01T12:00:00Z",
-      "updatedAt": "2024-04-01T12:00:00Z",
-      "combinations": [
+      "connectionId": "CONN011",
+      "activeState": "active",
+      "description": "Organic green tea blend sourced from premium tea estates with antioxidant benefits.",
+      "createdBy": "U007",
+      "createdAt": "2024-02-25T08:45:00Z",
+      "updatedAt": "2024-02-25T08:45:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P011",
+        "sku": "GT-ORG-001",
+        "barcode": "9991234567890",
+        "slug": "organic-green-tea"
+      },
+      "name": "Organic Green Tea",
+      "shortDescription": "Premium organic green tea with rich flavor and health benefits.",
+      "classification": {
+        "categoryIds": [
+          "C009",
+          "C010"
+        ],
+        "categoryNames": [
+          "Food & Beverages",
+          "Tea & Coffee"
+        ],
+        "tagIds": [
+          "T016",
+          "T017",
+          "T018"
+        ],
+        "tags": [
+          {
+            "id": "T016",
+            "name": "Organic"
+          },
+          {
+            "id": "T017",
+            "name": "Tea"
+          },
+          {
+            "id": "T018",
+            "name": "Healthy"
+          }
+        ],
+        "brandId": "BR005",
+        "brandName": "PureLeaf Organics"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B002",
+          "B004",
+          "B006"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Mall Branch",
+          "Downtown Store",
+          "Organic Market"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/green-tea-1.jpg",
+          "assets/web-site-app/images/products/green-tea-2.jpg",
+          "assets/web-site-app/images/products/green-tea-3.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/green-tea-thumb.jpg",
+        "videos": []
+      },
+      "origin": {
+        "countryOfOrigin": "Japan",
+        "manufacturedBy": "Kyoto Tea Gardens",
+        "packedBy": "PureLeaf Organics Packaging",
+        "soldBy": "PureLeaf Organics Store",
+        "commodity": "Organic Green Tea Leaves"
+      },
+      "metrics": {
+        "rating": 4.8,
+        "reviewCount": 678,
+        "viewCount": 15320,
+        "salesCount": 1234
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": true,
+        "publishedAt": "2024-02-25T08:45:00Z"
+      },
+      "seo": {
+        "metaTitle": "Organic Green Tea - Premium Japanese Tea Leaves | PureLeaf",
+        "metaDescription": "Experience authentic Japanese organic green tea. Rich in antioxidants, perfect for daily wellness. 100% organic and sustainably sourced.",
+        "keywords": [
+          "organic green tea",
+          "japanese green tea",
+          "premium tea",
+          "healthy tea",
+          "antioxidant tea"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-02-25T00:00:00Z",
+        "saleEndDate": "2024-03-31T23:59:59Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 1.5,
-            "height": 0.5,
-            "length": 4,
-            "width": 4
+          "variantId": "V019",
+          "parentProductId": "P011",
+          "identifiers": {
+            "sku": "GT-ORG-50G",
+            "barcode": "9991234567891"
           },
           "attributes": {
-            "fit": "Regular",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "1 year"
+            "size": "50g",
+            "material": "Loose Leaf Tea",
+            "style": "Traditional",
+            "pattern": "Pure Green",
+            "warranty": "Best Before 12 months"
           },
-          "stock": 300,
-          "price": 199.99
+          "dimensions": {
+            "length": {
+              "value": 10,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 6,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 50,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 18.99,
+            "salePrice": 15.99,
+            "originalPrice": 18.99,
+            "discountPercentage": 16,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 456,
+            "lowStockThreshold": 50,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/green-tea-50g.jpg"
+          }
         },
         {
-          "dimensions": {
-            "size": 2,
-            "height": 3,
-            "length": 9,
-            "width": 5
+          "variantId": "V020",
+          "parentProductId": "P011",
+          "identifiers": {
+            "sku": "GT-ORG-100G",
+            "barcode": "9991234567892"
           },
           "attributes": {
-            "fit": "Regular",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 year"
+            "size": "100g",
+            "material": "Loose Leaf Tea",
+            "style": "Traditional",
+            "pattern": "Pure Green",
+            "warranty": "Best Before 12 months"
           },
-          "stock": 20,
-          "price": 394.92
+          "dimensions": {
+            "length": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 7,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 14,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 100,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 32.99,
+            "salePrice": 27.99,
+            "originalPrice": 32.99,
+            "discountPercentage": 15,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 328,
+            "lowStockThreshold": 50,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/green-tea-100g.jpg"
+          }
+        },
+        {
+          "variantId": "V021",
+          "parentProductId": "P011",
+          "identifiers": {
+            "sku": "GT-ORG-200G",
+            "barcode": "9991234567893"
+          },
+          "attributes": {
+            "size": "200g",
+            "material": "Loose Leaf Tea",
+            "style": "Traditional",
+            "pattern": "Pure Green",
+            "warranty": "Best Before 12 months"
+          },
+          "dimensions": {
+            "length": {
+              "value": 14,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 16,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 200,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 58.99,
+            "salePrice": 49.99,
+            "originalPrice": 58.99,
+            "discountPercentage": 15,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 234,
+            "lowStockThreshold": 50,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/green-tea-200g.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P012",
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
-      "categoryIds": [
-        "C005"
-      ],
-      "branchIds": [
-        "B005"
-      ],
-      "tags": [
-        "T009",
-        "T010"
-      ],
-      "brand": "SoundBrand",
-      "images": [
-        "https://example.com/images/speaker1.jpg",
-        "https://example.com/images/speaker2.jpg"
-      ],
-      "createdBy": "U005",
-      "createdAt": "2024-05-01T12:00:00Z",
-      "updatedAt": "2024-05-01T12:00:00Z",
-      "combinations": [
+      "connectionId": "CONN012",
+      "activeState": "active",
+      "description": "Professional camera backpack with customizable compartments and weather protection.",
+      "createdBy": "U008",
+      "createdAt": "2024-02-28T13:20:00Z",
+      "updatedAt": "2024-02-28T13:20:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P012",
+        "sku": "CB-PRO-001",
+        "barcode": "1112234567890",
+        "slug": "professional-camera-backpack"
+      },
+      "name": "Professional Camera Backpack",
+      "shortDescription": "Protect your gear with style and functionality.",
+      "classification": {
+        "categoryIds": [
+          "C011",
+          "C012"
+        ],
+        "categoryNames": [
+          "Photography",
+          "Bags & Cases"
+        ],
+        "tagIds": [
+          "T019",
+          "T020",
+          "T021"
+        ],
+        "tags": [
+          {
+            "id": "T019",
+            "name": "Camera Bag"
+          },
+          {
+            "id": "T020",
+            "name": "Professional"
+          },
+          {
+            "id": "T021",
+            "name": "Waterproof"
+          }
+        ],
+        "brandId": "BR006",
+        "brandName": "LensGuard Pro"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B007"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Photography Hub"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/camera-bag-1.jpg",
+          "assets/web-site-app/images/products/camera-bag-2.jpg",
+          "assets/web-site-app/images/products/camera-bag-3.jpg",
+          "assets/web-site-app/images/products/camera-bag-4.jpg",
+          "assets/web-site-app/images/products/camera-bag-5.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/camera-bag-thumb.jpg",
+        "videos": [
+          "assets/web-site-app/videos/camera-bag-review.mp4",
+          "assets/web-site-app/videos/camera-bag-setup.mp4"
+        ]
+      },
+      "origin": {
+        "countryOfOrigin": "Vietnam",
+        "manufacturedBy": "LensGuard Manufacturing Co.",
+        "packedBy": "LensGuard Logistics",
+        "soldBy": "LensGuard Official Store",
+        "commodity": "Camera Carrying Case"
+      },
+      "metrics": {
+        "rating": 4.7,
+        "reviewCount": 289,
+        "viewCount": 6780,
+        "salesCount": 445
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": false,
+        "isNew": true,
+        "isOnSale": false,
+        "publishedAt": "2024-02-28T13:20:00Z"
+      },
+      "seo": {
+        "metaTitle": "Professional Camera Backpack - Waterproof & Customizable | LensGuard",
+        "metaDescription": "Premium camera backpack with padded compartments, weather protection, and ergonomic design. Perfect for professional photographers.",
+        "keywords": [
+          "camera backpack",
+          "photography bag",
+          "professional camera bag",
+          "waterproof camera bag",
+          "dslr backpack"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "",
+        "saleEndDate": ""
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 7,
-            "height": 8,
-            "length": 10,
-            "width": 10
+          "variantId": "V022",
+          "parentProductId": "P012",
+          "identifiers": {
+            "sku": "CB-BLACK-M",
+            "barcode": "1112234567891"
           },
           "attributes": {
-            "fit": "Compact",
             "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
+            "size": "Medium",
+            "material": "Waterproof Nylon",
+            "fit": "Ergonomic",
+            "style": "Professional",
+            "warranty": "3 years"
           },
-          "stock": 200,
-          "price": 49.99
+          "dimensions": {
+            "length": {
+              "value": 30,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 20,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 45,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1400,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 179.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 87,
+            "lowStockThreshold": 15,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/camera-bag-black-m.jpg"
+          }
+        },
+        {
+          "variantId": "V023",
+          "parentProductId": "P012",
+          "identifiers": {
+            "sku": "CB-BLACK-L",
+            "barcode": "1112234567892"
+          },
+          "attributes": {
+            "color": "Black",
+            "size": "Large",
+            "material": "Waterproof Nylon",
+            "fit": "Ergonomic",
+            "style": "Professional",
+            "warranty": "3 years"
+          },
+          "dimensions": {
+            "length": {
+              "value": 35,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 22,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 50,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1650,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 199.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 65,
+            "lowStockThreshold": 15,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/camera-bag-black-l.jpg"
+          }
+        },
+        {
+          "variantId": "V024",
+          "parentProductId": "P012",
+          "identifiers": {
+            "sku": "CB-GRAY-M",
+            "barcode": "1112234567893"
+          },
+          "attributes": {
+            "color": "Charcoal Gray",
+            "size": "Medium",
+            "material": "Waterproof Nylon",
+            "fit": "Ergonomic",
+            "style": "Professional",
+            "warranty": "3 years"
+          },
+          "dimensions": {
+            "length": {
+              "value": 30,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 20,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 45,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 1400,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 179.99,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 72,
+            "lowStockThreshold": 15,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/camera-bag-gray-m.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P013",
-      "name": "Tablet",
-      "description": "High-resolution display tablet, ideal for work and entertainment.",
-      "categoryIds": [
-        "C006"
-      ],
-      "branchIds": [
-        "B006"
-      ],
-      "tags": [
-        "T011",
-        "T012"
-      ],
-      "brand": "TabBrand",
-      "images": [
-        "https://example.com/images/tablet1.jpg",
-        "https://example.com/images/tablet2.jpg"
-      ],
-      "createdBy": "U006",
-      "createdAt": "2024-06-01T12:00:00Z",
-      "updatedAt": "2024-06-01T12:00:00Z",
-      "combinations": [
+      "connectionId": "CONN013",
+      "activeState": "active",
+      "description": "High-performance running shoes with responsive cushioning and breathable mesh upper.",
+      "createdBy": "U009",
+      "createdAt": "2024-03-02T10:00:00Z",
+      "updatedAt": "2024-03-02T10:00:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P013",
+        "sku": "RS-ULTRA-001",
+        "barcode": "2223334567890",
+        "slug": "ultra-performance-running-shoes"
+      },
+      "name": "Ultra Performance Running Shoes",
+      "shortDescription": "Advanced running shoes engineered for speed and comfort.",
+      "classification": {
+        "categoryIds": [
+          "C013",
+          "C014"
+        ],
+        "categoryNames": [
+          "Footwear",
+          "Athletic Shoes"
+        ],
+        "tagIds": [
+          "T022",
+          "T023",
+          "T024"
+        ],
+        "tags": [
+          {
+            "id": "T022",
+            "name": "Running"
+          },
+          {
+            "id": "T023",
+            "name": "Performance"
+          },
+          {
+            "id": "T024",
+            "name": "Breathable"
+          }
+        ],
+        "brandId": "BR007",
+        "brandName": "SpeedStride"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B003",
+          "B005",
+          "B008"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Sports Branch",
+          "Fitness Center",
+          "Running Store"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/running-shoes-1.jpg",
+          "assets/web-site-app/images/products/running-shoes-2.jpg",
+          "assets/web-site-app/images/products/running-shoes-3.jpg",
+          "assets/web-site-app/images/products/running-shoes-4.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/running-shoes-thumb.jpg",
+        "videos": [
+          "assets/web-site-app/videos/running-shoes-tech.mp4"
+        ]
+      },
+      "origin": {
+        "countryOfOrigin": "Indonesia",
+        "manufacturedBy": "SpeedStride Athletic Inc.",
+        "packedBy": "SpeedStride Distribution",
+        "soldBy": "SpeedStride Official",
+        "commodity": "Athletic Footwear"
+      },
+      "metrics": {
+        "rating": 4.9,
+        "reviewCount": 812,
+        "viewCount": 22340,
+        "salesCount": 1567
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": true,
+        "publishedAt": "2024-03-02T10:00:00Z"
+      },
+      "seo": {
+        "metaTitle": "Ultra Performance Running Shoes - Responsive Cushioning | SpeedStride",
+        "metaDescription": "Experience ultimate running performance with responsive cushioning, breathable design, and superior traction. Perfect for marathons and daily training.",
+        "keywords": [
+          "running shoes",
+          "performance shoes",
+          "marathon shoes",
+          "athletic footwear",
+          "breathable shoes"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-03-01T00:00:00Z",
+        "saleEndDate": "2024-03-31T23:59:59Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 10.2,
-            "height": 0.5,
-            "length": 25,
-            "width": 17
+          "variantId": "V025",
+          "parentProductId": "P013",
+          "identifiers": {
+            "sku": "RS-BLUE-8",
+            "barcode": "2223334567891"
           },
           "attributes": {
+            "color": "Electric Blue",
+            "size": "US 8",
+            "material": "Engineered Mesh",
             "fit": "Standard",
-            "color": "Silver",
-            "material": "Metal",
-            "warranty": "1 year"
+            "style": "Performance",
+            "warranty": "6 months"
           },
-          "stock": 80,
-          "price": 399.99
+          "dimensions": {
+            "length": {
+              "value": 27,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 10,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 280,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 159.99,
+            "salePrice": 139.99,
+            "originalPrice": 159.99,
+            "discountPercentage": 13,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 145,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/running-shoes-blue-8.jpg"
+          }
+        },
+        {
+          "variantId": "V026",
+          "parentProductId": "P013",
+          "identifiers": {
+            "sku": "RS-BLUE-9",
+            "barcode": "2223334567892"
+          },
+          "attributes": {
+            "color": "Electric Blue",
+            "size": "US 9",
+            "material": "Engineered Mesh",
+            "fit": "Standard",
+            "style": "Performance",
+            "warranty": "6 months"
+          },
+          "dimensions": {
+            "length": {
+              "value": 28,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 10.5,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 290,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 159.99,
+            "salePrice": 139.99,
+            "originalPrice": 159.99,
+            "discountPercentage": 13,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 178,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/running-shoes-blue-9.jpg"
+          }
+        },
+        {
+          "variantId": "V027",
+          "parentProductId": "P013",
+          "identifiers": {
+            "sku": "RS-BLACK-10",
+            "barcode": "2223334567893"
+          },
+          "attributes": {
+            "color": "Midnight Black",
+            "size": "US 10",
+            "material": "Engineered Mesh",
+            "fit": "Standard",
+            "style": "Performance",
+            "warranty": "6 months"
+          },
+          "dimensions": {
+            "length": {
+              "value": 29,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 11,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 295,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 159.99,
+            "salePrice": 139.99,
+            "originalPrice": 159.99,
+            "discountPercentage": 13,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 198,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/running-shoes-black-10.jpg"
+          }
+        },
+        {
+          "variantId": "V028",
+          "parentProductId": "P013",
+          "identifiers": {
+            "sku": "RS-WHITE-11",
+            "barcode": "2223334567894"
+          },
+          "attributes": {
+            "color": "Pure White",
+            "size": "US 11",
+            "material": "Engineered Mesh",
+            "fit": "Standard",
+            "style": "Performance",
+            "warranty": "6 months"
+          },
+          "dimensions": {
+            "length": {
+              "value": 30,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 11.5,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 305,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 159.99,
+            "salePrice": 139.99,
+            "originalPrice": 159.99,
+            "discountPercentage": 13,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 167,
+            "lowStockThreshold": 20,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/running-shoes-white-11.jpg"
+          }
         }
-      ],
-      "brandId": null
+      ]
     },
     {
       "id": "P014",
-      "name": "Gaming Console",
-      "description": "Next-generation gaming console with ultra-fast graphics.",
-      "categoryIds": [
-        "C007"
-      ],
-      "branchIds": [
-        "B007"
-      ],
-      "tags": [
-        "T013",
-        "T014"
-      ],
-      "brand": "ConsoleBrand",
-      "images": [
-        "https://example.com/images/console1.jpg",
-        "https://example.com/images/console2.jpg"
-      ],
-      "createdBy": "U007",
-      "createdAt": "2024-07-01T12:00:00Z",
-      "updatedAt": "2024-07-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 15,
-            "height": 10,
-            "length": 40,
-            "width": 25
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
-          },
-          "stock": 150,
-          "price": 499.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P015",
-      "name": "Wireless Earbuds",
-      "description": "Compact and ergonomic wireless earbuds with high sound quality.",
-      "categoryIds": [
-        "C001"
-      ],
-      "branchIds": [
-        "B001"
-      ],
-      "tags": [
-        "T015",
-        "T016"
-      ],
-      "brand": "EarBrand",
-      "images": [
-        "https://example.com/images/earbuds1.jpg",
-        "https://example.com/images/earbuds2.jpg"
-      ],
-      "createdBy": "U008",
-      "createdAt": "2024-08-01T12:00:00Z",
-      "updatedAt": "2024-08-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 1.2,
-            "height": 0.3,
-            "length": 2,
-            "width": 2
-          },
-          "attributes": {
-            "fit": "In-Ear",
-            "color": "White",
-            "material": "Plastic",
-            "warranty": "6 months"
-          },
-          "stock": 300,
-          "price": 59.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P016",
-      "name": "4K Action Camera",
-      "description": "Compact and durable action camera with 4K video recording.",
-      "categoryIds": [
-        "C008"
-      ],
-      "branchIds": [
-        "B008"
-      ],
-      "tags": [
-        "T017",
-        "T018"
-      ],
-      "brand": "CamBrand",
-      "images": [
-        "https://example.com/images/camera1.jpg",
-        "https://example.com/images/camera2.jpg"
-      ],
-      "createdBy": "U009",
-      "createdAt": "2024-09-01T12:00:00Z",
-      "updatedAt": "2024-09-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2.5,
-            "height": 3,
-            "length": 4,
-            "width": 3
-          },
-          "attributes": {
-            "fit": "Compact",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 200,
-          "price": 199.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P017",
-      "name": "Digital Camera",
-      "description": "Professional-grade camera for photography enthusiasts.",
-      "categoryIds": [
-        "C009"
-      ],
-      "branchIds": [
-        "B009"
-      ],
-      "tags": [
-        "T019",
-        "T020"
-      ],
-      "brand": "PhotoBrand",
-      "images": [
-        "https://example.com/images/digitalcamera1.jpg",
-        "https://example.com/images/digitalcamera2.jpg"
-      ],
+      "connectionId": "CONN014",
+      "activeState": "active",
+      "description": "Portable Bluetooth speaker with 360-degree sound and waterproof construction.",
       "createdBy": "U010",
-      "createdAt": "2024-10-01T12:00:00Z",
-      "updatedAt": "2024-10-01T12:00:00Z",
-      "combinations": [
+      "createdAt": "2024-03-05T15:30:00Z",
+      "updatedAt": "2024-03-05T15:30:00Z",
+      "deletedAt": "",
+      "identifiers": {
+        "productId": "P014",
+        "sku": "BS-360-001",
+        "barcode": "3334445567890",
+        "slug": "portable-bluetooth-speaker-360"
+      },
+      "name": "Portable Bluetooth Speaker 360",
+      "shortDescription": "Immersive sound experience anywhere you go.",
+      "classification": {
+        "categoryIds": [
+          "C001",
+          "C015"
+        ],
+        "categoryNames": [
+          "Electronics",
+          "Audio Equipment"
+        ],
+        "tagIds": [
+          "T001",
+          "T002",
+          "T025"
+        ],
+        "tags": [
+          {
+            "id": "T001",
+            "name": "Audio"
+          },
+          {
+            "id": "T002",
+            "name": "Wireless"
+          },
+          {
+            "id": "T025",
+            "name": "Portable"
+          }
+        ],
+        "brandId": "BR008",
+        "brandName": "SoundWave"
+      },
+      "distribution": {
+        "branchIds": [
+          "B001",
+          "B002",
+          "B003",
+          "B009"
+        ],
+        "branchNames": [
+          "Main Store",
+          "Mall Branch",
+          "Sports Branch",
+          "Beach Store"
+        ]
+      },
+      "media": {
+        "images": [
+          "assets/web-site-app/images/products/speaker-1.jpg",
+          "assets/web-site-app/images/products/speaker-2.jpg",
+          "assets/web-site-app/images/products/speaker-3.jpg",
+          "assets/web-site-app/images/products/speaker-4.jpg",
+          "assets/web-site-app/images/products/speaker-5.jpg"
+        ],
+        "thumbnail": "assets/web-site-app/images/products/speaker-thumb.jpg",
+        "videos": [
+          "assets/web-site-app/videos/speaker-demo.mp4",
+          "assets/web-site-app/videos/speaker-waterproof.mp4"
+        ]
+      },
+      "origin": {
+        "countryOfOrigin": "China",
+        "manufacturedBy": "SoundWave Technologies Ltd.",
+        "packedBy": "SoundWave Logistics",
+        "soldBy": "SoundWave Official Store",
+        "commodity": "Electronic Audio Device"
+      },
+      "metrics": {
+        "rating": 4.7,
+        "reviewCount": 934,
+        "viewCount": 18920,
+        "salesCount": 2145
+      },
+      "status": {
+        "isActive": true,
+        "isFeatured": true,
+        "isNew": false,
+        "isOnSale": true,
+        "publishedAt": "2024-03-05T15:30:00Z"
+      },
+      "seo": {
+        "metaTitle": "Portable Bluetooth Speaker 360 - Waterproof & Powerful | SoundWave",
+        "metaDescription": "Premium portable speaker with 360-degree sound, 20-hour battery life, and IPX7 waterproof rating. Perfect for outdoor adventures.",
+        "keywords": [
+          "bluetooth speaker",
+          "portable speaker",
+          "waterproof speaker",
+          "360 speaker",
+          "wireless speaker"
+        ]
+      },
+      "salePeriod": {
+        "saleStartDate": "2024-03-01T00:00:00Z",
+        "saleEndDate": "2024-04-01T23:59:59Z"
+      },
+      "variants": [
         {
-          "dimensions": {
-            "size": 6,
-            "height": 5,
-            "length": 10,
-            "width": 8
+          "variantId": "V029",
+          "parentProductId": "P014",
+          "identifiers": {
+            "sku": "BS-BLACK-360",
+            "barcode": "3334445567891"
           },
           "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 899.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P018",
-      "name": "Digital Camera",
-      "description": "Professional-grade camera for photography enthusiasts.",
-      "categoryIds": [
-        "C009"
-      ],
-      "branchIds": [
-        "B009"
-      ],
-      "tags": [
-        "T019",
-        "T020"
-      ],
-      "brand": "PhotoBrand",
-      "images": [
-        "https://example.com/images/digitalcamera1.jpg",
-        "https://example.com/images/digitalcamera2.jpg"
-      ],
-      "createdBy": "U010",
-      "createdAt": "2024-10-01T12:00:00Z",
-      "updatedAt": "2024-10-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 5,
-            "length": 10,
-            "width": 8
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 899.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P019",
-      "name": "Digital Camera",
-      "description": "Professional-grade camera for photography enthusiasts.",
-      "categoryIds": [
-        "C009"
-      ],
-      "branchIds": [
-        "B009"
-      ],
-      "tags": [
-        "T019",
-        "T020"
-      ],
-      "brand": "PhotoBrand",
-      "images": [
-        "https://example.com/images/digitalcamera1.jpg",
-        "https://example.com/images/digitalcamera2.jpg"
-      ],
-      "createdBy": "U010",
-      "createdAt": "2024-10-01T12:00:00Z",
-      "updatedAt": "2024-10-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 5,
-            "length": 10,
-            "width": 8
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 899.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P020",
-      "name": "Digital Camera",
-      "description": "Professional-grade camera for photography enthusiasts.",
-      "categoryIds": [
-        "C009"
-      ],
-      "branchIds": [
-        "B009"
-      ],
-      "tags": [
-        "T019",
-        "T020"
-      ],
-      "brand": "PhotoBrand",
-      "images": [
-        "https://example.com/images/digitalcamera1.jpg",
-        "https://example.com/images/digitalcamera2.jpg"
-      ],
-      "createdBy": "U010",
-      "createdAt": "2024-10-01T12:00:00Z",
-      "updatedAt": "2024-10-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 5,
-            "length": 10,
-            "width": 8
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 899.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P021",
-      "name": "Digital Camera",
-      "description": "Professional-grade camera for photography enthusiasts.",
-      "categoryIds": [
-        "C009"
-      ],
-      "branchIds": [
-        "B009"
-      ],
-      "tags": [
-        "T019",
-        "T020"
-      ],
-      "brand": "PhotoBrand",
-      "images": [
-        "https://example.com/images/digitalcamera1.jpg",
-        "https://example.com/images/digitalcamera2.jpg"
-      ],
-      "createdBy": "U010",
-      "createdAt": "2024-10-01T12:00:00Z",
-      "updatedAt": "2024-10-01T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 5,
-            "length": 10,
-            "width": 8
-          },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Metal",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 899.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P022",
-      "name": "Smartphone",
-      "description": "High-performance smartphone with advanced features.",
-      "categoryIds": [
-        "C010"
-      ],
-      "branchIds": [
-        "B010"
-      ],
-      "tags": [
-        "T021",
-        "T022"
-      ],
-      "brand": "TechGadget",
-      "images": [
-        "https://example.com/images/smartphone1.jpg",
-        "https://example.com/images/smartphone2.jpg"
-      ],
-      "createdBy": "U011",
-      "createdAt": "2024-10-02T12:00:00Z",
-      "updatedAt": "2024-10-02T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 5,
-            "height": 6,
-            "length": 12,
-            "width": 2
-          },
-          "attributes": {
-            "fit": "Slim",
-            "color": "Silver",
-            "material": "Glass",
+            "color": "Matte Black",
+            "size": "Standard",
+            "material": "Rubberized Plastic",
+            "fit": "Cylindrical",
+            "style": "Modern",
+            "pattern": "Textured Grip",
             "warranty": "2 years"
           },
-          "stock": 200,
-          "price": 999.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P023",
-      "name": "Wireless Headphones",
-      "description": "Premium wireless headphones for immersive sound experience.",
-      "categoryIds": [
-        "C011"
-      ],
-      "branchIds": [
-        "B011"
-      ],
-      "tags": [
-        "T023",
-        "T024"
-      ],
-      "brand": "SoundMasters",
-      "images": [
-        "https://example.com/images/headphones1.jpg",
-        "https://example.com/images/headphones2.jpg"
-      ],
-      "createdBy": "U012",
-      "createdAt": "2024-10-03T12:00:00Z",
-      "updatedAt": "2024-10-03T12:00:00Z",
-      "combinations": [
-        {
           "dimensions": {
-            "size": 3,
-            "height": 7,
-            "length": 5,
-            "width": 2
+            "length": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 580,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 119.99,
+            "salePrice": 99.99,
+            "originalPrice": 119.99,
+            "discountPercentage": 17,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 267,
+            "lowStockThreshold": 40,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/speaker-black.jpg"
+          }
+        },
+        {
+          "variantId": "V030",
+          "parentProductId": "P014",
+          "identifiers": {
+            "sku": "BS-BLUE-360",
+            "barcode": "3334445567892"
           },
           "attributes": {
-            "fit": "Over-ear",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 100,
-          "price": 149.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P024",
-      "name": "Smartwatch",
-      "description": "Stylish smartwatch with fitness tracking and notifications.",
-      "categoryIds": [
-        "C012"
-      ],
-      "branchIds": [
-        "B012"
-      ],
-      "tags": [
-        "T025",
-        "T026"
-      ],
-      "brand": "WristTech",
-      "images": [
-        "https://example.com/images/smartwatch1.jpg",
-        "https://example.com/images/smartwatch2.jpg"
-      ],
-      "createdBy": "U013",
-      "createdAt": "2024-10-04T12:00:00Z",
-      "updatedAt": "2024-10-04T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2,
-            "height": 1,
-            "length": 4,
-            "width": 1
-          },
-          "attributes": {
-            "fit": "Adjustable",
-            "color": "Rose Gold",
-            "material": "Aluminum",
-            "warranty": "1 year"
-          },
-          "stock": 150,
-          "price": 199.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P025",
-      "name": "Bluetooth Speaker",
-      "description": "Portable speaker with deep bass and waterproof design.",
-      "categoryIds": [
-        "C013"
-      ],
-      "branchIds": [
-        "B013"
-      ],
-      "tags": [
-        "T027",
-        "T028"
-      ],
-      "brand": "SoundBlaze",
-      "images": [
-        "https://example.com/images/speaker1.jpg",
-        "https://example.com/images/speaker2.jpg"
-      ],
-      "createdBy": "U014",
-      "createdAt": "2024-10-05T12:00:00Z",
-      "updatedAt": "2024-10-05T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 4,
-            "height": 5,
-            "length": 6,
-            "width": 3
-          },
-          "attributes": {
-            "fit": "Compact",
-            "color": "Blue",
-            "material": "Rubber",
+            "color": "Ocean Blue",
+            "size": "Standard",
+            "material": "Rubberized Plastic",
+            "fit": "Cylindrical",
+            "style": "Modern",
+            "pattern": "Textured Grip",
             "warranty": "2 years"
           },
-          "stock": 180,
-          "price": 89.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P026",
-      "name": "Laptop",
-      "description": "Lightweight laptop with powerful performance and sleek design.",
-      "categoryIds": [
-        "C014"
-      ],
-      "branchIds": [
-        "B014"
-      ],
-      "tags": [
-        "T029",
-        "T030"
-      ],
-      "brand": "CompCore",
-      "images": [
-        "https://example.com/images/laptop1.jpg",
-        "https://example.com/images/laptop2.jpg"
-      ],
-      "createdBy": "U015",
-      "createdAt": "2024-10-06T12:00:00Z",
-      "updatedAt": "2024-10-06T12:00:00Z",
-      "combinations": [
-        {
           "dimensions": {
-            "size": 15,
-            "height": 2,
-            "length": 13,
-            "width": 9
+            "length": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 580,
+              "unit": "g"
+            }
+          },
+          "pricing": {
+            "basePrice": 119.99,
+            "salePrice": 99.99,
+            "originalPrice": 119.99,
+            "discountPercentage": 17,
+            "currency": "USD"
+          },
+          "inventory": {
+            "stock": 198,
+            "lowStockThreshold": 40,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/speaker-blue.jpg"
+          }
+        },
+        {
+          "variantId": "V031",
+          "parentProductId": "P014",
+          "identifiers": {
+            "sku": "BS-RED-360",
+            "barcode": "3334445567893"
           },
           "attributes": {
-            "fit": "Slim",
-            "color": "Gray",
-            "material": "Metal",
-            "warranty": "3 years"
-          },
-          "stock": 75,
-          "price": 1199.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P027",
-      "name": "Tablet",
-      "description": "High-resolution tablet ideal for entertainment and productivity.",
-      "categoryIds": [
-        "C015"
-      ],
-      "branchIds": [
-        "B015"
-      ],
-      "tags": [
-        "T031",
-        "T032"
-      ],
-      "brand": "TabPlus",
-      "images": [
-        "https://example.com/images/tablet1.jpg",
-        "https://example.com/images/tablet2.jpg"
-      ],
-      "createdBy": "U016",
-      "createdAt": "2024-10-07T12:00:00Z",
-      "updatedAt": "2024-10-07T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 10,
-            "height": 1,
-            "length": 10,
-            "width": 6
-          },
-          "attributes": {
-            "fit": "Flat",
-            "color": "White",
-            "material": "Glass",
+            "color": "Vibrant Red",
+            "size": "Standard",
+            "material": "Rubberized Plastic",
+            "fit": "Cylindrical",
+            "style": "Modern",
+            "pattern": "Textured Grip",
             "warranty": "2 years"
           },
-          "stock": 130,
-          "price": 499.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P028",
-      "name": "Gaming Console",
-      "description": "Next-gen console with ultra-fast processing and immersive graphics.",
-      "categoryIds": [
-        "C016"
-      ],
-      "branchIds": [
-        "B016"
-      ],
-      "tags": [
-        "T033",
-        "T034"
-      ],
-      "brand": "GameZone",
-      "images": [
-        "https://example.com/images/console1.jpg",
-        "https://example.com/images/console2.jpg"
-      ],
-      "createdBy": "U017",
-      "createdAt": "2024-10-08T12:00:00Z",
-      "updatedAt": "2024-10-08T12:00:00Z",
-      "combinations": [
-        {
           "dimensions": {
-            "size": 8,
-            "height": 4,
-            "length": 12,
-            "width": 10
+            "length": {
+              "value": 18,
+              "unit": "cm"
+            },
+            "width": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "cm"
+            },
+            "weight": {
+              "value": 580,
+              "unit": "g"
+            }
           },
-          "attributes": {
-            "fit": "Standard",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
+          "pricing": {
+            "basePrice": 119.99,
+            "salePrice": 99.99,
+            "originalPrice": 119.99,
+            "discountPercentage": 17,
+            "currency": "USD"
           },
-          "stock": 90,
-          "price": 599.99
+          "inventory": {
+            "stock": 234,
+            "lowStockThreshold": 40,
+            "trackInventory": true,
+            "isAvailable": true
+          },
+          "media": {
+            "thumbnail": "assets/web-site-app/images/products/speaker-red.jpg"
+          }
         }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P029",
-      "name": "4K Action Camera",
-      "description": "Durable action camera with 4K recording and waterproof casing.",
-      "categoryIds": [
-        "C017"
-      ],
-      "branchIds": [
-        "B017"
-      ],
-      "tags": [
-        "T035",
-        "T036"
-      ],
-      "brand": "CamPro",
-      "images": [
-        "https://example.com/images/actioncamera1.jpg",
-        "https://example.com/images/actioncamera2.jpg"
-      ],
-      "createdBy": "U018",
-      "createdAt": "2024-10-09T12:00:00Z",
-      "updatedAt": "2024-10-09T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2,
-            "height": 2,
-            "length": 3,
-            "width": 2
-          },
-          "attributes": {
-            "fit": "Compact",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 120,
-          "price": 249.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P030",
-      "name": "Mechanical Keyboard",
-      "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "categoryIds": [
-        "C018"
-      ],
-      "branchIds": [
-        "B018"
-      ],
-      "tags": [
-        "T037",
-        "T038"
-      ],
-      "brand": "KeyMaster",
-      "images": [
-        "https://example.com/images/keyboard1.jpg",
-        "https://example.com/images/keyboard2.jpg"
-      ],
-      "createdBy": "U019",
-      "createdAt": "2024-10-10T12:00:00Z",
-      "updatedAt": "2024-10-10T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 5,
-            "height": 1.5,
-            "length": 17,
-            "width": 6
-          },
-          "attributes": {
-            "fit": "Full-size",
-            "color": "Black",
-            "material": "Aluminum",
-            "warranty": "2 years"
-          },
-          "stock": 160,
-          "price": 129.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P031",
-      "name": "Drone",
-      "description": "Compact drone with HD camera and GPS tracking.",
-      "categoryIds": [
-        "C019"
-      ],
-      "branchIds": [
-        "B019"
-      ],
-      "tags": [
-        "T039",
-        "T040"
-      ],
-      "brand": "SkyView",
-      "images": [
-        "https://example.com/images/drone1.jpg",
-        "https://example.com/images/drone2.jpg"
-      ],
-      "createdBy": "U020",
-      "createdAt": "2024-10-11T12:00:00Z",
-      "updatedAt": "2024-10-11T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 3,
-            "length": 10,
-            "width": 10
-          },
-          "attributes": {
-            "fit": "Foldable",
-            "color": "Gray",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 80,
-          "price": 399.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P032",
-      "name": "Smart Thermostat",
-      "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "categoryIds": [
-        "C020"
-      ],
-      "branchIds": [
-        "B020"
-      ],
-      "tags": [
-        "T041",
-        "T042"
-      ],
-      "brand": "HomeSense",
-      "images": [
-        "https://example.com/images/thermostat1.jpg",
-        "https://example.com/images/thermostat2.jpg"
-      ],
-      "createdBy": "U021",
-      "createdAt": "2024-10-12T12:00:00Z",
-      "updatedAt": "2024-10-12T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2,
-            "height": 1,
-            "length": 5,
-            "width": 5
-          },
-          "attributes": {
-            "fit": "Wall-mount",
-            "color": "White",
-            "material": "Plastic",
-            "warranty": "3 years"
-          },
-          "stock": 140,
-          "price": 179.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P033",
-      "name": "E-Reader",
-      "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "categoryIds": [
-        "C021"
-      ],
-      "branchIds": [
-        "B021"
-      ],
-      "tags": [
-        "T043",
-        "T044"
-      ],
-      "brand": "ReadOn",
-      "images": [
-        "https://example.com/images/ereader1.jpg",
-        "https://example.com/images/ereader2.jpg"
-      ],
-      "createdBy": "U022",
-      "createdAt": "2024-10-13T12:00:00Z",
-      "updatedAt": "2024-10-13T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 1,
-            "length": 6,
-            "width": 4
-          },
-          "attributes": {
-            "fit": "Handheld",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
-          },
-          "stock": 110,
-          "price": 139.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P029",
-      "name": "4K Action Camera",
-      "description": "Durable action camera with 4K recording and waterproof casing.",
-      "categoryIds": [
-        "C017"
-      ],
-      "branchIds": [
-        "B017"
-      ],
-      "tags": [
-        "T035",
-        "T036"
-      ],
-      "brand": "CamPro",
-      "images": [
-        "https://example.com/images/actioncamera1.jpg",
-        "https://example.com/images/actioncamera2.jpg"
-      ],
-      "createdBy": "U018",
-      "createdAt": "2024-10-09T12:00:00Z",
-      "updatedAt": "2024-10-09T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2,
-            "height": 2,
-            "length": 3,
-            "width": 2
-          },
-          "attributes": {
-            "fit": "Compact",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 120,
-          "price": 249.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P030",
-      "name": "Mechanical Keyboard",
-      "description": "RGB mechanical keyboard with customizable keys and switches.",
-      "categoryIds": [
-        "C018"
-      ],
-      "branchIds": [
-        "B018"
-      ],
-      "tags": [
-        "T037",
-        "T038"
-      ],
-      "brand": "KeyMaster",
-      "images": [
-        "https://example.com/images/keyboard1.jpg",
-        "https://example.com/images/keyboard2.jpg"
-      ],
-      "createdBy": "U019",
-      "createdAt": "2024-10-10T12:00:00Z",
-      "updatedAt": "2024-10-10T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 5,
-            "height": 1.5,
-            "length": 17,
-            "width": 6
-          },
-          "attributes": {
-            "fit": "Full-size",
-            "color": "Black",
-            "material": "Aluminum",
-            "warranty": "2 years"
-          },
-          "stock": 160,
-          "price": 129.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P031",
-      "name": "Drone",
-      "description": "Compact drone with HD camera and GPS tracking.",
-      "categoryIds": [
-        "C019"
-      ],
-      "branchIds": [
-        "B019"
-      ],
-      "tags": [
-        "T039",
-        "T040"
-      ],
-      "brand": "SkyView",
-      "images": [
-        "https://example.com/images/drone1.jpg",
-        "https://example.com/images/drone2.jpg"
-      ],
-      "createdBy": "U020",
-      "createdAt": "2024-10-11T12:00:00Z",
-      "updatedAt": "2024-10-11T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 3,
-            "length": 10,
-            "width": 10
-          },
-          "attributes": {
-            "fit": "Foldable",
-            "color": "Gray",
-            "material": "Plastic",
-            "warranty": "1 year"
-          },
-          "stock": 80,
-          "price": 399.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P032",
-      "name": "Smart Thermostat",
-      "description": "Wi-Fi enabled thermostat for smart home temperature control.",
-      "categoryIds": [
-        "C020"
-      ],
-      "branchIds": [
-        "B020"
-      ],
-      "tags": [
-        "T041",
-        "T042"
-      ],
-      "brand": "HomeSense",
-      "images": [
-        "https://example.com/images/thermostat1.jpg",
-        "https://example.com/images/thermostat2.jpg"
-      ],
-      "createdBy": "U021",
-      "createdAt": "2024-10-12T12:00:00Z",
-      "updatedAt": "2024-10-12T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 2,
-            "height": 1,
-            "length": 5,
-            "width": 5
-          },
-          "attributes": {
-            "fit": "Wall-mount",
-            "color": "White",
-            "material": "Plastic",
-            "warranty": "3 years"
-          },
-          "stock": 140,
-          "price": 179.99
-        }
-      ],
-      "brandId": null
-    },
-    {
-      "id": "P033",
-      "name": "E-Reader",
-      "description": "Lightweight e-reader with glare-free display and long battery life.",
-      "categoryIds": [
-        "C021"
-      ],
-      "branchIds": [
-        "B021"
-      ],
-      "tags": [
-        "T043",
-        "T044"
-      ],
-      "brand": "ReadOn",
-      "images": [
-        "https://example.com/images/ereader1.jpg",
-        "https://example.com/images/ereader2.jpg"
-      ],
-      "createdBy": "U022",
-      "createdAt": "2024-10-13T12:00:00Z",
-      "updatedAt": "2024-10-13T12:00:00Z",
-      "combinations": [
-        {
-          "dimensions": {
-            "size": 6,
-            "height": 1,
-            "length": 6,
-            "width": 4
-          },
-          "attributes": {
-            "fit": "Handheld",
-            "color": "Black",
-            "material": "Plastic",
-            "warranty": "2 years"
-          },
-          "stock": 110,
-          "price": 139.99
-        }
-      ],
-      "brandId": null
+      ]
     }
   ]
 }

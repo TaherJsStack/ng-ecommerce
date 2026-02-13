@@ -1,0 +1,1734 @@
+{
+  "success": true,
+  "errors": [],
+  "message": "string",
+  "status": 20,
+  "totalData": 33,
+  "data": [
+    {
+      "id": "P001",
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "categoryIds": [
+        "C001"
+      ],
+      "branchIds": [
+        "B001"
+      ],
+      "tags": [
+        "T001",
+        "T002"
+      ],
+      "brand": "AudioBrand",
+      "images": [
+        "assets/web-site-app/images/products/1.jpg",
+        "assets/web-site-app/images/products/1.jpg",
+        "assets/web-site-app/images/products/1.jpg"
+      ],
+      "createdBy": "U001",
+      "createdAt": "2024-01-01T12:00:00Z",
+      "updatedAt": "2024-01-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 18,
+            "height": 5,
+            "length": 18,
+            "width": 15
+          },
+          "attributes": {
+            "fit": "Over-Ear",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 99.99
+        },
+        {
+          "dimensions": {
+            "size": 16,
+            "height": 5,
+            "length": 16,
+            "width": 13
+          },
+          "attributes": {
+            "fit": "On-Ear",
+            "color": "Gray",
+            "material": "Plastic",
+            "warranty": "6 months"
+          },
+          "stock": 80,
+          "price": 79.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P002",
+      "name": "Smartphone",
+      "description": "Latest smartphone with high-resolution display and powerful processor.",
+      "categoryIds": [
+        "C002"
+      ],
+      "branchIds": [
+        "B002"
+      ],
+      "tags": [
+        "T003",
+        "T004"
+      ],
+      "brand": "TechBrand",
+      "images": [
+        "https://example.com/images/smartphone1.jpg",
+        "https://example.com/images/smartphone2.jpg"
+      ],
+      "createdBy": "U002",
+      "createdAt": "2024-02-15T12:00:00Z",
+      "updatedAt": "2024-02-15T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6.5,
+            "height": 0.3,
+            "length": 15,
+            "width": 7
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Black",
+            "material": "Glass",
+            "warranty": "1 year"
+          },
+          "stock": 200,
+          "price": 699.99
+        },
+        {
+          "dimensions": {
+            "size": 6.1,
+            "height": 0.3,
+            "length": 14.5,
+            "width": 7
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "White",
+            "material": "Glass",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 649.99
+        }
+      ],
+      "brandId": "B001"
+    },
+    {
+      "id": "P003",
+      "name": "Laptop",
+      "description": "Powerful laptop with long battery life and high-speed performance.",
+      "categoryIds": [
+        "C003"
+      ],
+      "branchIds": [
+        "B003"
+      ],
+      "tags": [
+        "T005",
+        "T006"
+      ],
+      "brand": "LaptopBrand",
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg"
+      ],
+      "createdBy": "U003",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "updatedAt": "2024-03-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 15.6,
+            "height": 2,
+            "length": 35,
+            "width": 25
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Silver",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 120,
+          "price": 1199.99
+        },
+        {
+          "dimensions": {
+            "size": 14,
+            "height": 2,
+            "length": 32,
+            "width": 22
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Gray",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 80,
+          "price": 1099.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P004",
+      "name": "Smartwatch",
+      "description": "Stylish smartwatch with fitness tracking features.",
+      "categoryIds": [
+        "C004"
+      ],
+      "branchIds": [
+        "B004"
+      ],
+      "tags": [
+        "T007",
+        "T008"
+      ],
+      "brand": "WatchBrand",
+      "images": [
+        "https://example.com/images/smartwatch1.jpg",
+        "https://example.com/images/smartwatch2.jpg"
+      ],
+      "createdBy": "U004",
+      "createdAt": "2024-04-01T12:00:00Z",
+      "updatedAt": "2024-04-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 1.5,
+            "height": 0.5,
+            "length": 4,
+            "width": 4
+          },
+          "attributes": {
+            "fit": "Regular",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 300,
+          "price": 199.99
+        },
+        {
+          "dimensions": {
+            "size": 1.3,
+            "height": 0.5,
+            "length": 3.8,
+            "width": 3.8
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Silver",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 179.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P005",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
+      "categoryIds": [
+        "C005"
+      ],
+      "branchIds": [
+        "B005"
+      ],
+      "tags": [
+        "T009",
+        "T010"
+      ],
+      "brand": "SoundBrand",
+      "images": [
+        "https://example.com/images/speaker1.jpg",
+        "https://example.com/images/speaker2.jpg"
+      ],
+      "createdBy": "U005",
+      "createdAt": "2024-05-01T12:00:00Z",
+      "updatedAt": "2024-05-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 7,
+            "height": 8,
+            "length": 10,
+            "width": 10
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 200,
+          "price": 49.99
+        },
+        {
+          "dimensions": {
+            "size": 9,
+            "height": 9,
+            "length": 12,
+            "width": 12
+          },
+          "attributes": {
+            "fit": "Regular",
+            "color": "Blue",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 100,
+          "price": 59.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P006",
+      "name": "Tablet",
+      "description": "High-resolution display tablet, ideal for work and entertainment.",
+      "categoryIds": [
+        "C006"
+      ],
+      "branchIds": [
+        "B006"
+      ],
+      "tags": [
+        "T011",
+        "T012"
+      ],
+      "brand": "TabBrand",
+      "images": [
+        "https://example.com/images/tablet1.jpg",
+        "https://example.com/images/tablet2.jpg"
+      ],
+      "createdBy": "U006",
+      "createdAt": "2024-06-01T12:00:00Z",
+      "updatedAt": "2024-06-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 10.2,
+            "height": 0.5,
+            "length": 25,
+            "width": 17
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Silver",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 80,
+          "price": 399.99
+        },
+        {
+          "dimensions": {
+            "size": 12,
+            "height": 0.5,
+            "length": 27,
+            "width": 18
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Gray",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 60,
+          "price": 499.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P007",
+      "name": "Gaming Console",
+      "description": "Next-generation gaming console with ultra-fast graphics.",
+      "categoryIds": [
+        "C007"
+      ],
+      "branchIds": [
+        "B007"
+      ],
+      "tags": [
+        "T013",
+        "T014"
+      ],
+      "brand": "ConsoleBrand",
+      "images": [
+        "https://example.com/images/console1.jpg",
+        "https://example.com/images/console2.jpg"
+      ],
+      "createdBy": "U007",
+      "createdAt": "2024-07-01T12:00:00Z",
+      "updatedAt": "2024-07-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 15,
+            "height": 10,
+            "length": 40,
+            "width": 25
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 150,
+          "price": 499.99
+        },
+        {
+          "dimensions": {
+            "size": 14,
+            "height": 9,
+            "length": 38,
+            "width": 23
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "White",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 100,
+          "price": 479.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P008",
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "categoryIds": [
+        "C001"
+      ],
+      "branchIds": [
+        "B001"
+      ],
+      "tags": [
+        "T001",
+        "T002"
+      ],
+      "brand": "AudioBrand",
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones2.jpg"
+      ],
+      "createdBy": "U001",
+      "createdAt": "2024-01-01T12:00:00Z",
+      "updatedAt": "2024-01-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 18,
+            "height": 5,
+            "length": 18,
+            "width": 15
+          },
+          "attributes": {
+            "fit": "Over-Ear",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 99.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P009",
+      "name": "Smartphone",
+      "description": "Latest smartphone with high-resolution display and powerful processor.",
+      "categoryIds": [
+        "C002"
+      ],
+      "branchIds": [
+        "B002"
+      ],
+      "tags": [
+        "T003",
+        "T004"
+      ],
+      "brand": "TechBrand",
+      "images": [
+        "https://example.com/images/smartphone1.jpg",
+        "https://example.com/images/smartphone2.jpg"
+      ],
+      "createdBy": "U002",
+      "createdAt": "2024-02-15T12:00:00Z",
+      "updatedAt": "2024-02-15T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6.5,
+            "height": 0.3,
+            "length": 15,
+            "width": 7
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Black",
+            "material": "Glass",
+            "warranty": "1 year"
+          },
+          "stock": 200,
+          "price": 699.99
+        }
+      ],
+      "brandId": "B001"
+    },
+    {
+      "id": "P010",
+      "name": "Laptop",
+      "description": "Powerful laptop with long battery life and high-speed performance.",
+      "categoryIds": [
+        "C003"
+      ],
+      "branchIds": [
+        "B003"
+      ],
+      "tags": [
+        "T005",
+        "T006"
+      ],
+      "brand": "LaptopBrand",
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg"
+      ],
+      "createdBy": "U003",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "updatedAt": "2024-03-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 15.6,
+            "height": 2,
+            "length": 35,
+            "width": 25
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Silver",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 120,
+          "price": 1199.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P011",
+      "name": "Smartwatch",
+      "description": "Stylish smartwatch with fitness tracking features.",
+      "categoryIds": [
+        "C004"
+      ],
+      "branchIds": [
+        "B004"
+      ],
+      "tags": [
+        "T007",
+        "T008"
+      ],
+      "brand": "WatchBrand",
+      "images": [
+        "https://example.com/images/smartwatch1.jpg",
+        "https://example.com/images/smartwatch2.jpg"
+      ],
+      "createdBy": "U004",
+      "createdAt": "2024-04-01T12:00:00Z",
+      "updatedAt": "2024-04-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 1.5,
+            "height": 0.5,
+            "length": 4,
+            "width": 4
+          },
+          "attributes": {
+            "fit": "Regular",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 300,
+          "price": 199.99
+        },
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 3,
+            "length": 9,
+            "width": 5
+          },
+          "attributes": {
+            "fit": "Regular",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 year"
+          },
+          "stock": 20,
+          "price": 394.92
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P012",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with powerful bass and clear sound.",
+      "categoryIds": [
+        "C005"
+      ],
+      "branchIds": [
+        "B005"
+      ],
+      "tags": [
+        "T009",
+        "T010"
+      ],
+      "brand": "SoundBrand",
+      "images": [
+        "https://example.com/images/speaker1.jpg",
+        "https://example.com/images/speaker2.jpg"
+      ],
+      "createdBy": "U005",
+      "createdAt": "2024-05-01T12:00:00Z",
+      "updatedAt": "2024-05-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 7,
+            "height": 8,
+            "length": 10,
+            "width": 10
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 200,
+          "price": 49.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P013",
+      "name": "Tablet",
+      "description": "High-resolution display tablet, ideal for work and entertainment.",
+      "categoryIds": [
+        "C006"
+      ],
+      "branchIds": [
+        "B006"
+      ],
+      "tags": [
+        "T011",
+        "T012"
+      ],
+      "brand": "TabBrand",
+      "images": [
+        "https://example.com/images/tablet1.jpg",
+        "https://example.com/images/tablet2.jpg"
+      ],
+      "createdBy": "U006",
+      "createdAt": "2024-06-01T12:00:00Z",
+      "updatedAt": "2024-06-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 10.2,
+            "height": 0.5,
+            "length": 25,
+            "width": 17
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Silver",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 80,
+          "price": 399.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P014",
+      "name": "Gaming Console",
+      "description": "Next-generation gaming console with ultra-fast graphics.",
+      "categoryIds": [
+        "C007"
+      ],
+      "branchIds": [
+        "B007"
+      ],
+      "tags": [
+        "T013",
+        "T014"
+      ],
+      "brand": "ConsoleBrand",
+      "images": [
+        "https://example.com/images/console1.jpg",
+        "https://example.com/images/console2.jpg"
+      ],
+      "createdBy": "U007",
+      "createdAt": "2024-07-01T12:00:00Z",
+      "updatedAt": "2024-07-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 15,
+            "height": 10,
+            "length": 40,
+            "width": 25
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 150,
+          "price": 499.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P015",
+      "name": "Wireless Earbuds",
+      "description": "Compact and ergonomic wireless earbuds with high sound quality.",
+      "categoryIds": [
+        "C001"
+      ],
+      "branchIds": [
+        "B001"
+      ],
+      "tags": [
+        "T015",
+        "T016"
+      ],
+      "brand": "EarBrand",
+      "images": [
+        "https://example.com/images/earbuds1.jpg",
+        "https://example.com/images/earbuds2.jpg"
+      ],
+      "createdBy": "U008",
+      "createdAt": "2024-08-01T12:00:00Z",
+      "updatedAt": "2024-08-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 1.2,
+            "height": 0.3,
+            "length": 2,
+            "width": 2
+          },
+          "attributes": {
+            "fit": "In-Ear",
+            "color": "White",
+            "material": "Plastic",
+            "warranty": "6 months"
+          },
+          "stock": 300,
+          "price": 59.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P016",
+      "name": "4K Action Camera",
+      "description": "Compact and durable action camera with 4K video recording.",
+      "categoryIds": [
+        "C008"
+      ],
+      "branchIds": [
+        "B008"
+      ],
+      "tags": [
+        "T017",
+        "T018"
+      ],
+      "brand": "CamBrand",
+      "images": [
+        "https://example.com/images/camera1.jpg",
+        "https://example.com/images/camera2.jpg"
+      ],
+      "createdBy": "U009",
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2.5,
+            "height": 3,
+            "length": 4,
+            "width": 3
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 200,
+          "price": 199.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P017",
+      "name": "Digital Camera",
+      "description": "Professional-grade camera for photography enthusiasts.",
+      "categoryIds": [
+        "C009"
+      ],
+      "branchIds": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
+      "brand": "PhotoBrand",
+      "images": [
+        "https://example.com/images/digitalcamera1.jpg",
+        "https://example.com/images/digitalcamera2.jpg"
+      ],
+      "createdBy": "U010",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 5,
+            "length": 10,
+            "width": 8
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 899.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P018",
+      "name": "Digital Camera",
+      "description": "Professional-grade camera for photography enthusiasts.",
+      "categoryIds": [
+        "C009"
+      ],
+      "branchIds": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
+      "brand": "PhotoBrand",
+      "images": [
+        "https://example.com/images/digitalcamera1.jpg",
+        "https://example.com/images/digitalcamera2.jpg"
+      ],
+      "createdBy": "U010",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 5,
+            "length": 10,
+            "width": 8
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 899.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P019",
+      "name": "Digital Camera",
+      "description": "Professional-grade camera for photography enthusiasts.",
+      "categoryIds": [
+        "C009"
+      ],
+      "branchIds": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
+      "brand": "PhotoBrand",
+      "images": [
+        "https://example.com/images/digitalcamera1.jpg",
+        "https://example.com/images/digitalcamera2.jpg"
+      ],
+      "createdBy": "U010",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 5,
+            "length": 10,
+            "width": 8
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 899.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P020",
+      "name": "Digital Camera",
+      "description": "Professional-grade camera for photography enthusiasts.",
+      "categoryIds": [
+        "C009"
+      ],
+      "branchIds": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
+      "brand": "PhotoBrand",
+      "images": [
+        "https://example.com/images/digitalcamera1.jpg",
+        "https://example.com/images/digitalcamera2.jpg"
+      ],
+      "createdBy": "U010",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 5,
+            "length": 10,
+            "width": 8
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 899.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P021",
+      "name": "Digital Camera",
+      "description": "Professional-grade camera for photography enthusiasts.",
+      "categoryIds": [
+        "C009"
+      ],
+      "branchIds": [
+        "B009"
+      ],
+      "tags": [
+        "T019",
+        "T020"
+      ],
+      "brand": "PhotoBrand",
+      "images": [
+        "https://example.com/images/digitalcamera1.jpg",
+        "https://example.com/images/digitalcamera2.jpg"
+      ],
+      "createdBy": "U010",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 5,
+            "length": 10,
+            "width": 8
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Metal",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 899.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P022",
+      "name": "Smartphone",
+      "description": "High-performance smartphone with advanced features.",
+      "categoryIds": [
+        "C010"
+      ],
+      "branchIds": [
+        "B010"
+      ],
+      "tags": [
+        "T021",
+        "T022"
+      ],
+      "brand": "TechGadget",
+      "images": [
+        "https://example.com/images/smartphone1.jpg",
+        "https://example.com/images/smartphone2.jpg"
+      ],
+      "createdBy": "U011",
+      "createdAt": "2024-10-02T12:00:00Z",
+      "updatedAt": "2024-10-02T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 5,
+            "height": 6,
+            "length": 12,
+            "width": 2
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Silver",
+            "material": "Glass",
+            "warranty": "2 years"
+          },
+          "stock": 200,
+          "price": 999.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P023",
+      "name": "Wireless Headphones",
+      "description": "Premium wireless headphones for immersive sound experience.",
+      "categoryIds": [
+        "C011"
+      ],
+      "branchIds": [
+        "B011"
+      ],
+      "tags": [
+        "T023",
+        "T024"
+      ],
+      "brand": "SoundMasters",
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones2.jpg"
+      ],
+      "createdBy": "U012",
+      "createdAt": "2024-10-03T12:00:00Z",
+      "updatedAt": "2024-10-03T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 3,
+            "height": 7,
+            "length": 5,
+            "width": 2
+          },
+          "attributes": {
+            "fit": "Over-ear",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 100,
+          "price": 149.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P024",
+      "name": "Smartwatch",
+      "description": "Stylish smartwatch with fitness tracking and notifications.",
+      "categoryIds": [
+        "C012"
+      ],
+      "branchIds": [
+        "B012"
+      ],
+      "tags": [
+        "T025",
+        "T026"
+      ],
+      "brand": "WristTech",
+      "images": [
+        "https://example.com/images/smartwatch1.jpg",
+        "https://example.com/images/smartwatch2.jpg"
+      ],
+      "createdBy": "U013",
+      "createdAt": "2024-10-04T12:00:00Z",
+      "updatedAt": "2024-10-04T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 1,
+            "length": 4,
+            "width": 1
+          },
+          "attributes": {
+            "fit": "Adjustable",
+            "color": "Rose Gold",
+            "material": "Aluminum",
+            "warranty": "1 year"
+          },
+          "stock": 150,
+          "price": 199.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P025",
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass and waterproof design.",
+      "categoryIds": [
+        "C013"
+      ],
+      "branchIds": [
+        "B013"
+      ],
+      "tags": [
+        "T027",
+        "T028"
+      ],
+      "brand": "SoundBlaze",
+      "images": [
+        "https://example.com/images/speaker1.jpg",
+        "https://example.com/images/speaker2.jpg"
+      ],
+      "createdBy": "U014",
+      "createdAt": "2024-10-05T12:00:00Z",
+      "updatedAt": "2024-10-05T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 4,
+            "height": 5,
+            "length": 6,
+            "width": 3
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Blue",
+            "material": "Rubber",
+            "warranty": "2 years"
+          },
+          "stock": 180,
+          "price": 89.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P026",
+      "name": "Laptop",
+      "description": "Lightweight laptop with powerful performance and sleek design.",
+      "categoryIds": [
+        "C014"
+      ],
+      "branchIds": [
+        "B014"
+      ],
+      "tags": [
+        "T029",
+        "T030"
+      ],
+      "brand": "CompCore",
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg"
+      ],
+      "createdBy": "U015",
+      "createdAt": "2024-10-06T12:00:00Z",
+      "updatedAt": "2024-10-06T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 15,
+            "height": 2,
+            "length": 13,
+            "width": 9
+          },
+          "attributes": {
+            "fit": "Slim",
+            "color": "Gray",
+            "material": "Metal",
+            "warranty": "3 years"
+          },
+          "stock": 75,
+          "price": 1199.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P027",
+      "name": "Tablet",
+      "description": "High-resolution tablet ideal for entertainment and productivity.",
+      "categoryIds": [
+        "C015"
+      ],
+      "branchIds": [
+        "B015"
+      ],
+      "tags": [
+        "T031",
+        "T032"
+      ],
+      "brand": "TabPlus",
+      "images": [
+        "https://example.com/images/tablet1.jpg",
+        "https://example.com/images/tablet2.jpg"
+      ],
+      "createdBy": "U016",
+      "createdAt": "2024-10-07T12:00:00Z",
+      "updatedAt": "2024-10-07T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 10,
+            "height": 1,
+            "length": 10,
+            "width": 6
+          },
+          "attributes": {
+            "fit": "Flat",
+            "color": "White",
+            "material": "Glass",
+            "warranty": "2 years"
+          },
+          "stock": 130,
+          "price": 499.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P028",
+      "name": "Gaming Console",
+      "description": "Next-gen console with ultra-fast processing and immersive graphics.",
+      "categoryIds": [
+        "C016"
+      ],
+      "branchIds": [
+        "B016"
+      ],
+      "tags": [
+        "T033",
+        "T034"
+      ],
+      "brand": "GameZone",
+      "images": [
+        "https://example.com/images/console1.jpg",
+        "https://example.com/images/console2.jpg"
+      ],
+      "createdBy": "U017",
+      "createdAt": "2024-10-08T12:00:00Z",
+      "updatedAt": "2024-10-08T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 8,
+            "height": 4,
+            "length": 12,
+            "width": 10
+          },
+          "attributes": {
+            "fit": "Standard",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 90,
+          "price": 599.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P029",
+      "name": "4K Action Camera",
+      "description": "Durable action camera with 4K recording and waterproof casing.",
+      "categoryIds": [
+        "C017"
+      ],
+      "branchIds": [
+        "B017"
+      ],
+      "tags": [
+        "T035",
+        "T036"
+      ],
+      "brand": "CamPro",
+      "images": [
+        "https://example.com/images/actioncamera1.jpg",
+        "https://example.com/images/actioncamera2.jpg"
+      ],
+      "createdBy": "U018",
+      "createdAt": "2024-10-09T12:00:00Z",
+      "updatedAt": "2024-10-09T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 2,
+            "length": 3,
+            "width": 2
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 120,
+          "price": 249.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P030",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys and switches.",
+      "categoryIds": [
+        "C018"
+      ],
+      "branchIds": [
+        "B018"
+      ],
+      "tags": [
+        "T037",
+        "T038"
+      ],
+      "brand": "KeyMaster",
+      "images": [
+        "https://example.com/images/keyboard1.jpg",
+        "https://example.com/images/keyboard2.jpg"
+      ],
+      "createdBy": "U019",
+      "createdAt": "2024-10-10T12:00:00Z",
+      "updatedAt": "2024-10-10T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 5,
+            "height": 1.5,
+            "length": 17,
+            "width": 6
+          },
+          "attributes": {
+            "fit": "Full-size",
+            "color": "Black",
+            "material": "Aluminum",
+            "warranty": "2 years"
+          },
+          "stock": 160,
+          "price": 129.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P031",
+      "name": "Drone",
+      "description": "Compact drone with HD camera and GPS tracking.",
+      "categoryIds": [
+        "C019"
+      ],
+      "branchIds": [
+        "B019"
+      ],
+      "tags": [
+        "T039",
+        "T040"
+      ],
+      "brand": "SkyView",
+      "images": [
+        "https://example.com/images/drone1.jpg",
+        "https://example.com/images/drone2.jpg"
+      ],
+      "createdBy": "U020",
+      "createdAt": "2024-10-11T12:00:00Z",
+      "updatedAt": "2024-10-11T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 3,
+            "length": 10,
+            "width": 10
+          },
+          "attributes": {
+            "fit": "Foldable",
+            "color": "Gray",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 80,
+          "price": 399.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P032",
+      "name": "Smart Thermostat",
+      "description": "Wi-Fi enabled thermostat for smart home temperature control.",
+      "categoryIds": [
+        "C020"
+      ],
+      "branchIds": [
+        "B020"
+      ],
+      "tags": [
+        "T041",
+        "T042"
+      ],
+      "brand": "HomeSense",
+      "images": [
+        "https://example.com/images/thermostat1.jpg",
+        "https://example.com/images/thermostat2.jpg"
+      ],
+      "createdBy": "U021",
+      "createdAt": "2024-10-12T12:00:00Z",
+      "updatedAt": "2024-10-12T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 1,
+            "length": 5,
+            "width": 5
+          },
+          "attributes": {
+            "fit": "Wall-mount",
+            "color": "White",
+            "material": "Plastic",
+            "warranty": "3 years"
+          },
+          "stock": 140,
+          "price": 179.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P033",
+      "name": "E-Reader",
+      "description": "Lightweight e-reader with glare-free display and long battery life.",
+      "categoryIds": [
+        "C021"
+      ],
+      "branchIds": [
+        "B021"
+      ],
+      "tags": [
+        "T043",
+        "T044"
+      ],
+      "brand": "ReadOn",
+      "images": [
+        "https://example.com/images/ereader1.jpg",
+        "https://example.com/images/ereader2.jpg"
+      ],
+      "createdBy": "U022",
+      "createdAt": "2024-10-13T12:00:00Z",
+      "updatedAt": "2024-10-13T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 1,
+            "length": 6,
+            "width": 4
+          },
+          "attributes": {
+            "fit": "Handheld",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 110,
+          "price": 139.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P029",
+      "name": "4K Action Camera",
+      "description": "Durable action camera with 4K recording and waterproof casing.",
+      "categoryIds": [
+        "C017"
+      ],
+      "branchIds": [
+        "B017"
+      ],
+      "tags": [
+        "T035",
+        "T036"
+      ],
+      "brand": "CamPro",
+      "images": [
+        "https://example.com/images/actioncamera1.jpg",
+        "https://example.com/images/actioncamera2.jpg"
+      ],
+      "createdBy": "U018",
+      "createdAt": "2024-10-09T12:00:00Z",
+      "updatedAt": "2024-10-09T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 2,
+            "length": 3,
+            "width": 2
+          },
+          "attributes": {
+            "fit": "Compact",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 120,
+          "price": 249.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P030",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys and switches.",
+      "categoryIds": [
+        "C018"
+      ],
+      "branchIds": [
+        "B018"
+      ],
+      "tags": [
+        "T037",
+        "T038"
+      ],
+      "brand": "KeyMaster",
+      "images": [
+        "https://example.com/images/keyboard1.jpg",
+        "https://example.com/images/keyboard2.jpg"
+      ],
+      "createdBy": "U019",
+      "createdAt": "2024-10-10T12:00:00Z",
+      "updatedAt": "2024-10-10T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 5,
+            "height": 1.5,
+            "length": 17,
+            "width": 6
+          },
+          "attributes": {
+            "fit": "Full-size",
+            "color": "Black",
+            "material": "Aluminum",
+            "warranty": "2 years"
+          },
+          "stock": 160,
+          "price": 129.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P031",
+      "name": "Drone",
+      "description": "Compact drone with HD camera and GPS tracking.",
+      "categoryIds": [
+        "C019"
+      ],
+      "branchIds": [
+        "B019"
+      ],
+      "tags": [
+        "T039",
+        "T040"
+      ],
+      "brand": "SkyView",
+      "images": [
+        "https://example.com/images/drone1.jpg",
+        "https://example.com/images/drone2.jpg"
+      ],
+      "createdBy": "U020",
+      "createdAt": "2024-10-11T12:00:00Z",
+      "updatedAt": "2024-10-11T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 3,
+            "length": 10,
+            "width": 10
+          },
+          "attributes": {
+            "fit": "Foldable",
+            "color": "Gray",
+            "material": "Plastic",
+            "warranty": "1 year"
+          },
+          "stock": 80,
+          "price": 399.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P032",
+      "name": "Smart Thermostat",
+      "description": "Wi-Fi enabled thermostat for smart home temperature control.",
+      "categoryIds": [
+        "C020"
+      ],
+      "branchIds": [
+        "B020"
+      ],
+      "tags": [
+        "T041",
+        "T042"
+      ],
+      "brand": "HomeSense",
+      "images": [
+        "https://example.com/images/thermostat1.jpg",
+        "https://example.com/images/thermostat2.jpg"
+      ],
+      "createdBy": "U021",
+      "createdAt": "2024-10-12T12:00:00Z",
+      "updatedAt": "2024-10-12T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 2,
+            "height": 1,
+            "length": 5,
+            "width": 5
+          },
+          "attributes": {
+            "fit": "Wall-mount",
+            "color": "White",
+            "material": "Plastic",
+            "warranty": "3 years"
+          },
+          "stock": 140,
+          "price": 179.99
+        }
+      ],
+      "brandId": null
+    },
+    {
+      "id": "P033",
+      "name": "E-Reader",
+      "description": "Lightweight e-reader with glare-free display and long battery life.",
+      "categoryIds": [
+        "C021"
+      ],
+      "branchIds": [
+        "B021"
+      ],
+      "tags": [
+        "T043",
+        "T044"
+      ],
+      "brand": "ReadOn",
+      "images": [
+        "https://example.com/images/ereader1.jpg",
+        "https://example.com/images/ereader2.jpg"
+      ],
+      "createdBy": "U022",
+      "createdAt": "2024-10-13T12:00:00Z",
+      "updatedAt": "2024-10-13T12:00:00Z",
+      "combinations": [
+        {
+          "dimensions": {
+            "size": 6,
+            "height": 1,
+            "length": 6,
+            "width": 4
+          },
+          "attributes": {
+            "fit": "Handheld",
+            "color": "Black",
+            "material": "Plastic",
+            "warranty": "2 years"
+          },
+          "stock": 110,
+          "price": 139.99
+        }
+      ],
+      "brandId": null
+    }
+  ]
+}
