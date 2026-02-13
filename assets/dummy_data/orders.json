@@ -5,734 +5,959 @@
   "status": 20,
   "totalData": 20,
   "data": [
-    {
-      "id": "ORD001",
-      "orderId": "ORD001",
-      "orderNumber": "ORD-001",
-      "userProfileId": "U001",
-      "items": [
-        {
-          "productId": "P001",
-          "quantity": 2,
-          "priceAtPurchase": 19.99,
-          "subtotal": 39.98
+
+
+  {
+    "id": "ORD1001",
+    "connectionId": "CON2001",
+    "activeState": "active",
+    "description": "Electronics order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-13T10:00:00Z",
+    "updatedAt": "2026-02-13T10:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER1001",
+    "orderNumber": "500001",
+    "userProfileId": "USER1001",
+    "userName": "Ahmed Ali",
+    "userEmail": "ahmed@email.com",
+
+    "items": [
+      {
+        "productId": "PROD1001",
+        "productName": "Wireless Headphones",
+        "productSku": "WH900",
+        "productImage": "https://example.com/headphones.jpg",
+        "quantity": 2,
+        "discount": 20,
+        "subtotal": 280,
+        "variantId": "VAR1001",
+        "attributes": {
+          "color": "Black",
+          "connectivity": "Bluetooth 5.3",
+          "batteryLife": "30h"
         },
-        {
-          "productId": "P002",
-          "quantity": 1,
-          "priceAtPurchase": 49.99,
-          "subtotal": 49.99
+        "dimensions": {
+          "weight": 0.4,
+          "width": 18,
+          "height": 20,
+          "depth": 8,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 150,
+          "taxRate": 0.1,
+          "taxAmount": 30,
+          "finalUnitPrice": 150
         }
-      ],
-      "totalPrice": 89.97,
-      "discountAmount": 10.0,
-      "shippingAddress": {
-        "street": "123 Main St",
-        "city": "Springfield",
-        "state": "IL",
-        "zipCode": "62704",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "123 Main St",
-        "city": "Springfield",
-        "state": "IL",
-        "zipCode": "62704",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "completed",
-      "orderedAt": "2024-09-10",
-      "shippedAt": "2024-09-12",
-      "deliveredAt": "2024-09-14",
-      "createdBy": "U001",
-      "updatedAt": "2024-09-14",
-      "activeState": true,
-      "description": "Order record",
-      "createdAt": "2024-09-10",
-      "deletedAt": null
+      }
+    ],
+
+    "subtotal": 280,
+    "taxAmount": 30,
+    "shippingCost": 20,
+    "discountAmount": 20,
+    "totalPrice": 310,
+
+    "shippingAddress": {
+      "addressId": "ADDR1001",
+      "connectedId": "ORDER1001",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "12 Nile Street",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11511",
+      "country": "Egypt",
+      "phone": "+201000000001",
+      "email": "ahmed@email.com"
     },
-    {
-      "id": "ORD002",
-      "orderId": "ORD002",
-      "orderNumber": "ORD-002",
-      "userProfileId": "U002",
-      "items": [
-        {
-          "productId": "P003",
-          "quantity": 1,
-          "priceAtPurchase": 299.99
-        }
-      ],
-      "totalPrice": 299.99,
-      "discountAmount": 0,
-      "shippingAddress": {
-        "street": "456 Oak St",
-        "city": "Chicago",
-        "state": "IL",
-        "zipCode": "60616",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "456 Oak St",
-        "city": "Chicago",
-        "state": "IL",
-        "zipCode": "60616",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "shipped",
-      "orderedAt": "2024-09-08",
-      "shippedAt": "2024-09-10",
-      "deliveredAt": null,
-      "createdBy": "U002",
-      "updatedAt": "2024-09-10"
+
+    "billingAddress": {
+      "addressId": "ADDR1002",
+      "connectedId": "ORDER1001",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Billing",
+      "street": "12 Nile Street",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11511",
+      "country": "Egypt",
+      "phone": "+201000000001",
+      "email": "ahmed@email.com"
     },
-    {
-      "id": "ORD003",
-      "userProfileId": "U003",
-      "items": [
-        {
-          "productId": "P002",
-          "quantity": 3,
-          "priceAtPurchase": 49.99,
-          "subtotal": 49.99
+
+    "orderStatus": "processing",
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY1001",
+    "trackingNumber": "TRK1001",
+    "carrierName": "DHL",
+
+    "orderedAt": "2026-02-13T10:00:00Z",
+    "shippedAt": "2026-02-13T12:00:00Z",
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-16T10:00:00Z",
+
+    "notes": "Call before delivery",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+
+  {
+    "id": "ORD1002",
+    "connectionId": "CON2002",
+    "activeState": "active",
+    "description": "Fashion order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-12T09:00:00Z",
+    "updatedAt": "2026-02-12T09:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER1002",
+    "orderNumber": "500002",
+    "userProfileId": "USER1002",
+    "userName": "Sara Mohamed",
+    "userEmail": "sara@email.com",
+
+    "items": [
+      {
+        "productId": "PROD1002",
+        "productName": "Cotton TShirt",
+        "productSku": "TS800",
+        "productImage": "https://example.com/tshirt.jpg",
+        "quantity": 3,
+        "discount": 15,
+        "subtotal": 105,
+        "variantId": "VAR1002",
+        "attributes": {
+          "size": "M",
+          "color": "Blue",
+          "fabric": "Cotton"
+        },
+        "dimensions": {
+          "weight": 0.3,
+          "width": 25,
+          "height": 2,
+          "depth": 30,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 40,
+          "taxRate": 0.1,
+          "taxAmount": 12,
+          "finalUnitPrice": 40
         }
-      ],
-      "totalPrice": 149.97,
-      "discountAmount": 20.0,
-      "shippingAddress": {
-        "street": "789 Pine St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "789 Pine St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "pending",
-      "orderedAt": "2024-09-05",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U003",
-      "updatedAt": "2024-09-05"
+      }
+    ],
+
+    "subtotal": 105,
+    "taxAmount": 12,
+    "shippingCost": 15,
+    "discountAmount": 15,
+    "totalPrice": 117,
+
+    "shippingAddress": {
+      "addressId": "ADDR1003",
+      "connectedId": "ORDER1002",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "45 Alexandria Road",
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "zipCode": "21500",
+      "country": "Egypt",
+      "phone": "+201000000002",
+      "email": "sara@email.com"
     },
-    {
-      "id": "ORD004",
-      "orderId": "ORD004",
-      "orderNumber": "ORD-004",
-      "userProfileId": "U004",
-      "items": [
-        {
-          "productId": "P004",
-          "quantity": 1,
-          "priceAtPurchase": 99.99
-        }
-      ],
-      "totalPrice": 99.99,
-      "discountAmount": 5.0,
-      "shippingAddress": {
-        "street": "101 Maple St",
-        "city": "Houston",
-        "state": "TX",
-        "zipCode": "77002",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "101 Maple St",
-        "city": "Houston",
-        "state": "TX",
-        "zipCode": "77002",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "delivered",
-      "orderedAt": "2024-09-01",
-      "shippedAt": "2024-09-03",
-      "deliveredAt": "2024-09-05",
-      "createdBy": "U004",
-      "updatedAt": "2024-09-05"
+
+    "billingAddress": {
+      "addressId": "ADDR1004",
+      "connectedId": "ORDER1002",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Billing",
+      "street": "45 Alexandria Road",
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "zipCode": "21500",
+      "country": "Egypt",
+      "phone": "+201000000002",
+      "email": "sara@email.com"
     },
-    {
-      "id": "ORD005",
-      "userProfileId": "U005",
-      "items": [
-        {
-          "productId": "P005",
-          "quantity": 2,
-          "priceAtPurchase": 59.99
+
+    "orderStatus": "shipped",
+    "paymentMethod": "cash",
+    "paymentStatus": "pending",
+    "paymentReference": "PAY1002",
+    "trackingNumber": "TRK1002",
+    "carrierName": "Aramex",
+
+    "orderedAt": "2026-02-12T09:00:00Z",
+    "shippedAt": "2026-02-12T12:00:00Z",
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-15T09:00:00Z",
+
+    "notes": "Gift wrap",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+
+  {
+    "id": "ORD1003",
+    "connectionId": "CON2003",
+    "activeState": "active",
+    "description": "Laptop order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-10T08:00:00Z",
+    "updatedAt": "2026-02-10T08:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER1003",
+    "orderNumber": "500003",
+    "userProfileId": "USER1003",
+    "userName": "Omar Hassan",
+    "userEmail": "omar@email.com",
+
+    "items": [
+      {
+        "productId": "PROD1003",
+        "productName": "Gaming Laptop",
+        "productSku": "GL900",
+        "productImage": "https://example.com/laptop.jpg",
+        "quantity": 1,
+        "discount": 100,
+        "subtotal": 1400,
+        "variantId": "VAR1003",
+        "attributes": {
+          "ram": "16GB",
+          "storage": "1TB SSD",
+          "color": "Black"
+        },
+        "dimensions": {
+          "weight": 2.5,
+          "width": 35,
+          "height": 2.5,
+          "depth": 24,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 1500,
+          "taxRate": 0.1,
+          "taxAmount": 150,
+          "finalUnitPrice": 1500
         }
-      ],
-      "totalPrice": 119.98,
-      "discountAmount": 15.0,
-      "shippingAddress": {
-        "street": "202 Cedar St",
-        "city": "Dallas",
-        "state": "TX",
-        "zipCode": "75201",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "202 Cedar St",
-        "city": "Dallas",
-        "state": "TX",
-        "zipCode": "75201",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "canceled",
-      "orderedAt": "2024-09-07",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U005",
-      "updatedAt": "2024-09-07"
+      }
+    ],
+
+    "subtotal": 1400,
+    "taxAmount": 150,
+    "shippingCost": 40,
+    "discountAmount": 100,
+    "totalPrice": 1490,
+
+    "shippingAddress": {
+      "addressId": "ADDR1005",
+      "connectedId": "ORDER1003",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "10 Tahrir Square",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11513",
+      "country": "Egypt",
+      "phone": "+201000000003",
+      "email": "omar@email.com"
     },
-    {
-      "id": "ORD006",
-      "orderId": "ORD006",
-      "orderNumber": "ORD-006",
-      "userProfileId": "U006",
-      "items": [
-        {
-          "productId": "P006",
-          "quantity": 4,
-          "priceAtPurchase": 24.99
-        }
-      ],
-      "totalPrice": 99.96,
-      "discountAmount": 10.0,
-      "shippingAddress": {
-        "street": "303 Birch St",
-        "city": "Miami",
-        "state": "FL",
-        "zipCode": "33101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "303 Birch St",
-        "city": "Miami",
-        "state": "FL",
-        "zipCode": "33101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "completed",
-      "orderedAt": "2024-09-09",
-      "shippedAt": "2024-09-10",
-      "deliveredAt": null,
-      "createdBy": "U006",
-      "updatedAt": "2024-09-10"
+
+    "billingAddress": {
+      "addressId": "ADDR1006",
+      "connectedId": "ORDER1003",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Billing",
+      "street": "10 Tahrir Square",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11513",
+      "country": "Egypt",
+      "phone": "+201000000003",
+      "email": "omar@email.com"
     },
-    {
-      "id": "ORD007",
-      "userProfileId": "U007",
-      "items": [
-        {
-          "productId": "P007",
-          "quantity": 1,
-          "priceAtPurchase": 199.99
+
+    "orderStatus": "completed",
+    "paymentMethod": "bank_transfer",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY1003",
+    "trackingNumber": "TRK1003",
+    "carrierName": "FedEx",
+
+    "orderedAt": "2026-02-10T08:00:00Z",
+    "shippedAt": "2026-02-10T12:00:00Z",
+    "deliveredAt": "2026-02-12T14:00:00Z",
+    "estimatedDeliveryDate": "2026-02-12T14:00:00Z",
+
+    "notes": "",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+  {
+    "id": "ORD2004",
+    "connectionId": "CON3004",
+    "activeState": "inactive",
+    "description": "Canceled smartwatch order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-11T09:00:00Z",
+    "updatedAt": "2026-02-11T10:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2004",
+    "orderNumber": "600004",
+    "userProfileId": "USER2004",
+    "userName": "Hassan Tarek",
+    "userEmail": "hassan@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2004",
+        "productName": "Smart Watch Pro",
+        "productSku": "SWPRO",
+        "productImage": "https://example.com/watch.jpg",
+        "quantity": 1,
+        "discount": 0,
+        "subtotal": 300,
+        "variantId": "VAR2004",
+        "attributes": {
+          "color": "Black",
+          "strap": "Silicone",
+          "waterproof": "Yes"
+        },
+        "dimensions": {
+          "weight": 0.2,
+          "width": 4,
+          "height": 4,
+          "depth": 1,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 300,
+          "taxRate": 0.1,
+          "taxAmount": 30,
+          "finalUnitPrice": 300
         }
-      ],
-      "totalPrice": 199.99,
-      "discountAmount": 0,
-      "shippingAddress": {
-        "street": "404 Elm St",
-        "city": "Orlando",
-        "state": "FL",
-        "zipCode": "32801",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "404 Elm St",
-        "city": "Orlando",
-        "state": "FL",
-        "zipCode": "32801",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "delivered",
-      "orderedAt": "2024-09-10",
-      "shippedAt": "2024-09-12",
-      "deliveredAt": "2024-09-14",
-      "createdBy": "U007",
-      "updatedAt": "2024-09-14",
-      "activeState": true,
-      "description": "Order record",
-      "createdAt": "2024-09-10",
-      "deletedAt": null
+      }
+    ],
+
+    "subtotal": 300,
+    "taxAmount": 30,
+    "shippingCost": 20,
+    "discountAmount": 0,
+    "totalPrice": 350,
+
+    "shippingAddress": {
+      "addressId": "ADDR2007",
+      "connectedId": "ORDER2004",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "50 Giza Street",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12511",
+      "country": "Egypt",
+      "phone": "+201000000013",
+      "email": "hassan@email.com"
     },
-    {
-      "id": "ORD008",
-      "orderId": "ORD008",
-      "orderNumber": "ORD-008",
-      "userProfileId": "U008",
-      "items": [
-        {
-          "productId": "P008",
-          "quantity": 1,
-          "priceAtPurchase": 399.99
-        }
-      ],
-      "totalPrice": 399.99,
-      "discountAmount": 50.0,
-      "shippingAddress": {
-        "street": "123 Cherry Ln",
-        "city": "Seattle",
-        "state": "WA",
-        "zipCode": "98101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "123 Cherry Ln",
-        "city": "Seattle",
-        "state": "WA",
-        "zipCode": "98101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "pending",
-      "orderedAt": "2024-09-15",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U008",
-      "updatedAt": "2024-09-15"
+
+    "billingAddress": {
+      "addressId": "ADDR2008",
+      "connectedId": "ORDER2004",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Home",
+      "street": "50 Giza Street",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12511",
+      "country": "Egypt",
+      "phone": "+201000000013",
+      "email": "hassan@email.com"
     },
-    {
-      "id": "ORD009",
-      "orderId": "ORD009",
-      "orderNumber": "ORD-009",
-      "userProfileId": "U009",
-      "items": [
-        {
-          "productId": "P009",
-          "quantity": 3,
-          "priceAtPurchase": 89.99
+
+    "orderStatus": "canceled",
+    "paymentMethod": "paypal",
+    "paymentStatus": "refunded",
+    "paymentReference": "PAY2004",
+    "trackingNumber": "",
+    "carrierName": "",
+
+    "orderedAt": "2026-02-11T09:00:00Z",
+    "shippedAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-15T09:00:00Z",
+
+    "notes": "",
+    "cancellationReason": "Customer changed mind",
+    "refundAmount": 350,
+    "refundDate": "2026-02-11T10:30:00Z"
+  },
+
+  {
+    "id": "ORD2005",
+    "connectionId": "CON3005",
+    "activeState": "active",
+    "description": "Bluetooth speaker order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-10T08:30:00Z",
+    "updatedAt": "2026-02-12T09:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2005",
+    "orderNumber": "600005",
+    "userProfileId": "USER2005",
+    "userName": "Salma Ibrahim",
+    "userEmail": "salma@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2005",
+        "productName": "Bluetooth Speaker X",
+        "productSku": "BSX500",
+        "productImage": "https://example.com/speaker.jpg",
+        "quantity": 2,
+        "discount": 20,
+        "subtotal": 380,
+        "variantId": "VAR2005",
+        "attributes": {
+          "color": "Red",
+          "batteryLife": "20h",
+          "waterproof": "Yes"
+        },
+        "dimensions": {
+          "weight": 0.9,
+          "width": 20,
+          "height": 10,
+          "depth": 10,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 200,
+          "taxRate": 0.1,
+          "taxAmount": 40,
+          "finalUnitPrice": 200
         }
-      ],
-      "totalPrice": 269.97,
-      "discountAmount": 20.0,
-      "shippingAddress": {
-        "street": "456 Pineview Dr",
-        "city": "Portland",
-        "state": "OR",
-        "zipCode": "97201",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "456 Pineview Dr",
-        "city": "Portland",
-        "state": "OR",
-        "zipCode": "97201",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "shipped",
-      "orderedAt": "2024-09-08",
-      "shippedAt": "2024-09-10",
-      "deliveredAt": "2024-09-12",
-      "createdBy": "U009",
-      "updatedAt": "2024-09-12"
+      }
+    ],
+
+    "subtotal": 380,
+    "taxAmount": 40,
+    "shippingCost": 15,
+    "discountAmount": 20,
+    "totalPrice": 415,
+
+    "shippingAddress": {
+      "addressId": "ADDR2009",
+      "connectedId": "ORDER2005",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Apartment",
+      "street": "9 Garden City",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11519",
+      "country": "Egypt",
+      "phone": "+201000000014",
+      "email": "salma@email.com"
     },
-    {
-      "id": "ORD010",
-      "orderId": "ORD010",
-      "orderNumber": "ORD-010",
-      "userProfileId": "U010",
-      "items": [
-        {
-          "productId": "P010",
-          "quantity": 1,
-          "priceAtPurchase": 599.99
-        }
-      ],
-      "totalPrice": 599.99,
-      "discountAmount": 100.0,
-      "shippingAddress": {
-        "street": "789 Ocean Blvd",
-        "city": "San Diego",
-        "state": "CA",
-        "zipCode": "92101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "789 Ocean Blvd",
-        "city": "San Diego",
-        "state": "CA",
-        "zipCode": "92101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "completed",
-      "orderedAt": "2024-09-06",
-      "shippedAt": "2024-09-08",
-      "deliveredAt": "2024-09-10",
-      "createdBy": "U010",
-      "updatedAt": "2024-09-10"
+
+    "billingAddress": {
+      "addressId": "ADDR2010",
+      "connectedId": "ORDER2005",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Apartment",
+      "street": "9 Garden City",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "11519",
+      "country": "Egypt",
+      "phone": "+201000000014",
+      "email": "salma@email.com"
     },
-    {
-      "id": "ORD011",
-      "userProfileId": "U011",
-      "items": [
-        {
-          "productId": "P011",
-          "quantity": 2,
-          "priceAtPurchase": 79.99
+
+    "orderStatus": "refunded",
+    "paymentMethod": "credit_card",
+    "paymentStatus": "refunded",
+    "paymentReference": "PAY2005",
+    "trackingNumber": "TRK2005",
+    "carrierName": "UPS",
+
+    "orderedAt": "2026-02-10T08:30:00Z",
+    "shippedAt": "2026-02-10T12:00:00Z",
+    "deliveredAt": "2026-02-12T09:00:00Z",
+    "estimatedDeliveryDate": "2026-02-12T09:00:00Z",
+
+    "notes": "One unit defective",
+    "cancellationReason": "",
+    "refundAmount": 415,
+    "refundDate": "2026-02-13T08:00:00Z"
+  },
+
+  {
+    "id": "ORD2006",
+    "connectionId": "CON3006",
+    "activeState": "active",
+    "description": "Office accessories multi item order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-14T07:00:00Z",
+    "updatedAt": "2026-02-14T07:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2006",
+    "orderNumber": "600006",
+    "userProfileId": "USER2006",
+    "userName": "Nour Ashraf",
+    "userEmail": "nour@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2006",
+        "productName": "Mechanical Keyboard",
+        "productSku": "MK100",
+        "productImage": "https://example.com/keyboard.jpg",
+        "quantity": 1,
+        "discount": 0,
+        "subtotal": 150,
+        "variantId": "VAR2006",
+        "attributes": {
+          "switchType": "Blue",
+          "color": "Black",
+          "layout": "US"
+        },
+        "dimensions": {
+          "weight": 1.1,
+          "width": 44,
+          "height": 4,
+          "depth": 13,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 150,
+          "taxRate": 0.1,
+          "taxAmount": 15,
+          "finalUnitPrice": 150
         }
-      ],
-      "totalPrice": 159.98,
-      "discountAmount": 30.0,
-      "shippingAddress": {
-        "street": "101 River St",
-        "city": "Denver",
-        "state": "CO",
-        "zipCode": "80201",
-        "country": "USA"
       },
-      "billingAddress": {
-        "street": "101 River St",
-        "city": "Denver",
-        "state": "CO",
-        "zipCode": "80201",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "delivered",
-      "orderedAt": "2024-09-03",
-      "shippedAt": "2024-09-05",
-      "deliveredAt": "2024-09-07",
-      "createdBy": "U011",
-      "updatedAt": "2024-09-07"
+      {
+        "productId": "PROD2007",
+        "productName": "Wireless Mouse",
+        "productSku": "WM200",
+        "productImage": "https://example.com/mouse.jpg",
+        "quantity": 2,
+        "discount": 10,
+        "subtotal": 190,
+        "variantId": "VAR2007",
+        "attributes": {
+          "color": "Gray",
+          "dpi": "12000",
+          "connection": "Wireless"
+        },
+        "dimensions": {
+          "weight": 0.2,
+          "width": 6,
+          "height": 4,
+          "depth": 10,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 100,
+          "taxRate": 0.1,
+          "taxAmount": 20,
+          "finalUnitPrice": 100
+        }
+      }
+    ],
+
+    "subtotal": 340,
+    "taxAmount": 35,
+    "shippingCost": 20,
+    "discountAmount": 10,
+    "totalPrice": 385,
+
+    "shippingAddress": {
+      "addressId": "ADDR2011",
+      "connectedId": "ORDER2006",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Office",
+      "street": "12 Smart Village",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12588",
+      "country": "Egypt",
+      "phone": "+201000000015",
+      "email": "nour@email.com"
     },
-    {
-      "id": "ORD012",
-      "orderId": "ORD012",
-      "orderNumber": "ORD-012",
-      "userProfileId": "U012",
-      "items": [
-        {
-          "productId": "P012",
-          "quantity": 1,
-          "priceAtPurchase": 499.99
-        }
-      ],
-      "totalPrice": 499.99,
-      "discountAmount": 75.0,
-      "shippingAddress": {
-        "street": "505 Hillside Ave",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zipCode": "85001",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "505 Hillside Ave",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zipCode": "85001",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "shipped",
-      "orderedAt": "2024-09-04",
-      "shippedAt": "2024-09-06",
-      "deliveredAt": null,
-      "createdBy": "U012",
-      "updatedAt": "2024-09-06"
+
+    "billingAddress": {
+      "addressId": "ADDR2012",
+      "connectedId": "ORDER2006",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Office",
+      "street": "12 Smart Village",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12588",
+      "country": "Egypt",
+      "phone": "+201000000015",
+      "email": "nour@email.com"
     },
-    {
-      "id": "ORD013",
-      "userProfileId": "U013",
-      "items": [
-        {
-          "productId": "P013",
-          "quantity": 1,
-          "priceAtPurchase": 149.99
+
+    "orderStatus": "processing",
+    "paymentMethod": "debit_card",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY2006",
+    "trackingNumber": "TRK2006",
+    "carrierName": "DHL",
+
+    "orderedAt": "2026-02-14T07:00:00Z",
+    "shippedAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-18T07:00:00Z",
+
+    "notes": "",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+
+
+
+
+  {
+    "id": "ORD2008",
+    "connectionId": "CON3008",
+    "activeState": "active",
+    "description": "Smartphone order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-84T09:00:00Z",
+    "updatedAt": "2026-02-84T09:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2007",
+    "orderNumber": "600007",
+    "userProfileId": "USER2007",
+    "userName": "Karim Adel",
+    "userEmail": "karim@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2007",
+        "productName": "Smartphone X",
+        "productSku": "SPX256",
+        "productImage": "https://example.com/phone.jpg",
+        "quantity": 7,
+        "discount": 50,
+        "subtotal": 950,
+        "variantId": "VAR2007",
+        "attributes": {
+          "color": "Silver",
+          "storage": "256GB",
+          "network": "5G"
+        },
+        "dimensions": {
+          "weight": 0.78,
+          "width": 7,
+          "height": 75,
+          "depth": 0.8,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 7000,
+          "taxRate": 0.7,
+          "taxAmount": 700,
+          "finalUnitPrice": 7000
         }
-      ],
-      "totalPrice": 149.99,
-      "discountAmount": 0,
-      "shippingAddress": {
-        "street": "909 Sunset Rd",
-        "city": "Las Vegas",
-        "state": "NV",
-        "zipCode": "89101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "909 Sunset Rd",
-        "city": "Las Vegas",
-        "state": "NV",
-        "zipCode": "89101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "pending",
-      "orderedAt": "2024-09-11",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U013",
-      "updatedAt": "2024-09-11"
+      }
+    ],
+
+    "subtotal": 950,
+    "taxAmount": 700,
+    "shippingCost": 25,
+    "discountAmount": 50,
+    "totalPrice": 7025,
+
+    "shippingAddress": {
+      "addressId": "ADDR2007",
+      "connectedId": "ORDER2007",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "27 Nasr Road",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "77574",
+      "country": "Egypt",
+      "phone": "+207000000070",
+      "email": "karim@email.com"
     },
-    {
-      "id": "ORD014",
-      "orderId": "ORD014",
-      "orderNumber": "ORD-014",
-      "userProfileId": "U014",
-      "items": [
-        {
-          "productId": "P014",
-          "quantity": 3,
-          "priceAtPurchase": 199.99
-        }
-      ],
-      "totalPrice": 599.97,
-      "discountAmount": 50.0,
-      "shippingAddress": {
-        "street": "112 Redwood Dr",
-        "city": "San Francisco",
-        "state": "CA",
-        "zipCode": "94101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "112 Redwood Dr",
-        "city": "San Francisco",
-        "state": "CA",
-        "zipCode": "94101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "canceled",
-      "orderedAt": "2024-09-13",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U014",
-      "updatedAt": "2024-09-13"
+
+    "billingAddress": {
+      "addressId": "ADDR2002",
+      "connectedId": "ORDER2007",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Billing",
+      "street": "27 Nasr Road",
+      "city": "Cairo",
+      "state": "Cairo",
+      "zipCode": "77574",
+      "country": "Egypt",
+      "phone": "+207000000070",
+      "email": "karim@email.com"
     },
-    {
-      "id": "ORD015",
-      "userProfileId": "U015",
-      "items": [
-        {
-          "productId": "P015",
-          "quantity": 2,
-          "priceAtPurchase": 89.99
+
+    "orderStatus": "processing",
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY2007",
+    "trackingNumber": "TRK2007",
+    "carrierName": "DHL",
+
+    "orderedAt": "2026-02-74T09:00:00Z",
+    "shippedAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-78T09:00:00Z",
+
+    "notes": "Fragile item",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+
+  {
+    "id": "ORD2002",
+    "connectionId": "CON3002",
+    "activeState": "active",
+    "description": "Tablet order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-73T11:00:00Z",
+    "updatedAt": "2026-02-13T11:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2002",
+    "orderNumber": "600002",
+    "userProfileId": "USER2002",
+    "userName": "Mona Khaled",
+    "userEmail": "mona@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2002",
+        "productName": "Tablet Pro",
+        "productSku": "TAB128",
+        "productImage": "https://example.com/tablet.jpg",
+        "quantity": 2,
+        "discount": 40,
+        "subtotal": 760,
+        "variantId": "VAR2002",
+        "attributes": {
+          "color": "Gray",
+          "storage": "128GB",
+          "wifi": "Yes"
+        },
+        "dimensions": {
+          "weight": 0.5,
+          "width": 18,
+          "height": 25,
+          "depth": 0.7,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 400,
+          "taxRate": 0.1,
+          "taxAmount": 80,
+          "finalUnitPrice": 400
         }
-      ],
-      "totalPrice": 179.98,
-      "discountAmount": 20.0,
-      "shippingAddress": {
-        "street": "707 Bayview Ln",
-        "city": "Tampa",
-        "state": "FL",
-        "zipCode": "33601",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "707 Bayview Ln",
-        "city": "Tampa",
-        "state": "FL",
-        "zipCode": "33601",
-        "country": "USA"
-      },
-      "paymentMethod": "PayPal",
-      "orderStatus": "completed",
-      "orderedAt": "2024-09-09",
-      "shippedAt": "2024-09-10",
-      "deliveredAt": null,
-      "createdBy": "U015",
-      "updatedAt": "2024-09-10"
+      }
+    ],
+
+    "subtotal": 760,
+    "taxAmount": 80,
+    "shippingCost": 30,
+    "discountAmount": 40,
+    "totalPrice": 830,
+
+    "shippingAddress": {
+      "addressId": "ADDR2003",
+      "connectedId": "ORDER2002",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Office",
+      "street": "8 Smart Village",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12588",
+      "country": "Egypt",
+      "phone": "+201000000011",
+      "email": "mona@email.com"
     },
-    {
-      "id": "ORD016",
-      "orderId": "ORD016",
-      "orderNumber": "ORD-016",
-      "userProfileId": "U016",
-      "items": [
-        {
-          "productId": "P016",
-          "quantity": 1,
-          "priceAtPurchase": 249.99
-        }
-      ],
-      "totalPrice": 249.99,
-      "discountAmount": 0,
-      "shippingAddress": {
-        "street": "909 Walnut St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "909 Walnut St",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "pending",
-      "orderedAt": "2024-09-15",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U016",
-      "updatedAt": "2024-09-15"
+
+    "billingAddress": {
+      "addressId": "ADDR2004",
+      "connectedId": "ORDER2002",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Office",
+      "street": "8 Smart Village",
+      "city": "Giza",
+      "state": "Giza",
+      "zipCode": "12588",
+      "country": "Egypt",
+      "phone": "+201000000011",
+      "email": "mona@email.com"
     },
-    {
-      "id": "ORD017",
-      "userProfileId": "U017",
-      "items": [
-        {
-          "productId": "P017",
-          "quantity": 2,
-          "priceAtPurchase": 49.99,
-          "subtotal": 49.99
+
+    "orderStatus": "shipped",
+    "paymentMethod": "debit_card",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY2002",
+    "trackingNumber": "TRK2002",
+    "carrierName": "Aramex",
+
+    "orderedAt": "2026-02-13T11:00:00Z",
+    "shippedAt": "2026-02-13T15:00:00Z",
+    "deliveredAt": null,
+    "estimatedDeliveryDate": "2026-02-17T11:00:00Z",
+
+    "notes": "",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  },
+
+  {
+    "id": "ORD2003",
+    "connectionId": "CON3003",
+    "activeState": "active",
+    "description": "Camera order",
+    "createdBy": "admin",
+    "createdAt": "2026-02-12T10:00:00Z",
+    "updatedAt": "2026-02-12T10:00:00Z",
+    "deletedAt": null,
+
+    "orderId": "ORDER2003",
+    "orderNumber": "600003",
+    "userProfileId": "USER2003",
+    "userName": "Youssef Karim",
+    "userEmail": "youssef@email.com",
+
+    "items": [
+      {
+        "productId": "PROD2003",
+        "productName": "DSLR Camera",
+        "productSku": "CAM900",
+        "productImage": "https://example.com/camera.jpg",
+        "quantity": 1,
+        "discount": 0,
+        "subtotal": 1200,
+        "variantId": "VAR2003",
+        "attributes": {
+          "lens": "24-70mm",
+          "resolution": "24MP",
+          "color": "Black"
+        },
+        "dimensions": {
+          "weight": 1.2,
+          "width": 14,
+          "height": 10,
+          "depth": 8,
+          "unit": "cm"
+        },
+        "pricing": {
+          "currency": "USD",
+          "priceAtPurchase": 1200,
+          "taxRate": 0.1,
+          "taxAmount": 120,
+          "finalUnitPrice": 1200
         }
-      ],
-      "totalPrice": 99.98,
-      "discountAmount": 15.0,
-      "shippingAddress": {
-        "street": "404 Highland Ave",
-        "city": "Boston",
-        "state": "MA",
-        "zipCode": "02101",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "404 Highland Ave",
-        "city": "Boston",
-        "state": "MA",
-        "zipCode": "02101",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "delivered",
-      "orderedAt": "2024-09-10",
-      "shippedAt": "2024-09-12",
-      "deliveredAt": "2024-09-14",
-      "createdBy": "U017",
-      "updatedAt": "2024-09-14",
-      "activeState": true,
-      "description": "Order record",
-      "createdAt": "2024-09-10",
-      "deletedAt": null
+      }
+    ],
+
+    "subtotal": 1200,
+    "taxAmount": 120,
+    "shippingCost": 35,
+    "discountAmount": 0,
+    "totalPrice": 1355,
+
+    "shippingAddress": {
+      "addressId": "ADDR2005",
+      "connectedId": "ORDER2003",
+      "addressType": "shipping",
+      "isDefault": true,
+      "label": "Home",
+      "street": "33 Mansoura Street",
+      "city": "Mansoura",
+      "state": "Dakahlia",
+      "zipCode": "35511",
+      "country": "Egypt",
+      "phone": "+201000000012",
+      "email": "youssef@email.com"
     },
-    {
-      "id": "ORD018",
-      "orderId": "ORD018",
-      "orderNumber": "ORD-018",
-      "userProfileId": "U018",
-      "items": [
-        {
-          "productId": "P018",
-          "quantity": 1,
-          "priceAtPurchase": 199.99
-        }
-      ],
-      "totalPrice": 199.99,
-      "discountAmount": 25.0,
-      "shippingAddress": {
-        "street": "202 Lakeview Blvd",
-        "city": "Austin",
-        "state": "TX",
-        "zipCode": "78701",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "202 Lakeview Blvd",
-        "city": "Austin",
-        "state": "TX",
-        "zipCode": "78701",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "shipped",
-      "orderedAt": "2024-09-14",
-      "shippedAt": "2024-09-16",
-      "deliveredAt": null,
-      "createdBy": "U018",
-      "updatedAt": "2024-09-16"
+
+    "billingAddress": {
+      "addressId": "ADDR2006",
+      "connectedId": "ORDER2003",
+      "addressType": "billing",
+      "isDefault": true,
+      "label": "Home",
+      "street": "33 Mansoura Street",
+      "city": "Mansoura",
+      "state": "Dakahlia",
+      "zipCode": "35511",
+      "country": "Egypt",
+      "phone": "+201000000012",
+      "email": "youssef@email.com"
     },
-    {
-      "id": "ORD019",
-      "userProfileId": "U019",
-      "items": [
-        {
-          "productId": "P019",
-          "quantity": 3,
-          "priceAtPurchase": 29.99
-        }
-      ],
-      "totalPrice": 89.97,
-      "discountAmount": 10.0,
-      "shippingAddress": {
-        "street": "101 Valley Rd",
-        "city": "Atlanta",
-        "state": "GA",
-        "zipCode": "30301",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "101 Valley Rd",
-        "city": "Atlanta",
-        "state": "GA",
-        "zipCode": "30301",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "completed",
-      "orderedAt": "2024-09-12",
-      "shippedAt": "2024-09-14",
-      "deliveredAt": null,
-      "createdBy": "U019",
-      "updatedAt": "2024-09-14",
-      "activeState": true,
-      "description": "Order record",
-      "createdAt": "2024-09-10",
-      "deletedAt": null
-    },
-    {
-      "id": "ORD020",
-      "orderId": "ORD020",
-      "orderNumber": "ORD-020",
-      "userProfileId": "U020",
-      "items": [
-        {
-          "productId": "P020",
-          "quantity": 1,
-          "priceAtPurchase": 149.99
-        }
-      ],
-      "totalPrice": 149.99,
-      "discountAmount": 20.0,
-      "shippingAddress": {
-        "street": "606 Harbor Dr",
-        "city": "Baltimore",
-        "state": "MD",
-        "zipCode": "21201",
-        "country": "USA"
-      },
-      "billingAddress": {
-        "street": "606 Harbor Dr",
-        "city": "Baltimore",
-        "state": "MD",
-        "zipCode": "21201",
-        "country": "USA"
-      },
-      "paymentMethod": "credit card",
-      "orderStatus": "pending",
-      "orderedAt": "2024-09-15",
-      "shippedAt": null,
-      "deliveredAt": null,
-      "createdBy": "U020",
-      "updatedAt": "2024-09-15"
-    }
+
+    "orderStatus": "delivered",
+    "paymentMethod": "bank_transfer",
+    "paymentStatus": "paid",
+    "paymentReference": "PAY2003",
+    "trackingNumber": "TRK2003",
+    "carrierName": "FedEx",
+
+    "orderedAt": "2026-02-12T10:00:00Z",
+    "shippedAt": "2026-02-12T14:00:00Z",
+    "deliveredAt": "2026-02-14T10:00:00Z",
+    "estimatedDeliveryDate": "2026-02-14T10:00:00Z",
+
+    "notes": "",
+    "cancellationReason": "",
+    "refundAmount": 0,
+    "refundDate": null
+  }
+
+
+
+
   ]
 }
