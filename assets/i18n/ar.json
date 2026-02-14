@@ -90,7 +90,21 @@
     "Maximized": "تكبير",
     "MaximizedDetail": "تم التكبير: {maximized}",
     "ViewProducts": "عرض المنتجات",
-    "Loading": "جاري التحميل..."
+    "Loading": "جاري التحميل...",
+    "Off": "إيقاف",
+    "On": "تشغيل",
+    "Enabled": "مفعل",
+    "Disabled": "معطل",
+    "Published": "منشور",
+    "Unpublished": "غير منشور",
+    "Deleted": "محذوف",
+    "NotDeleted": "غير محذوف",
+    "Created": "تم الانشاء",
+    "NotCreated": "غير محدد",
+    "Updated": "تم التحديث",
+    "NotUpdated": "غير محدد",
+    "Added": "تم الاضافة",
+    "NotAdded": "غير محدد"
   },
   "ResetFilter": "اعادة تعيين",
   "AdvancedFilter": "تصفية متقدمة",
@@ -613,7 +627,19 @@
     "MyAccount": "حسابي",
     "Orders": "طلبات",
     "PrivacyPolicy": "سياسة الخصوصية",
-    "Testimonials": "اراء العملاء"
+    "Testimonials": "اراء العملاء",
+    "Products": " المنتجات",
+    "ProductDetails": "تفاصيل المنتج",
+    "Checkout": " الدفع",
+    "Account": " الحساب",
+    "Wishlist": " المفضلة",
+    "ContactUs": "تواصل معنا",
+    "Login": "تسجيل الدخول",
+    "Register": "تسجيل",
+    "ResetPassword": "إعادة تعيين كلمة المرور",
+    "ChangePassword": "تغيير كلمة المرور"
+
+
   },
   "AccountMenu": {
     "RouterLink": "رابط التوجيه",
@@ -1156,7 +1182,12 @@
     "SortByName": "الاسم",
     "SortByPrice": "السعر",
     "ApplyButton": "تطبيق",
-    "ResetButton": "إعادة تعيين"
+    "ResetButton": "إعادة تعيين",
+    "RefineSearch": "تصفية البحث",
+    "FilterBy": "تصفية حسب",
+    "BrowseCategory": "تصفح حسب الفئة",
+    "PriceRange": "نطاق السعر",
+    "SortOptions": "خيارات الترتيب"
   },
   "BrandsPage": {
     "Heading": "علاماتنا التجارية",

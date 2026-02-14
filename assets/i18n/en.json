@@ -90,7 +90,21 @@
     "Maximized": "Maximized",
     "MaximizedDetail": "maximized: {maximized}",
     "ViewProducts": "View Products",
-    "Loading": "Loading..."
+    "Loading": "Loading...",
+    "Off": "off",
+    "On": "on",
+    "Enabled": "enabled",
+    "Disabled": "disabled",
+    "Published": "published",
+    "Unpublished": "unpublished",
+    "Deleted": "deleted",
+    "NotDeleted": "not deleted",
+    "Created": "created",
+    "NotCreated": "not created",
+    "Updated": "updated",
+    "NotUpdated": "not updated",
+    "Added": "added",
+    "NotAdded": "not added"
   },
   "ResetFilter": "Reset Filter",
   "AdvancedFilter": "Advanced Filter",
@@ -613,7 +627,17 @@
     "MyAccount": "My Account",
     "Orders": "Orders",
     "PrivacyPolicy": "Privacy policy",
-    "Testimonials": "Testimonials"
+    "Testimonials": "Testimonials",
+    "Products": " Products",
+    "ProductDetails": "Product Details",
+    "Checkout": " Checkout",
+    "Account": " Account",
+    "Wishlist": " Wishlist",
+    "ContactUs": "Contact Us",
+    "Login": "Login",
+    "Register": "Register",
+    "ResetPassword": "Reset Password",
+    "ChangePassword": "Change Password"
   },
   "AccountMenu": {
     "RouterLink": "Router Link",
@@ -1156,7 +1180,12 @@
     "SortByName": "Name",
     "SortByPrice": "Price",
     "ApplyButton": "Apply",
-    "ResetButton": "Reset"
+    "ResetButton": "Reset",
+    "RefineSearch": "Refine Your Search",
+    "FilterBy": "Filter By",
+    "BrowseCategory": "Browse by Category",
+    "PriceRange": "Price Range",
+    "SortOptions": "Sort Options"
   },
   "BrandsPage": {
     "Heading": "Our Brands",
