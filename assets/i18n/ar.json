@@ -313,6 +313,17 @@
     "refundAmount": "مبلغ الاسترداد",
     "refundDate": "تاريخ الاسترداد",
     "contactNumber": "رقم الاتصال",
+
+    "excerpt": "مقتطف",
+    "authorId": "الكاتب",
+    "authorName": "اسم الكاتب",
+    "tagIds": "الوسوم",
+    "categoryName": "اسم التصنيف",
+    "publishedAt": "تاريخ النشر",
+    "viewCount": "عدد المشاهدات",
+    "likeCount": "عدد الإعجابات",
+    "commentCount": "عدد التعليقات",
+
     "workingHours": {
       "open": "مفتوح",
       "close": "مغلق"

@@ -313,6 +313,17 @@
     "refundAmount": "refund amount",
     "refundDate": "refund date",
     "contactNumber": "contact number",
+
+    "excerpt": "excerpt",
+    "authorId": "author",
+    "authorName": "author name",
+    "tagIds": "tag ids",
+    "categoryName": "category name",
+    "publishedAt": "published at",
+    "viewCount": "view count",
+    "likeCount": "like count",
+    "commentCount": "comment count",
+
     "workingHours": {
       "open": "open",
       "close": "close"
